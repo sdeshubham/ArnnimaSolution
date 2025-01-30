@@ -1,0 +1,86 @@
+.projectBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0;
+  width: 100%;
+}
+
+.projFilter {
+  width: 60%;
+  background-color: #fffdf5;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+
+.projFilter ul {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.projFilter ul li {
+  list-style: none;
+  padding: 15px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.projFilter ul li:hover {
+  background-color: #ea4232;
+  color: #fcfcfc;
+  cursor: pointer;
+}
+
+.projectImage {
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.proj-card {
+  height: auto;
+  width: 38vw;
+  background-color: #fffdf5;
+  padding: 18px;
+  border-radius: 20px;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+}
+
+.projectCardBox {
+  width: 90%;
+  margin: 40px 0;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.proj-card {
+  transition: all 0.3s ease;
+}
+
+.proj-card:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+  border: 1px solid #515762;
+}
+
+.projImgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.proj-card h3 {
+  margin: 15px 0;
+  font-size: 1.3rem;
+}
+
+.proj-card p {
+  width: 100%;
+  font-size: 0.9rem;
+  line-height: 1.3;
+  color: #515762;
+}

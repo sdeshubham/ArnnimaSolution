@@ -2,8 +2,8 @@
   height: 95vh;
   padding: 0 70px;
   background-color: #fffdf5;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
   margin-bottom: 50px;
 }
 
@@ -182,8 +182,8 @@
 }
 
 .mainsec-boxOne p {
-  font-size: 1.2rem;
-  line-height: 1.8;
+  font-size: 1.1rem;
+  line-height: 1.5;
   color: #273751;
 }
 

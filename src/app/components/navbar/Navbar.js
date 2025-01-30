@@ -161,10 +161,10 @@ const Navbar = () => {
                   <GoDotFill className="doticon" />
                 </h1>
                 <p>
-                  We craft premium digital work for web, mobile, and
-                  experiential with creative agencies <br /> and global brands
-                  alike — putting passion, pride, and plenty of elbow grease
-                  into everything we do <span>.</span>
+                  We craft premium digital work for web, mobile and experiential
+                  with creative agencies <br /> and global brands alike putting
+                  passion, pride and plenty of elbow grease into <br />{" "}
+                  everything we do.<span>.</span>
                 </p>
               </div>
               <div>

@@ -1,0 +1,41 @@
+.whoWeBox {
+  margin: 0 70px;
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+
+  /* background-color: yellow; */
+}
+
+.whoWeleft h4 {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+.whoWeleft h2 {
+  font-weight: 600;
+}
+
+.dotPic {
+  top: 1px;
+  font-size: 0.3rem;
+}
+
+.whoWeleft {
+  width: 50%;
+}
+
+.whoWeleft p {
+  width: 100%;
+  color: #515762;
+  line-height: 1.5;
+}
+
+.whoweOne {
+  margin: 30px 0;
+}
+
+.whoWeImg {
+  height: 45vh;
+  width: auto;
+}

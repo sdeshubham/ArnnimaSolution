@@ -17,7 +17,7 @@ const Services = () => {
 
   const serviceDataTwo = [
     {
-      imageSrc: "/ProductDevelopment.png",
+      imageSrc: "/images/ProductDevelopment.png",
       description: "Product Development",
     },
     {
@@ -66,7 +66,7 @@ const Services = () => {
             {serviceDataTwo.map((service, index) => (
               <ServiceCard
                 key={index}
-                title={service.imageSrc}
+                imageSrc={service.imageSrc}
                 description={service.description}
               />
             ))}
