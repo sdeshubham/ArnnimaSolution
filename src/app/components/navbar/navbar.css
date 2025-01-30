@@ -15,14 +15,36 @@
   /* background-color: blueviolet; */
 }
 
+.text-container {
+  display: inline-flex;
+  position: relative;
+  font-size: 4rem;
+  font-weight: bold;
+}
 
+.dot {
+  width: 11.1px;
+  height: 11.1px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 51.5px;
+  left: 152.6px;
+}
 
-/* .top-brand {
-  background-color: #f74143;
-  color: #fcfcfc;
+.top-brand {
+  /* background-color: #f74143; */
+  color: #ea4232;
   padding: 5px 10px;
   border-radius: 5px;
-} */
+}
+
+.bussin-num p {
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: #515762;
+  font-size: 15px;
+}
 
 .navbar {
   background-color: #283751;
@@ -166,7 +188,7 @@
 }
 
 .getStartBtn {
-  padding: 15px 30px;
+  padding: 15px 40px;
   background-color: #f74143;
   border: none;
   outline: none;

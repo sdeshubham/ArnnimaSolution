@@ -1,74 +1,93 @@
 .bussiBox {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    /* background-color: aquamarine; */
-    padding: 0 70px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  /* background-color: aquamarine; */
+  padding: 0 70px;
 }
 
 .bussiBoxTop {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
+/* styles.css */
+
 .bussiBoxTop h2 {
-    font-size: 3rem;
-    font-weight: 400;
-    margin-bottom: 20px;
+  font-size: 3rem;
+  font-weight: 400;
 }
 
 .bussiBoxTop p {
-    width: 70%;
-    line-height: 1.8;
+  width: 70%;
+  line-height: 1.8;
 }
 
 .bussiLeft {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .bussiBoxLeft {
-    display: flex;
-    /* background-color: blueviolet; */
-    width: 45%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 45%;
+
+  /* background-color: blueviolet; */
 }
 
 .bussiLeft-boxone {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+
+  /* background-color: aqua; */
 }
 
 .bussiLine {
-    font-size: 7rem;
-    fill: #ea4232 !important;
+  font-size: 7rem;
+  fill: #ea4232 !important;
+}
+
+#horizontalLine {
+  width: 150px;
+  height: 2px;
+  background-color: #ea4232;
+  margin-bottom: 20px;
+}
+
+#vertiLine {
+  margin-right: 50px;
+  width: 3px;
+  height: 110px;
+  background-color: #ea4232;
 }
 
 .bussin-num {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
 .bussin-num h3 {
-    font-size: 2.8rem;
-    font-weight: 400;
-    margin-bottom: 20px;
+  font-size: 2.8rem;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .bussin-num p {
-    font-weight: 400;
-    color: #404c5f;
+  font-weight: 400;
+  color: #404c5f;
 }
 
 .bussiBoxRight {
-    width: 55%;
+  width: 55%;
 }

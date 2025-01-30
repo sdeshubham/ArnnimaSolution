@@ -1,0 +1,32 @@
+.partner-top {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partner-top h2 {
+    margin-bottom: 10px;
+}
+
+.partner-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 70px;
+
+    /* background-color: aquamarine; */
+}
+
+.partner-img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 50px;
+    padding: 12px 18px;
+
+    /* background-color: blue; */
+}
+

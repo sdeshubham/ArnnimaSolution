@@ -81,6 +81,7 @@ import Link from "next/link";
 import Image from "next/image";
 import "./navbar.css";
 import { IoMenu, IoCloseSharp } from "react-icons/io5";
+import { GoDotFill } from "react-icons/go";
 
 const Navbar = () => {
   const [textIndex, setTextIndex] = useState(0);
@@ -90,9 +91,9 @@ const Navbar = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setTextIndex((prevIndex) => (prevIndex + 1) % textOptions.length);
-    }, 3000); // Change text every 3 seconds
+    }, 2000);
 
-    return () => clearInterval(interval); // Cleanup on component unmount
+    return () => clearInterval(interval);
   }, []);
 
   const [menuOpen, setMenuOpen] = useState(false);
@@ -148,14 +149,22 @@ const Navbar = () => {
             <div className="mainsec-left">
               <div className="mainsec-boxOne">
                 <h1>
-                  Make Your <span className="top-brand">{textOptions[textIndex]}</span> <br />
-                  With Arnnima Solution.
+                  Make Your{" "}
+                  <span className="top-brand">{textOptions[textIndex]}</span>{" "}
+                  <br />
+                  With{" "}
+                  <div className="text-container">
+                    Arnnima
+                    <span className="dot"></span>
+                  </div>{" "}
+                  Solution
+                  <GoDotFill className="doticon" />
                 </h1>
                 <p>
                   We craft premium digital work for web, mobile, and
-                  experiential with creative agencies <br /> and global brands alike —
-                  putting passion, pride, and plenty of elbow grease into
-                  everything we do <span>.</span>
+                  experiential with creative agencies <br /> and global brands
+                  alike — putting passion, pride, and plenty of elbow grease
+                  into everything we do <span>.</span>
                 </p>
               </div>
               <div>
@@ -176,6 +185,6 @@ const Navbar = () => {
       </div>
     </>
   );
-}
+};
 
 export default Navbar;
