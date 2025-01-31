@@ -15,13 +15,16 @@ const CaseStudies = () => {
           </h2>
         </div>
         <div className="caseStuRight">
-          <p>
-            Our data-driven approach and innovative strategies have helped{" "}
-            <br />
-            countless businesses achieve their goals. We're dedicated to <br />
-            delivering measurable results
-          </p>
-          <button>Explore All Projects</button>
+          <div>
+            <p>
+              Our data-driven approach and innovative strategies have helped{" "}
+              <br />
+              countless businesses achieve their goals. We're dedicated to{" "}
+              <br />
+              delivering measurable results
+            </p>
+            <button>Explore All Projects</button>
+          </div>
         </div>
       </div>
     </>

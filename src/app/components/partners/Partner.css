@@ -1,3 +1,9 @@
+.partnerBox {
+    margin: 0 100px;
+
+    /* background-color: aqua; */
+}
+
 .partner-top {
     margin-top: 50px;
     display: flex;
@@ -12,11 +18,10 @@
 
 .partner-pic {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 0 70px;
 
-    /* background-color: aquamarine; */
+    /* background-color: rgb(29, 139, 103); */
 }
 
 .partner-img {

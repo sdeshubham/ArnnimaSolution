@@ -3,12 +3,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 50px 0;
-  width: 100%;
+  margin: 50px 100px;
 }
 
 .projFilter {
-  width: 60%;
+  width: 70%;
   background-color: #fffdf5;
   padding: 10px 15px;
   border-radius: 30px;
@@ -39,22 +38,26 @@
 }
 
 .proj-card {
-  height: auto;
-  width: 38vw;
+  height: 75vh;
+  /* width: 100%; */
   background-color: #fffdf5;
   padding: 18px;
   border-radius: 20px;
   display: flex;
   text-align: left;
   flex-direction: column;
+
+  /* background-color: yellow; */
 }
 
-.projectCardBox {
-  width: 90%;
+/* .projectCardBox {
   margin: 40px 0;
   padding: 15px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+
+  background-color: aquamarine;
 }
 
 .proj-card {
@@ -65,12 +68,53 @@
   cursor: pointer;
   transform: translateY(-10px);
   border: 1px solid #515762;
+} */
+
+.projectCardBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 90vh;
+  width: 100%;
+  gap: 70px;
+
+  /* background-color: aquamarine; */
 }
+
+.proj-card {
+  /* width: 100%; */
+  height: 77vh;
+  max-width: 500px;
+  padding: 12px;
+  border-radius: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+
+  /* background-color: yellow; */
+}
+
+.proj-card:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+  /* border: 1px solid #515762; */
+}
+
 
 .projImgs {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.projImgs {
+  object-fit: cover;
 }
 
 .proj-card h3 {

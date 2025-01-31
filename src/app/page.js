@@ -6,6 +6,9 @@ import Services from "./components/services/Services";
 import WhoWeAre from "./components/whoWeAre/WhoWeAre";
 import CaseStudies from "./components/caseStudies/CaseStudies";
 import Projects from "./components/projects/Projects";
+import Testimonial from "./components/testimonial/Testimonial";
+import JoinTeam from "./components/jointeam/JoinTeam";
+import Blogs from "./components/blogs/Blogs";
 
 export default function Home() {
   return (
@@ -17,6 +20,9 @@ export default function Home() {
       <WhoWeAre />
       <CaseStudies />
       <Projects />
+      <Testimonial />
+      <JoinTeam />
+      <Blogs />
     </div>
   );
 }

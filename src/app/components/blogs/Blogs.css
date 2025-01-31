@@ -1,0 +1,29 @@
+.blog-box {
+    background-color: rgb(231, 231, 214);
+    margin: 50px 100px;
+    padding: 20px 0;
+}
+
+.blog-head {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: blue;
+}
+
+.blog-head h3 {
+    font-size: 1.5rem;
+}
+
+.blog-head button {
+    padding: 5px 10px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: #ea4232;
+    color: #fcfcfc;
+}
+
+.blog-head button:hover {
+    cursor: pointer;
+}

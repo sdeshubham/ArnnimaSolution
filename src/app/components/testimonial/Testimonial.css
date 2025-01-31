@@ -1,0 +1,165 @@
+/* .testi-box {
+  margin: 40px 100px;
+}
+
+.testi-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testi-head h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.testi-right {
+  display: flex;
+  gap: 15px;
+}
+
+.testi-right .testi-icon {
+  font-size: 40px;
+}
+
+.testi-icon:hover {
+  color: #ea4232;
+  cursor: pointer;
+}
+
+.test-cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.testiCard {
+  position: relative;
+  width: 400px;
+  height: 250px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+
+  background-color: #fffdf5;
+}
+
+.testiPic {
+  margin-top: 30px;
+  background-color: #fcfcfc;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testi-content {
+  color: #515762;
+  font-size: 0.9rem;
+  text-align: justify;
+  line-height: 1.4;
+}
+
+.testi-bottom {
+  margin: 30px 0 0 20px;
+}
+
+.testi-name {
+  margin: 10px 0 0 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.testi-role {
+  margin-top: 3px;
+  font-size: 0.8rem;
+}
+
+.testiCardBottom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.testi-box {
+    margin: 40px 100px;
+    overflow: hidden;
+  }
+  
+  .testi-head {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .testi-head h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .testi-right {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .testi-right .testi-icon {
+    font-size: 40px;
+  }
+  
+  .testi-icon:hover {
+    color: #ea4232;
+    cursor: pointer;
+  }
+
+  .testiCardBottom {
+    margin-top: 30px;
+    display: flex;
+  }
+  
+  .test-cards {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .testi-bottom {
+    margin-left: 25px;
+  }
+  
+  .testiCard {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fffdf5;
+    
+  }
+  
+  .testi-content {
+    color: #515762;
+    font-size: 0.9rem;
+    text-align: justify;
+    line-height: 1.4;
+  }
+  
+  .testi-name {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  .testi-role {
+    font-size: 0.8rem;
+  }
+  

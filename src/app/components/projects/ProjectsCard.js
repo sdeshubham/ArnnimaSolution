@@ -56,10 +56,8 @@ const ProjectCard = ({ imageSrc, title, desc }) => {
             className="projectImage"
             src={imageSrc}
             alt="Business image"
-            width={500}
-            height={600}
-            objectFit="cover"
             priority
+            fill
           />
         </div>
         <h3>{title}</h3>

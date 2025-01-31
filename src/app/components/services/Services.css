@@ -1,5 +1,5 @@
 .servicesBox {
-    margin: 50px 70px;
+    margin: 50px 100px;
     height: 70vh;
     display: flex;
     flex-direction: column;
@@ -19,8 +19,8 @@
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    height: 22vh;
-    width: 250px;
+    height: 28vh;
+    width: 270px;
     text-align: center;
     transition: all 0.3s ease;
   }
@@ -37,7 +37,7 @@
   }
 
 .suite-serv {
-    width: 54%;
+    width: 52%;
 
     /* background-color: aliceblue; */
 }
@@ -55,7 +55,7 @@
 }
 
 .servicesContainer {
-    width: 46%;
+    width: 48%;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -71,7 +71,7 @@
 
 .servicesBoxTwo {
     width: 100%;
-    /* margin: 0 70px; */
+    margin: 20px 0;
 }
 
 .servicesContainerTwo {
