@@ -93,7 +93,7 @@ h4 {
 .doticon {
   font-size: 13px;
   position: relative;
-  bottom: 5px;
+  bottom: -5px;
   fill: #ea4232;
 }
 
