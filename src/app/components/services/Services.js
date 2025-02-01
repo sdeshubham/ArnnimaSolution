@@ -1,16 +1,15 @@
 import { GoDotFill } from "react-icons/go";
 import "./Services.css";
 import ServiceCard from "./ServiceCard";
-import Image from "next/image";
 
 const Services = () => {
   const serviceData = [
     {
-      imageSrc: "/images/SEO.png",
+      imageSrc: "/images/SEOpic.png",
       description: "Search Engine Optimization",
     },
     {
-      imageSrc: "/images/SoftwareDevelopment.png",
+      imageSrc: "/images/SoftwareDpic.png",
       description: "Software Development",
     },
   ];
@@ -40,8 +39,8 @@ const Services = () => {
         <div className="servicesBoxOne">
           <div className="servBoxtop">
             <div className="suite-serv">
-              <h3>
-                Out Digital <br /> Suite of Services
+              <h3 className="serviceHthre">
+                Our Digital <br /> Suite of Services
                 <GoDotFill className="doticon" />
               </h3>
               <p>

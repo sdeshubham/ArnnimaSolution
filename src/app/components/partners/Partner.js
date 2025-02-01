@@ -53,15 +53,15 @@ const Partner = () => {
             <Image
               src="/images/Directus.png"
               alt="Business image"
-              width={100}
-              height={30}
+              width={90}
+              height={35}
               priority
             />
             <Image
-              src="/images/Contentful.png"
+              src="/images/contentful.png"
               alt="Business image"
-              width={100}
-              height={30}
+              width={90}
+              height={22}
               priority
             />
             <Image

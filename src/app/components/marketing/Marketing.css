@@ -1,0 +1,50 @@
+.marketingBox {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+  padding: 100px 100px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+
+  background-color: #fffdf5;
+}
+
+.marketLeft {
+  width: 50%;
+}
+
+.marketLeft h2 {
+  /* font-weight: 700; */
+}
+
+.qustion-mark {
+  color: #ea4232;
+}
+
+.market-desc {
+  font-size: 16px;
+  color: #515762;
+  width: 80%;
+  margin: 40px 0;
+}
+
+.marketRight {
+  margin-top: 70px;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.market-btn {
+  padding: 15px 25px;
+  border-radius: 30px;
+  border: none;
+  background-color: #ea4232;
+  color: #fcfcfc;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.market-btn:hover {
+  cursor: pointer;
+}

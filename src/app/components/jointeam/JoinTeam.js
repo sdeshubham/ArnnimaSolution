@@ -5,28 +5,28 @@ import JoinTeamCard from "./JoinTeamCard";
 const JoinTeam = () => {
   const joinTeamData = [
     {
-      title: "Temporary Associate",
+      title: "Java Developer",
       trend: "Top Trending",
-      employer: "Jedlo App",
-      department: "Customer Service",
+      employer: "Arnnima",
+      department: "IT",
       level: "Entery-Level",
       location: "Mumbai Maharashtra",
     },
     {
-      title: "Temporary Associate",
+      title: "Flutter Developer",
       trend: "Top Trending",
-      employer: "Jedlo App",
-      department: "Customer Service",
+      employer: "Arnnima",
+      department: "IT",
       level: "Entery-Level",
-      location: "Mumbai Maharashtra",
+      location: "Noida Uttar Pradesh",
     },
     {
-      title: "Temporary Associate",
+      title: "ReactJs Developer",
       trend: "Top Trending",
-      employer: "Jedlo App",
-      department: "Customer Service",
+      employer: "Arnnima",
+      department: "IT",
       level: "Entery-Level",
-      location: "Mumbai Maharashtra",
+      location: "Gurgaon Haryana",
     },
   ];
 

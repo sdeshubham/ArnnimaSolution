@@ -66,7 +66,7 @@ const Projects = () => {
       <div className="projectBox">
         <div className="projFilter">
           <ul>
-            <li>UI/UX Design</li>
+            <li className="default-red">UI/UX Design</li>
             <li>Web Application</li>
             <li>Product Management</li>
             <li>Development</li>

@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import { GoDotFill } from "react-icons/go";
 import "./WhoWeAre.css";

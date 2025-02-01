@@ -8,7 +8,7 @@ const CaseStudies = () => {
         <div className="caseStuleft">
           <h4>Case Studies</h4>
           <h2>
-            Proven Experties
+            Proven Expertise
             <GoDotFill className="doticon" /> <br />
             Proven Results
             <GoDotFill className="doticon" />

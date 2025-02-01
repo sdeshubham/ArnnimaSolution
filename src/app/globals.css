@@ -11,6 +11,52 @@
   }
 }
 
+
+
+
+
+/* Inside globals.css or your main stylesheet */
+/* @font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+} */
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
 html,
 body {
   max-width: 100vw;
@@ -20,7 +66,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  /* font-family: 'Inter', Arial, Helvetica, sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -33,20 +79,21 @@ body {
 }
 
 h2 {
-  font-size: 3rem;
-  font-weight: 400;
+  font-size: 65px;
+  color: #283751;
 }
 
 
 h4 {
-  font-size: 0.7rem;
+  font-size: 12px;
   text-transform: uppercase;
+  color: #243342;
 }
 
 .doticon {
   font-size: 13px;
   position: relative;
-  bottom: -5px;
+  bottom: 5px;
   fill: #ea4232;
 }
 

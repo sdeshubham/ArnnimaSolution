@@ -10,7 +10,7 @@ import { GoDotFill } from "react-icons/go";
 const Navbar = () => {
   const [textIndex, setTextIndex] = useState(0);
 
-  const textOptions = ["Brand", "Identity", "Success", "Solution", "Future"];
+  const textOptions = ["Brand", "Product", "Tech Team", "Web App", "Mobile App"];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -39,10 +39,10 @@ const Navbar = () => {
               <div className="logo">
                 <Link href="/">
                   <Image
-                    src="/images/Logo.png"
+                    src="/images/ArnnimaLogo.svg"
                     alt="logo"
                     width={120}
-                    height={45}
+                    height={40}
                   />
                 </Link>
               </div>
@@ -76,13 +76,13 @@ const Navbar = () => {
                   Make Your{" "}
                   <span className="top-brand">{textOptions[textIndex]}</span>{" "}
                   <br />
-                  With{" "}
+                  with{" "}
                   <div className="text-container">
                     Arnnima
                     <span className="dot"></span>
                   </div>{" "}
                   Solution
-                  <GoDotFill className="doticon" />
+                  {/* <GoDotFill className="doticon" /> */}
                 </h1>
                 <p>
                   We craft premium digital work for web, mobile and experiential

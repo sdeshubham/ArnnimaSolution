@@ -24,12 +24,13 @@ import Image from "next/image";
 
 const ServiceCard = ({ imageSrc, description }) => {
   return (
-    <div className="card">
+    <div className="card servCardText">
       <Image
         src={imageSrc}
         alt="Business image"
-        width={55}
-        height={50}
+        width={64}
+        height={64}
+        objectFit="contain"
         priority
       />
       <p>{description}</p>

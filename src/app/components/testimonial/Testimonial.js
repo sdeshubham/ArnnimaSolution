@@ -7,24 +7,24 @@ const Testimonial = () => {
   const testimonialData = [
     {
       content:
-        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going.",
-      imgsrc: "/images/testimonial-profile.png",
-      name: "Maya Prajapati",
-      role: "Node Developer",
+        "The team was absolutely fantastic! They worked closely with us to streamline our operations, offering smart and effective solutions. Their ongoing support has been invaluable in keeping everything running smoothly.",
+      imgsrc: "/images/testiProfNew.jpg",
+      name: "Wasif Khan",
+      role: "CEO & Founder",
     },
     {
       content:
-        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going.",
-      imgsrc: "/Images/testimonial-profile.png",
-      name: "Maya Prajapati",
-      role: "Node Developer",
+        "Incredible service from start to finish! They were highly knowledgeable, efficient, and tackled some tough challenges we faced. We’re incredibly happy with the results, and their team has been a great partner.",
+      imgsrc: "/images/testiProfNew.jpg",
+      name: "Avinash",
+      role: "ABP Delivery Manager",
     },
     {
       content:
-        "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going.",
-      imgsrc: "/Images/testimonial-profile.png",
-      name: "Maya Prajapati",
-      role: "Node Developer",
+        "The team was fantastic throughout the entire process! They provided outstanding solutions that helped us streamline our operations. Additionally, their excellent ongoing support has made a significant impact on our business.",
+      imgsrc: "/images/testiProfNew.jpg",
+      name: "Mayank",
+      role: "CEO & Founder",
     },
   ];
 
@@ -36,13 +36,15 @@ const Testimonial = () => {
             <h4>Testimonial</h4>
             <h3>
               Voices of Success
-              <GoDotFill className="doticon" /> <br />
-              What Our Partner Says
               <GoDotFill className="doticon" />
+            </h3>
+            <h3>
+            What Our Partners Says
+            <GoDotFill className="doticon" />
             </h3>
           </div>
           <div className="testi-right">
-            <CiCircleChevLeft className="testi-icon" />
+            <CiCircleChevLeft className="testi-icon" color="red" />
             <CiCircleChevRight className="testi-icon" />
           </div>
         </div>

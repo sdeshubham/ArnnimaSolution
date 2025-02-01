@@ -18,6 +18,11 @@
   /* background-color: blueviolet; */
 }
 
+.joinTeam-head h2 {
+  font-weight: 450;
+  color: #283751;
+}
+
 #horizontalLine {
   margin-top: 4px;
 }
@@ -25,7 +30,9 @@
 .joinTeam-head p {
   width: 65%;
   line-height: 1.4;
-  color: #515762;
+  font-size: 16px;
+  color: #616161;
+  letter-spacing: .7px;
 
   /* background-color: aquamarine; */
 }
@@ -46,7 +53,7 @@
 }
 
 .joinUsCard {
-  height: 22vh;
+  height: 203px;
   width: 100%;
   padding: 30px;
   background-color: #fffdf5;
@@ -68,8 +75,10 @@
 }
 
 .join-title {
-  color: #515762;
+  color: #35302F;
   font-weight: 600;
+  font-family: 'PT Sans', Arial, sans-serif;
+
 }
 
 .join-trend {
@@ -78,6 +87,7 @@
   padding: 4px 8px;
   border-radius: 20px;
   color: #ea4232;
+  font-family: 'PT Sans', Arial, sans-serif;
 }
 
 .card-details {
@@ -86,11 +96,16 @@
 }
 
 .card-details span {
-  color: #515762;
+  color: #7E7275;
+  font-weight: 400;
+  font-family: 'PT Sans', Arial, sans-serif;
 }
 
 .card-details p {
   margin: 5px 0;
+  color: #7E7275;
+  font-weight: 700;
+  font-family: 'PT Sans', Arial, sans-serif;
 }
 
 .join-employer {

@@ -9,6 +9,9 @@ import Projects from "./components/projects/Projects";
 import Testimonial from "./components/testimonial/Testimonial";
 import JoinTeam from "./components/jointeam/JoinTeam";
 import Blogs from "./components/blogs/Blogs";
+import Marketing from "./components/marketing/Marketing"
+import Contact from "./components/contactus/Contact";
+import Footer from "./components/footer/Footer";
 
 export default function Home() {
   return (
@@ -23,6 +26,9 @@ export default function Home() {
       <Testimonial />
       <JoinTeam />
       <Blogs />
+      <Marketing />
+      <Contact />
+      <Footer />
     </div>
   );
 }

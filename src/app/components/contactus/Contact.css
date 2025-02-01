@@ -1,0 +1,127 @@
+.contactBox {
+  margin: 0 100px;
+  padding: 20px 0;
+
+  /* background-color: yellow; */
+}
+
+.contact-head h2 {
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-formBox {
+  height: 60vh;
+  width: 50%;
+  margin-top: 40px;
+  padding-right: 20px;
+
+  /* background-color: azure; */
+}
+
+.msg-textBox {
+  width: 100%;
+}
+
+.contact-img {
+  /* width: 50%; */
+  /* display: flex;
+  justify-content: flex-end;
+  align-items: flex-end; */
+
+  /* background-color: pink; */
+}
+
+.contactImage {
+  height: 65vh;
+  width: 100%;
+
+  /* background-color: aqua; */
+}
+
+.contact-formBox {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.contactformInput {
+  display: flex;
+
+  gap: 30px;
+}
+
+.contactInputs {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  /* background-color: yellowgreen; */
+}
+
+.contactInputs input {
+  height: 6vh;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #fffdf5;
+}
+
+.msg-textBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.msg-textBox textarea {
+  height: 15vh;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  background-color: #fffdf5;
+}
+
+.contactInputs label {
+  width: 50%;
+  font-weight: 500;
+}
+
+.msg-textBox label {
+  font-weight: 500;
+}
+
+.msg-textBox textarea::placeholder {
+  padding-top: 0;
+  padding-left: 10px;
+  letter-spacing: 1px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.contactInputs input::placeholder {
+  letter-spacing: 1px;
+  padding-top: 0;
+  padding-left: 10px;
+}
+
+.send-msgBtn button {
+  padding: 14px 30px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  background-color: #ea4232;
+  color: #fcfcfc;
+  font-weight: 600;
+}
+
+.send-msgBtn button:hover {
+  cursor: pointer;
+}

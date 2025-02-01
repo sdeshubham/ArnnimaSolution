@@ -1,37 +1,42 @@
 .partnerBox {
-    margin: 0 100px;
+  margin: 0 100px 80px 100px;
 
-    /* background-color: aqua; */
+  /* background-color: aqua; */
 }
 
+
 .partner-top {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .partner-top h2 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
+  font-size: 65px;
+  letter-spacing: -3px;
+  color: #283751;
+  font-weight: 500;
 }
 
 .partner-pic {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    /* background-color: rgb(29, 139, 103); */
+  /* background-color: rgb(29, 139, 103); */
 }
 
 .partner-img {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    margin-top: 50px;
-    padding: 12px 18px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 50px;
+  padding: 12px 18px;
 
-    /* background-color: blue; */
+  /* background-color: blue; */
 }
-

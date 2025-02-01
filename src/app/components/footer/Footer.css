@@ -1,0 +1,151 @@
+.footerBox {
+  margin-top: 50px;
+  background-image: url(/Images/Footer-image.png);
+  background-size: cover;
+  background-position: center;
+  /* height: 83vh; */
+  height: 90vh;
+  width: 100%;
+}
+
+.footer-head {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.footer-head h2 {
+  font-size: 44px;
+  font-weight: 600;
+  color: #fcfcfc;
+}
+
+.footer-head button {
+  padding: 15px 25px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  background-color: #ea4232;
+  color: #fcfcfc;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-head button .footerTalkIcon {
+  color: #fcfcfc;
+}
+
+.footerTalkIcon {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #ea4232;
+  background-color: #ffffff
+}
+
+.footer-head button:hover {
+  cursor: pointer;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#footer-horizontalLine {
+  width: 85%;
+  height: 1px;
+  background-color: #ea4232;
+  margin: 20px;
+}
+
+.footer-mid {
+  margin: 30px 100px 0 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+
+  /* background-color: pink; */
+}
+
+.footerOptions {
+  width: 65%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-logoBox {
+  width: 35%;
+}
+
+.footerLogo {
+  width: 50%;
+  padding: 20px 0;
+
+  /* background-color: aliceblue; */
+}
+
+.footer-section {
+  /* background-color: aqua; */
+  margin-top: 50px;
+}
+
+.footer-section h4 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #fcfcfc;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin: 15px 0;
+  color: #b6b8bc;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.footer-section ul li:hover {
+  border-bottom: 1px solid #ea4232;
+}
+
+.footerLogoContent p {
+  line-height: 1.5;
+  color: #b6b8bc;
+  font-size: 0.9rem;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+#footer-bottom-horizontalLine {
+  width: 80%;
+  height: 1px;
+  background-color: #3d414c;
+  margin: 20px;
+}
+
+.footer-bottom p {
+  color: #fcfcfc;
+  margin-top: 20px;
+}
+
+.talkArrow-icon {
+  margin-left: 5px;
+}
