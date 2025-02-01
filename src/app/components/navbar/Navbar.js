@@ -10,7 +10,13 @@ import { GoDotFill } from "react-icons/go";
 const Navbar = () => {
   const [textIndex, setTextIndex] = useState(0);
 
-  const textOptions = ["Brand", "Product", "Tech Team", "Web App", "Mobile App"];
+  const textOptions = [
+    "Brand",
+    "Product",
+    "Tech Team",
+    "Web App",
+    "Mobile App",
+  ];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -72,17 +78,19 @@ const Navbar = () => {
           <div className="main-content">
             <div className="mainsec-left">
               <div className="mainsec-boxOne">
-                <h1>
+                <h1 className="red-flag">
                   Make Your{" "}
                   <span className="top-brand">{textOptions[textIndex]}</span>{" "}
                   <br />
+                </h1>
+                <h1>
                   with{" "}
                   <div className="text-container">
                     Arnnima
                     <span className="dot"></span>
                   </div>{" "}
                   Solution
-                  {/* <GoDotFill className="doticon" /> */}
+                  <GoDotFill className="doticon" />
                 </h1>
                 <p>
                   We craft premium digital work for web, mobile and experiential

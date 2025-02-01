@@ -32,9 +32,18 @@
   left: 155.6px;
 }
 
+.red-flag {
+  position: relative;
+  background-image: url(/Images/red-flag.png);
+  background-repeat: no-repeat;
+  background-position: 290px center;
+  height:10vh;
+  width: 100%;
+}
+
 .top-brand {
   /* background-color: #f74143; */
-  color: #ea4232;
+  color: #ffffff;
   padding: 5px 10px;
   border-radius: 5px;
 }
