@@ -6,7 +6,6 @@ import Image from "next/image";
 import "./navbar.css";
 import { IoMenu, IoCloseSharp } from "react-icons/io5";
 import { GoDotFill } from "react-icons/go";
-import mainsectionimg from "/images/mainsectionimg.png";
 
 const Navbar = () => {
   const [textIndex, setTextIndex] = useState(0);
@@ -106,8 +105,7 @@ const Navbar = () => {
             </div>
             <div className="mainsec-right">
               <Image
-                // src="/images/mainsectionimg.png"
-                src={mainsectionimg}
+                src="/images/mainsectionimg.png"
                 className="main-image"
                 alt="Main Section"
                 width={600}
