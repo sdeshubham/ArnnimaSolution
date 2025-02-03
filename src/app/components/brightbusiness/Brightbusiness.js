@@ -66,7 +66,7 @@ const Brightbusiness = () => {
         </div>
         <div className="bussiBoxRight">
           <Image
-            src="/images/businessImg.png"
+            src={"/businessImg.png"}
             alt="Business image"
             width={600}
             height={600}

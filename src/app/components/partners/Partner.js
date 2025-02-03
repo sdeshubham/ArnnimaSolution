@@ -16,56 +16,56 @@ const Partner = () => {
         <div className="partner-pic">
           <div className="partner-img">
             <Image
-              src="/images/MicrosoftAzure.png"
+              src={"/MicrosoftAzure.png"}
               alt="Business image"
               width={100}
               height={30}
               priority
             />
             <Image
-              src="/images/AWSamazon.png"
+              src={"/AWSamazon.png"}
               alt="Business image"
               width={100}
               height={50}
               priority
             />
             <Image
-              src="/images/Adobe.png"
+              src={"/Adobe.png"}
               alt="Business image"
               width={100}
               height={30}
               priority
             />
             <Image
-              src="/images/Liferay.png"
+              src={"/Liferay.png"}
               alt="Business image"
               width={100}
               height={30}
               priority
             />
             <Image
-              src="/images/Strapi.png"
+              src={"/Strapi.png"}
               alt="Business image"
               width={100}
               height={30}
               priority
             />
             <Image
-              src="/images/Directus.png"
+              src={"/Directus.png"}
               alt="Business image"
               width={90}
               height={35}
               priority
             />
             <Image
-              src="/images/contentful.png"
+              src={"/contentful.png"}
               alt="Business image"
               width={90}
               height={22}
               priority
             />
             <Image
-              src="/images/OpenAI.png"
+              src={"/OpenAI.png"}
               alt="Business image"
               width={100}
               height={30}
