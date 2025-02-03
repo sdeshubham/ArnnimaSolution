@@ -18,8 +18,8 @@ const Footer = () => {
                   src={"/talkArrow.png"}
                   alt="logo"
                   className="talkArrow-icon"
-                  width={20}
-                  height={12}
+                  width={15}
+                  height={14}
                 />
             </button>
           </div>
