@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Navbar from "./components/navbar/Navbar";
 import "./components/navbar/Navbar";
 import Brightbusiness from "./components/brightbusiness/Brightbusiness";
