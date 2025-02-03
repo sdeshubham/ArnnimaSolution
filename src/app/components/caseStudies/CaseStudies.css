@@ -17,6 +17,31 @@
   color: #283751;
 }
 
+.expred-flag {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  padding: 8px 24px 8px 12px;
+  background-color: transparent;
+}
+
+.expred-flag::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 225;
+  width: 400px;
+  height: 120px;
+  background-color: #ea4232;
+  transform: rotate(-3deg);
+  z-index: -1;
+  transform-origin: left bottom;
+}
+
+.exp-fff-text {
+  color: #fcfcfc;
+}
+
 .caseStuRight {
   width: 50%;
   display: flex;

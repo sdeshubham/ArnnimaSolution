@@ -90,6 +90,12 @@ h4 {
   color: #243342;
 }
 
+.redBox {
+  position: relative;
+  fill: #ea4232;
+  font-size: 30px;
+}
+
 .doticon {
   font-size: 13px;
   position: relative;

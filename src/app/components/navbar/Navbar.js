@@ -7,18 +7,10 @@ import "./navbar.css";
 import { IoMenu, IoCloseSharp } from "react-icons/io5";
 import { GoDotFill } from "react-icons/go";
 
-
-
 const Navbar = () => {
   const [textIndex, setTextIndex] = useState(0);
 
-  const textOptions = [
-    "Brand",
-    "Product",
-    "Tech Team",
-    "Web App",
-    "Mobile App",
-  ];
+  const textOptions = ["Brand", "Product", "TechTeam", "Web App", "MobileApp"];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -107,7 +99,6 @@ const Navbar = () => {
             </div>
             <div className="mainsec-right">
               <Image
-                // src="/images/mainsectionimg.png"
                 src={"/mainsectionimg.png"}
                 className="main-image"
                 alt="Main Section"

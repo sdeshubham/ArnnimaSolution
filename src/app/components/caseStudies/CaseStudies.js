@@ -7,8 +7,8 @@ const CaseStudies = () => {
       <div className="caseStudiesBox">
         <div className="caseStuleft">
           <h4>Case Studies</h4>
-          <h2>
-            Proven Expertise
+          <h2 className="expred-flag">
+            Proven <span className="exp-fff-text">Expertise</span>
             <GoDotFill className="doticon" /> <br />
             Proven Results
             <GoDotFill className="doticon" />
