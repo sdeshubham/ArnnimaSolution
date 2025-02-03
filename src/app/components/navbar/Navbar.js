@@ -105,8 +105,7 @@ const Navbar = () => {
             </div>
             <div className="mainsec-right">
               <Image
-                src="/Images/mainsectionimg.png"
-                // src="/Images/blog-one.png"
+                src="/images/mainsectionimg.png"
                 className="main-image"
                 alt="Main Section"
                 width={600}
