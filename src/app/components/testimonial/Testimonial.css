@@ -1,83 +1,3 @@
-/* .testi-box {
-  margin: 40px 100px;
-}
-
-.testi-head {
-  display: flex;
-  justify-content: space-between;
-}
-
-.testi-head h3 {
-  font-size: 1.5rem;
-  margin: 10px 0;
-}
-
-.testi-right {
-  display: flex;
-  gap: 15px;
-}
-
-.testi-right .testi-icon {
-  font-size: 40px;
-}
-
-.testi-icon:hover {
-  color: #ea4232;
-  cursor: pointer;
-}
-
-.test-cards {
-  display: flex;
-  justify-content: space-between;
-  margin: 40px 0;
-}
-
-.testiCard {
-  position: relative;
-  width: 400px;
-  height: 250px;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-
-  background-color: #fffdf5;
-}
-
-.testiPic {
-  margin-top: 30px;
-  background-color: #fcfcfc;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.testi-content {
-  color: #515762;
-  font-size: 0.9rem;
-  text-align: justify;
-  line-height: 1.4;
-}
-
-.testi-bottom {
-  margin: 30px 0 0 20px;
-}
-
-.testi-name {
-  margin: 10px 0 0 0;
-  font-size: 1.1rem;
-  font-weight: 600;
-}
-
-.testi-role {
-  margin-top: 3px;
-  font-size: 0.8rem;
-}
-
-.testiCardBottom {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-} */
-
 .testi-left h3 {
   line-height: 1.2;
   font-weight: 800;
@@ -122,8 +42,12 @@
 }
 
 .testi-icon {
-  color: #ea4232;
   font-size: 40px;
+}
+
+.projleftIcon,
+.projrightIcon {
+  fill: #ea4232;
 }
 
 .testi-icon:hover {
@@ -132,7 +56,7 @@
 }
 
 .testiCardBottom {
-  margin-top: 30px;
+  margin-top: 15px;
   display: flex;
 }
 
@@ -158,6 +82,7 @@
 }
 
 .testi-content {
+  height: 12vh;
   color: #000000;
   font-size: 13px;
   text-align: justify;

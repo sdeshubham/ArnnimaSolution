@@ -89,17 +89,23 @@
   padding: 1rem 1.5rem;
 }
 
+.logo {
+  height: 100%;
+}
+
 .logo a {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navlinksbox {
-  width: 50%;
+  width: 52%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  /* background-color: yellow; */
 }
 
 .navLinks {

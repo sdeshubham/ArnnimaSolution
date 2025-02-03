@@ -37,6 +37,13 @@
   /* background-color: aquamarine; */
 }
 
+.jointeam-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 40px;
+}
+
 .joinTeamCardBox {
   display: flex;
   justify-content: center;
