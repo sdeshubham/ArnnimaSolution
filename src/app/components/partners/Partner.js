@@ -57,13 +57,13 @@ const Partner = () => {
               height={35}
               priority
             />
-            <Image
+            {/* <Image
               src={"/contentful.png"}
               alt="Business image"
               width={90}
               height={22}
               priority
-            />
+            /> */}
             <Image
               src={"/OpenAI.png"}
               alt="Business image"

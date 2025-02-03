@@ -20,7 +20,7 @@ const Marketing = () => {
 
         <div className="marketRight">
           <Image
-            src="/images/marketing-image.png"
+            src={"/marketing-image.png"}
             className="market-img"
             alt="marketing-image"
             width={550}

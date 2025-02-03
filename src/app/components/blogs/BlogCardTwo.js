@@ -6,8 +6,8 @@ const BlogCardTwo = ({ blogdate, gategory, blogtitle, blogdesc, url }) => {
       <Link href={url}>
         <div className="blogTwoDetails">
           <div className="date-category">
-            <p>{blogdate}</p>
-            <p>{gategory}</p>
+            <p className="blog-right-date">{blogdate}</p>
+            <p className="blog-right-category">{gategory}</p>
           </div>
           <h5 className="blogPartTwoTitle">{blogtitle}</h5>
           <p className="blogOneDesc">{blogdesc}</p>

@@ -76,7 +76,7 @@ const Contact = () => {
           </div>
           <div className="contact-img">
             <Image
-              src="/images/Contactus-image.png"
+              src={"/Contactus-image.png"}
               className="contactImage"
               alt="Main Section"
               width={600}

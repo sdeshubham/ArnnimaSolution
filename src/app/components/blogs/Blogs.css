@@ -87,13 +87,25 @@
 }
 
 .date-category {
-  width: 200px;
+  width: 250px;
   display: flex;
-  justify-content: space-between;
-  /* align-items: center; */
+  /* justify-content: space-between; */
+  align-items: flex-start;
+  text-align: left;
   margin-bottom: 10px;
+  gap: 15px;
 
   /* background-color: #ea4232; */
+}
+
+.blog-right-date {
+  width: 120px;
+  /* background-color: yellow; */
+}
+
+.blog-right-category {
+  width: 100px;
+  /* background-color: greenyellow; */
 }
 
 .dateCategory {

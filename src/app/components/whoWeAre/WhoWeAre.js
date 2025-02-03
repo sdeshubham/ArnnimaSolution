@@ -31,7 +31,7 @@ const WhoWeAre = () => {
         </div>
         <div className="whoWeRight">
           <Image
-            src="/images/WhoWeAre.png"
+            src={"/WhoWeAre.png"}
             className="whoWeImg"
             alt="Main Section"
             width={400}

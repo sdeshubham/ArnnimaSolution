@@ -50,12 +50,12 @@ import ProjectsCard from "./ProjectsCard";
 const Projects = () => {
   const projectData = [
     {
-      imageSrc: "/images/ProjectImageOne.png",
+      imageSrc: "/ProjectImageOne.png",
       title: "Search Engine Optimization",
       desc: "A sneaker brand focused on high-performance shoes for athletes was struggling to differentiate its products in a saturated market and boost sales among competitive runners.",
     },
     {
-      imageSrc: "/images/ProjectImageTwo.png",
+      imageSrc: "/ProjectImageTwo.png",
       title: "Search Engine Optimization",
       desc: "A new game console brand wanted to generate buzz and excitement ahead of its product launch, targeting both casual gamers and hardcore gaming communities.",
     },

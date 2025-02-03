@@ -15,14 +15,12 @@ const Footer = () => {
             <button>
               Let's Talk
               <Image
-                  src="/images/talkArrow.png"
+                  src={"/talkArrow.png"}
                   alt="logo"
                   className="talkArrow-icon"
                   width={20}
                   height={12}
                 />
-
-              {/* <GoArrowRight className="footerTalkIcon" /> */}
             </button>
           </div>
           <div id="footer-horizontalLine"></div>
@@ -34,7 +32,7 @@ const Footer = () => {
             <div className="footerLogo">
               <Link href="/">
                 <Image
-                  src="/images/ArnnimaLogo.svg"
+                  src={"/ArnnimaLogo.svg"}
                   alt="logo"
                   width={120}
                   height={45}
