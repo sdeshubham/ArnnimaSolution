@@ -83,12 +83,8 @@
   gap: 70px;
 }
 
-/* .proj-card:hover {
-  border: 1px solid #3D414C;
-} */
-
 .proj-card {
-  max-width: 450px;
+  max-width: 500px;
   padding: 12px;
   border-radius: 20px;
   text-align: left;
@@ -120,6 +116,8 @@
   color: #283751;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
+
+  /* background-color: greenyellow; */
 }
 
 .proj-card p {

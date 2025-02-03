@@ -13,11 +13,13 @@ import Blogs from "./components/blogs/Blogs";
 import Marketing from "./components/marketing/Marketing"
 import Contact from "./components/contactus/Contact";
 import Footer from "./components/footer/Footer";
+import Topsection from "./components/topsection/Topsection";
 
 export default function Home() {
   return (
     <div className="page">
       <Navbar />
+      <Topsection />
       <Brightbusiness />
       <Partner />
       <Services />
