@@ -7,7 +7,7 @@ import "./navbar.css";
 import { IoMenu, IoCloseSharp } from "react-icons/io5";
 import { GoDotFill } from "react-icons/go";
 
-const Navbar = ({mainSectionImg}) => {
+const Navbar = () => {
   const [textIndex, setTextIndex] = useState(0);
 
   const textOptions = [
@@ -105,7 +105,8 @@ const Navbar = ({mainSectionImg}) => {
             </div>
             <div className="mainsec-right">
               <Image
-                src={mainSectionImg}
+                // src="/images/mainSectionImg.png"
+                src="/Images/blog-one.png"
                 className="main-image"
                 alt="Main Section"
                 width={600}
