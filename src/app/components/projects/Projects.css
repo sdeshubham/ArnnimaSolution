@@ -7,9 +7,9 @@
 }
 
 .projFilter {
-  width: 70%;
+  width: 74%;
   background-color: #fffdf5;
-  padding: 10px 15px;
+  padding: 10px 12px;
   border-radius: 30px;
 }
 
@@ -143,6 +143,5 @@
 
 .default-red {
   background-color: #ea4232;
-  color: #ffffff;
-  font-weight: 600;
+  color: #fcfcfc;
 }
