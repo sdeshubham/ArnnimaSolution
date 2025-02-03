@@ -25,7 +25,7 @@
 .dot {
   width: 11.1px;
   height: 11.1px;
-  background-color: red;
+  background-color: #ea4232;
   border-radius: 50%;
   position: absolute;
   bottom: 65px;
@@ -44,7 +44,7 @@
   content: "";
   position: absolute;
   top: 0;
-  left: 300;
+  left: 38%;
   width: 450px;
   height: 120px;
   background-color: #ea4232;
