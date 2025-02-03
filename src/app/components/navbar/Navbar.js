@@ -6,7 +6,7 @@ import Image from "next/image";
 import "./navbar.css";
 import { IoMenu, IoCloseSharp } from "react-icons/io5";
 import { GoDotFill } from "react-icons/go";
-import mainsectionimg from "/public/images/mainsectionimg.png";
+import mainsectionimg from "/images/mainsectionimg.png";
 
 const Navbar = () => {
   const [textIndex, setTextIndex] = useState(0);
