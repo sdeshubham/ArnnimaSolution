@@ -5,30 +5,30 @@ import ServiceCard from "./ServiceCard";
 const Services = () => {
   const serviceData = [
     {
-      imageSrc: "/images/SEOpic.png",
+      imageSrc: "/SEOpic.png",
       description: "Search Engine Optimization",
     },
     {
-      imageSrc: "/images/SoftwareDpic.png",
+      imageSrc: "/SoftwareDpic.png",
       description: "Software Development",
     },
   ];
 
   const serviceDataTwo = [
     {
-      imageSrc: "/images/ProductDevelopment.png",
+      imageSrc: "/ProductDevelopment.png",
       description: "Product Development",
     },
     {
-      imageSrc: "/images/MobileApp.png",
+      imageSrc: "/MobileApp.png",
       description: "Mobile App Developement",
     },
     {
-      imageSrc: "/images/DevOps.png",
+      imageSrc: "/DevOps.png",
       description: "DevOps Services",
     },
     {
-      imageSrc: "/images/CH2.png",
+      imageSrc: "/CH2.png",
       description: "C2H",
     },
   ];

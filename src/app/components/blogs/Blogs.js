@@ -104,9 +104,6 @@
 // export default Blogs;
 
 
-
-
-
 import { GoDotFill } from "react-icons/go";
 import Link from "next/link";
 import "./Blogs.css";
