@@ -55,8 +55,8 @@ const Topsection = () => {
                 src={"/mainsectionimg.png"}
                 className="main-image"
                 alt="Main Section"
-                width={600}
-                height={400}
+                width={500}
+                height={350}
               />
             </div>
           </div>

@@ -28,8 +28,10 @@ const Navbar = () => {
                   <Image
                     src={"/ArnnimaLogo.svg"}
                     alt="logo"
+                    // width={190}
+                    // height={60}
                     width={120}
-                    height={40}
+                    height={45}
                   />
                 </Link>
               </div>
