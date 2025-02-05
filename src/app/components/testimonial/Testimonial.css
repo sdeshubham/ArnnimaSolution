@@ -56,8 +56,10 @@
 }
 
 .testiCardBottom {
-  margin-top: 15px;
+  margin-top: 10px;
   display: flex;
+
+  /* background-color: greenyellow; */
 }
 
 .test-cards {
@@ -75,18 +77,22 @@
 .testiCard {
   position: relative;
   width: 100%;
-  height: 230px;
-  padding: 40px;
+  height: 210px;
+  padding: 30px;
   border-radius: 20px;
   background-color: #fffdf5;
+
+  /* background-color: #ea4232; */
 }
 
 .testi-content {
-  height: 12vh;
+  height: 10vh;
   color: #000000;
   font-size: 13px;
   text-align: justify;
   line-height: 1.3;
+
+  /* background-color: yellow; */
   /* font-family: "Avenir", Inter; */
 }
 
