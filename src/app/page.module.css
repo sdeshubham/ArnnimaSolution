@@ -15,9 +15,13 @@
   padding: 80px;
   gap: 64px;
   font-family: var(--font-geist-sans);
+} */
+
+.page {
+  background-color: #FAF4E4;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   .page {
     --gray-rgb: 255, 255, 255;
     --gray-alpha-200: rgba(var(--gray-rgb), 0.145);
@@ -26,9 +30,9 @@
     --button-primary-hover: #ccc;
     --button-secondary-hover: #1a1a1a;
   }
-}
+} */
 
-.main {
+/* .main {
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -97,7 +101,7 @@ a.secondary {
   grid-row-start: 3;
   display: flex;
   gap: 24px;
-}
+} 
 
 .footer a {
   display: flex;
@@ -107,9 +111,9 @@ a.secondary {
 
 .footer img {
   flex-shrink: 0;
-}
+} */
 
-@media (hover: hover) and (pointer: fine) {
+/* @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
     background: var(--button-primary-hover);
     border-color: transparent;
@@ -124,9 +128,9 @@ a.secondary {
     text-decoration: underline;
     text-underline-offset: 4px;
   }
-}
+} */
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .page {
     padding: 32px;
     padding-bottom: 80px;

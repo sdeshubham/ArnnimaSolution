@@ -1,21 +1,17 @@
-.main-container {
-  height: 15vh;
-  padding: 0 100px;
-  background-color: #fffdf5;
-}
-
 .nav-box {
+  background-color: #fffdf5;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 15vh;
+  height: 20vh;
+
+  /* background-color: blue; */
 }
 
 .navbar {
   background-color: #283751;
-  width: 100%;
+  width: 85%;
   border-radius: 45px;
-  margin: 100px 0 45px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;

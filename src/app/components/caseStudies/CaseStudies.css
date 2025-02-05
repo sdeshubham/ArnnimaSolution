@@ -73,3 +73,36 @@
 .caseStuRight button:hover {
   cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* .red-flag {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding: 8px 24px 8px 12px;
+    background-color: transparent;
+  }
+  
+  .red-flag::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 38%;
+    width: 450px;
+    height: 120px;
+    background-color: #ea4232;
+    transform: rotate(-3deg);
+    z-index: -1;
+    transform-origin: left bottom;
+  } */

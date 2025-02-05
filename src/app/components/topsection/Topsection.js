@@ -8,7 +8,7 @@ import { GoDotFill } from "react-icons/go";
 const Topsection = () => {
   const [textIndex, setTextIndex] = useState(0);
 
-  const textOptions = ["Brand", "Product", "TechTeam", "Web App", "MobileApp"];
+  const textOptions = ["Brand", "Product", "TechTeam", "Website", "App"];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -25,20 +25,22 @@ const Topsection = () => {
           <div className="main-content">
             <div className="mainsec-left">
               <div className="mainsec-boxOne">
-                <h1 className="red-flag">
-                  Make Your{" "}
-                  <span className="top-brand">{textOptions[textIndex]}</span>{" "}
-                  <br />
-                </h1>
-                <h1>
-                  with{" "}
-                  <div className="text-container">
-                    Arnnima
-                    <span className="dot"></span>
-                  </div>{" "}
-                  Solution
-                  <GoDotFill className="doticon" />
-                </h1>
+                <div>
+                  <h1 className="red-flag">
+                    Make Your{" "}
+                    <span className="top-brand">{textOptions[textIndex]}</span>{" "}
+                    <br />
+                  </h1>
+                  <h1>
+                    with{" "}
+                    <div className="text-container">
+                      Arnnima
+                      <span className="dot"></span>
+                    </div>{" "}
+                    Solutions
+                    <GoDotFill className="doticon" />
+                  </h1>
+                </div>
                 <p>
                   We craft premium digital work for web, mobile and experiential
                   with creative agencies <br /> and global brands alike putting
@@ -55,8 +57,8 @@ const Topsection = () => {
                 src={"/mainsectionimg.png"}
                 className="main-image"
                 alt="Main Section"
-                width={500}
-                height={350}
+                width={392}
+                height={426}
               />
             </div>
           </div>

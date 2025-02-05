@@ -49,7 +49,7 @@
 .bussiLeft-boxone {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-bottom: 50px;
 
   /* background-color: aqua; */
