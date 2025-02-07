@@ -1,12 +1,12 @@
 .partnerBox {
-  margin: 0 100px 80px 100px;
+  height: 242px;
+  width: 1340px;
+  margin: 90px 50px 0 50px;
 
   /* background-color: aqua; */
 }
 
-
 .partner-top {
-  margin-top: 50px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -14,11 +14,21 @@
 }
 
 .partner-top h2 {
-  margin-bottom: 10px;
+  margin: 0;
+  padding: 0;
   font-size: 65px;
   letter-spacing: -3px;
   color: #283751;
   font-weight: 500;
+
+  /* background-color: green; */
+}
+
+#partnerHorizontalLine {
+  margin-top: 20px;
+  width: 166px;
+  height: 2px;
+  background-color: #ea4232;
 }
 
 .partner-pic {
@@ -35,8 +45,7 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  margin-top: 50px;
-  padding: 12px 18px;
+  margin: 75px 59px 52px 60px;
 
   /* background-color: blue; */
 }

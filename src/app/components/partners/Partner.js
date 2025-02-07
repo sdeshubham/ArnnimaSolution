@@ -11,7 +11,7 @@ const Partner = () => {
             Our Associations & Partnerships
             <GoDotFill className="doticon" />
           </h2>
-          <div id="horizontalLine"></div>
+          <div id="partnerHorizontalLine"></div>
         </div>
         <div className="partner-pic">
           <div className="partner-img">

@@ -113,7 +113,7 @@ import BlogCardTwo from "./BlogCardTwo";
 const Blogs = () => {
   const blogData = [
     {
-      blogimg: "/Images/blog-one.png",
+      blogimg: "/blog-one.png",
       blogdate: "08-11-2021",
       gategory: "Category",
       blogtitle: "Believing neglected so so allowance existence departure.",
@@ -122,7 +122,7 @@ const Blogs = () => {
       url: "/",
     },
     {
-      blogimg: "/Images/blog-two.png",
+      blogimg: "/blog-two.png",
       blogdate: "11-07-2024",
       gategory: "Category",
       blogtitle:
@@ -146,12 +146,6 @@ const Blogs = () => {
       blogtitle: "What is deepseek",
       url: "https://medium.com/@arnnima/what-is-deepseek-4b48b3987c9a",
     },
-    // {
-    //   blogdate: "12-09-2025",
-    //   gategory: "Category",
-    //   blogtitle: "SOV Technologies Projects",
-    //   url: "https://sovtechnologies.com/more-project",
-    // },
     {
       blogdate: "12-09-2025",
       gategory: "Metaverse",

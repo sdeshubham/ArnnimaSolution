@@ -8,7 +8,13 @@ import { GoDotFill } from "react-icons/go";
 const Topsection = () => {
   const [textIndex, setTextIndex] = useState(0);
 
-  const textOptions = ["Brand", "Product", "TechTeam", "Website", "App"];
+  const textOptions = [
+    "Brand",
+    "Product",
+    "Tech Team",
+    "Website",
+    "Mobile App",
+  ];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -25,7 +31,7 @@ const Topsection = () => {
           <div className="main-content">
             <div className="mainsec-left">
               <div className="mainsec-boxOne">
-                <div>
+                {/* <div className="top-headingH1">
                   <h1 className="red-flag">
                     Make Your{" "}
                     <span className="top-brand">{textOptions[textIndex]}</span>{" "}
@@ -39,6 +45,14 @@ const Topsection = () => {
                     </div>{" "}
                     Solutions
                     <GoDotFill className="doticon" />
+                  </h1>
+                </div> */}
+                <div className="top-headingH1">
+                  <h1 className="red-flag">
+                    Make Your{" "}
+                    <span className="top-brand">{textOptions[textIndex]}</span>{" "}
+                    <br />
+                    with Arnnima Solutions
                   </h1>
                 </div>
                 <p>

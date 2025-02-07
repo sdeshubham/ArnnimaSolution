@@ -1,6 +1,7 @@
 import { GoDotFill } from "react-icons/go";
 import "./Services.css";
 import ServiceCard from "./ServiceCard";
+import { CiCircleChevLeft, CiCircleChevRight } from "react-icons/ci";
 
 const Services = () => {
   const serviceData = [
@@ -60,6 +61,7 @@ const Services = () => {
             </div>
           </div>
         </div>
+
         <div className="servicesBoxTwo">
           <div className="servicesContainerTwo">
             {serviceDataTwo.map((service, index) => (
@@ -69,6 +71,12 @@ const Services = () => {
                 description={service.description}
               />
             ))}
+          </div>
+        </div>
+        <div className="service-slider-btns">
+          <div className="next-previewIcon">
+            <CiCircleChevLeft className="projleftIcon" />
+            <CiCircleChevRight className="projrightIcon" />
           </div>
         </div>
       </div>

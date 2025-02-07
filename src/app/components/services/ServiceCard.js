@@ -28,8 +28,8 @@ const ServiceCard = ({ imageSrc, description }) => {
       <Image
         src={imageSrc}
         alt="Business image"
-        width={64}
-        height={64}
+        width={74}
+        height={67.83}
         objectFit="contain"
         priority
       />

@@ -9,7 +9,7 @@ const CaseStudies = () => {
           <h4>Case Studies</h4>
           <h2 className="expred-flag">
             Proven <span className="exp-fff-text">Expertise</span>
-            <GoDotFill className="doticon" /> <br />
+            <GoDotFill className="doticon" />
             Proven Results
             <GoDotFill className="doticon" />
           </h2>

@@ -1,17 +1,23 @@
 .nav-box {
-  background-color: #fffdf5;
+  /* background-color: #fffdf5;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 15vh;
+  height: 130px; */
+
+  padding: 50px 100px 0 101px;
+  height: 130px;
+  background-color: #fffdf5;
 
   /* background-color: blue; */
 }
 
 .navbar {
   background-color: #283751;
-  width: 85%;
-  border-radius: 45px;
+
+  width: 1239px;
+  height: 80px;
+  border-radius: 42px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
@@ -25,6 +31,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
+
+  /* padding: 31px 63.2px 19px 63px; */
 }
 
 .logo {
@@ -38,10 +46,15 @@
 }
 
 .navlinksbox {
-  width: 52%;
+  /* width: 52%; */
+
+  width: 681.5px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  gap: 30px;
   align-items: center;
+
+  /* background-color: greenyellow; */
 }
 
 .navLinks {
@@ -77,13 +90,18 @@
   text-decoration: none;
   color: #fcfcfc;
   font-weight: 500;
+  font-size: 14px;
 }
 
 .navCall-btn {
-  padding: 6px 12px;
+  /* padding: 6px 12px; */
+
+  height: 36px;
+  width: 143px;
   border: 1px solid #f74143;
-  border-radius: 15px;
+  border-radius: 80px;
   background-color: #fcfcfc;
+  font-size: 14px;
 }
 
 .menuButton {

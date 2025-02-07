@@ -1,9 +1,11 @@
 .bussiBox {
-  display: flex;
+  /* display: flex;
   align-items: center;
   flex-direction: column;
-  text-align: center;
-  margin: 0 100px;
+  text-align: center; */
+  height: 1011px;
+  width: 1250px;
+  margin: 90px 100px 0 100px;
 
   /* background-color: aquamarine; */
 }
@@ -14,43 +16,36 @@
   text-align: center;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 50px;
 }
 
-/* styles.css */
-
 .bussiBoxTop h2 {
-  font-size: 3rem;
-  font-weight: 500;
+  /* background-color: aqua; */
 }
 
 .bussiBoxTop p {
+  width: 867px;
+  height: 44px;
   font-size: 16px;
-  width: 70%;
-  line-height: 1.5;
   color: #616161;
+  margin-top: 31px;
+
+  /* background-color: tomato; */
 }
 
-.bussiLeft {
+.bussiSecondBox {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
+  height: 798px;
+  width: 1250px;
+  margin-top: 63px;
 }
 
 .bussiBoxLeft {
   display: flex;
-  justify-content: space-evenly;
-  width: 45%;
-
-  /* background-color: blueviolet; */
 }
 
 .bussiLeft-boxone {
-  width: 100%;
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 50px;
+  /* gap: 27px; */
 
   /* background-color: aqua; */
 }
@@ -61,16 +56,17 @@
 }
 
 #horizontalLine {
-  width: 180px;
+  /* width: 180px; */
+  width: 166px;
   height: 2px;
   background-color: #ea4232;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 #vertiLine {
-  margin-right: 50px;
-  width: 3px;
-  height: 150px;
+  margin-right: 25px;
+  width: 4px;
+  height: 162px;
   background-color: #ea4232;
 }
 
@@ -83,15 +79,38 @@
 .bussin-num h3 {
   font-size: 60px;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .bussin-num p {
   font-size: 20px;
-  font-weight: 400;
+  /* font-weight: 400; */
   color: #828282;
 }
 
 .bussiBoxRight {
-  width: 55%;
+  margin-left: 37px;
+
+  /* background-color: green; */
+}
+
+.bussiLeft-second-one {
+  margin-left: 133px;
+}
+
+.bussiLeft-second-two {
+  margin-left: 128px;
+}
+
+.bussiLeft-second-two {
+  margin-top: 110px;
+}
+
+.customer19 {
+  margin-top: 110px;
+}
+
+.bussiCont,
+.bussiContTwo {
+  margin-top: 145px;
 }

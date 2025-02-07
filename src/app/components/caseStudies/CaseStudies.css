@@ -1,19 +1,21 @@
 .caseStudiesBox {
-  margin: 20px 100px;
-  padding-top: 40px;
-  height: 30vh;
+  height: 179.33px;
+  width: 1240px;
+  margin: 90px 100px 0 90px;
   display: flex;
 
   /* background-color: yellow; */
 }
 
 .caseStuleft {
-  width: 50%;
+  width: 587px;
+  /* background-color: aqua; */
 }
 
 .caseStuleft h2 {
-  margin-top: 5px;
   font-weight: 600;
+  margin: 0;
+  padding: 0;
   color: #283751;
 }
 
@@ -21,7 +23,6 @@
   position: relative;
   display: inline-block;
   z-index: 1;
-  padding: 8px 24px 8px 12px;
   background-color: transparent;
 }
 
@@ -29,9 +30,9 @@
   content: "";
   position: absolute;
   top: 0;
-  left: 38.5%;
-  width: 400px;
-  height: 120px;
+  left: 36.5%;
+  width: 350px;
+  height: 100px;
   background-color: #ea4232;
   transform: rotate(-3deg);
   z-index: -1;
@@ -43,25 +44,24 @@
 }
 
 .caseStuRight {
-  width: 50%;
-  display: flex;
-  justify-content: center;
+  height: 146px;
+  width: 546px;
+  margin: 16.67px 0 0 108px;
 
   /* background-color: aquamarine; */
 }
 
 .caseStuRight p {
   color: #616161;
-  font-weight: 400;
-  line-height: 1.5;
-  margin: 30px 0;
   font-size: 16px;
-  /* font-family: "Poppins", sans-serif; */
+  font-family: "Poppins";
 }
 
 .caseStuRight button {
-  padding: 10px 20px;
-  border-radius: 25px;
+  height: 40px;
+  width: 143px;
+  margin-top: 40px;
+  border-radius: 40px;
   outline: none;
   border: none;
   background-color: #ea4232;
@@ -73,8 +73,6 @@
 .caseStuRight button:hover {
   cursor: pointer;
 }
-
-
 
 
 

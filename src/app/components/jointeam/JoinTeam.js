@@ -28,7 +28,7 @@
 //       level: "Entery-Level",
 //       location: "Gurgaon Haryana",
 //     },
-    
+
 //   ];
 
 //   return (
@@ -105,7 +105,9 @@ const JoinTeam = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrev = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 3 + joinTeamData.length) % joinTeamData.length);
+    setCurrentIndex(
+      (prevIndex) => (prevIndex - 3 + joinTeamData.length) % joinTeamData.length
+    );
   };
 
   const handleNext = () => {
@@ -121,7 +123,9 @@ const JoinTeam = () => {
           Join Our Team
           <GoDotFill className="doticon" />
         </h2>
-        <div id="horizontalLine"></div>
+        <div className="horizontalLine-join">
+          <div id="horizontalLine"></div>
+        </div>
         <p>
           What began as our founder’s vision is now becoming the benchmark for
           hiring across India. Meet the visionary team who is making it

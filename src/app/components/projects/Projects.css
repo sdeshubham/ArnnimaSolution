@@ -1,16 +1,20 @@
 .projectBox {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   flex-direction: column;
-  margin: 50px 100px;
+  margin: 44.67px 100px 0 100px;
+
+  /* background-color: aquamarine; */
 }
 
 .projFilter {
-  width: 100%;
+  height: 72px;
+  width: 884px;
   background-color: #fffdf5;
   padding: 10px 12px;
-  border-radius: 30px;
+  border-radius: 100px;
+  margin: 0 198px;
   font-family: "Inter", sans-serif;
 }
 
@@ -18,17 +22,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
+  /* width: 200px; */
 }
 
 .next-previewIcon {
   display: flex;
   gap: 10px;
+  margin-top: 45px;
 }
 
 .projleftIcon,
 .projrightIcon {
-  font-size: 40px;
+  /* font-size: 40px; */
+  height: 34px;
+  width: 35px;
   fill: #ea4232;
 }
 
@@ -46,7 +53,7 @@
 .projFilter ul li {
   list-style: none;
   padding: 15px;
-  border-radius: 30px;
+  border-radius: 100px;
   font-size: 16px;
   font-weight: 400;
   transition: all 0.3s ease;
@@ -76,18 +83,23 @@
 
 .projectCardBox {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  margin-top: 45.33px;
+  /* justify-content: center; */
+  /* align-items: center; */
   flex-wrap: wrap;
-  height: 90vh;
-  width: 100%;
-  gap: 70px;
+  height: 755px;
+  width: 1280px;
+  gap: 20px;
+
+  /* background-color: green; */
 }
 
 .proj-card {
-  max-width: 500px;
+  height: 755px;
+  width: 630px;
   padding: 12px;
-  border-radius: 20px;
+  border-radius: 32px;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -101,8 +113,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 420px;
+  width: 598px;
+  height: 579px;
   position: relative;
 }
 
@@ -111,7 +123,7 @@
 }
 
 .proj-card h3 {
-  margin: 15px 0;
+  margin: 24px 0;
   font-size: 24px;
   color: #283751;
   font-weight: 600;
@@ -122,10 +134,9 @@
 
 .proj-card p {
   width: 100%;
-  font-size: 0.9rem;
-  line-height: 1.3;
+  font-size: 16px;
   color: #616161;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
 }
 
 .default-red {

@@ -16,7 +16,7 @@ const Contact = () => {
           <div className="contact-formBox">
             <div className="contactformInput">
               <div className="contactInputs">
-                <label htmlFor="name">Name</label>
+                <label htmlFor="name">Full Name</label>
                 <input
                   type="text"
                   id="name"
@@ -79,8 +79,10 @@ const Contact = () => {
               src={"/Contactus-image.png"}
               className="contactImage"
               alt="Main Section"
-              width={600}
-              height={520}
+              // width={600}
+              // height={520}
+              width={655.62}
+              height={573.17}
             />
           </div>
         </div>

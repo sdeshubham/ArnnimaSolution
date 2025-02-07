@@ -11,8 +11,8 @@ const BlogCard = ({ blogimg, blogdate, gategory, blogtitle, blogdesc, url }) => 
               className="testiPic"
               src={blogimg}
               alt="Business image"
-              height={50}
-              width={50}
+              height={270}
+              width={378}
               priority
             />
           </div>

@@ -1,21 +1,35 @@
 .marketingBox {
   display: flex;
-  justify-content: space-between;
+  height: 478px;
+  width: 1460px;
   margin: 50px 0;
-  padding: 100px 100px;
+  padding: 53px 100.93px 53px 100px;
   border-bottom-left-radius: 60px;
   border-bottom-right-radius: 60px;
+  gap: 27px;
 
   background-color: #fffdf5;
 }
 
-.marketLeft {
-  width: 50%;
+.market-head {
+  width: 605px;
+  font-size: 64px;
+  font-weight: 700px;
+  line-height: -10;
 }
 
-.marketLeft h2 {
-  /* font-weight: 700; */
+/* -----=======---------=======-------===== */
+
+.marketLeft {
+  height: 372px;
+  /* width: 593px; */
 }
+/* -----=======---------=======-------===== */
+
+/* .marketLeft h2 {
+  font-size: 64px;
+  font-weight: 600;
+} */
 
 .qustion-mark {
   color: #ea4232;
@@ -23,25 +37,27 @@
 
 .market-desc {
   font-size: 16px;
-  color: #515762;
-  width: 80%;
-  margin: 40px 0;
+  color: #616161;
+  margin-top: 40px;
 }
 
 .marketRight {
-  margin-top: 70px;
-  display: flex;
-  justify-content: flex-end;
-  width: 50%;
+  height: 316px;
+  width: 619.7;
+  padding: 56px 0 0 0;
+
+  /* background-color: aquamarine; */
 }
 
 .market-btn {
-  padding: 15px 25px;
+  height: 60px;
+  width: 255px;
+  margin-top: 60px;
   border-radius: 30px;
   border: none;
   background-color: #ea4232;
   color: #fcfcfc;
-  font-size: 0.9rem;
+  font-size: 16px;
   font-weight: 700;
 }
 

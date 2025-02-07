@@ -7,10 +7,11 @@ const Marketing = () => {
       <div className="marketingBox">
         <div className="marketLeft">
           <h4>Bright</h4>
-          <h2>
-            Ready to brand Up <br /> Your Marketing
-            <span className="qustion-mark">?</span>
-          </h2>
+          <p className="market-head">Ready to brand Up</p>
+          <p className="market-head" style={{ margin: '-26px 0' }}>
+            {" "}
+            Your Marketing<span className="qustion-mark">?</span>
+          </p>
           <p className="market-desc">
             We’re here to help you take your brand to the next level. Let’s
             craft a strategy that’s as bright as your future.
@@ -23,14 +24,13 @@ const Marketing = () => {
             src={"/marketing-image.png"}
             className="market-img"
             alt="marketing-image"
-            width={550}
-            height={280}
+            width={619}
+            height={316}
           />
         </div>
       </div>
     </>
   );
 };
-
 
 export default Marketing;

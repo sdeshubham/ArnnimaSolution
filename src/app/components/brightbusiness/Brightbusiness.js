@@ -1,13 +1,12 @@
 import Image from "next/image";
 import "./Brightbusiness.css";
-// import { PiLineVertical } from "react-icons/pi";
 import { GoDotFill } from "react-icons/go";
 
 const Brightbusiness = () => {
   return (
     <div className="bussiBox">
       <div className="bussiBoxTop">
-        <h2>
+        <h2 className="bussiBoxTop-head">
           We Make your Business Bright
           <GoDotFill className="doticon"/>
         </h2>
@@ -18,7 +17,7 @@ const Brightbusiness = () => {
           millions of minority owned businesses helping world economy
         </p>
       </div>
-      <div className="bussiLeft">
+      <div className="bussiSecondBox">
         <div className="bussiBoxLeft">
           <div className="bussiCont">
             <div className="bussiLeft-boxone">
@@ -31,7 +30,7 @@ const Brightbusiness = () => {
               </div>
             </div>
 
-            <div className="bussiLeft-boxone">
+            <div className="bussiLeft-boxone customer19">
               <div id="vertiLine"></div>
               <div className="bussin-num">
                 <h3>19 +</h3>
@@ -43,7 +42,7 @@ const Brightbusiness = () => {
           </div>
 
           <div className="bussiContTwo">
-            <div className="bussiLeft-boxone">
+            <div className="bussiLeft-boxone bussiLeft-second-one">
               <div id="vertiLine"></div>
               <div className="bussin-num">
                 <h3>10 +</h3>
@@ -53,7 +52,7 @@ const Brightbusiness = () => {
               </div>
             </div>
 
-            <div className="bussiLeft-boxone">
+            <div className="bussiLeft-boxone bussiLeft-second-two">
               <div id="vertiLine"></div>
               <div className="bussin-num">
                 <h3>5 +</h3>
@@ -67,9 +66,12 @@ const Brightbusiness = () => {
         <div className="bussiBoxRight">
           <Image
             src={"/businessImg.png"}
+            className="brightBussiImg"
             alt="Business image"
-            width={600}
-            height={600}
+            // width={793}
+            // height={798}
+            width={760}
+            height={798}
             priority
           />
         </div>

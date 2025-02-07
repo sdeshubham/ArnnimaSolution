@@ -15,14 +15,14 @@ const Footer = () => {
             </h2>
             <button>
               Let's Talk
-              <FaArrowRightLong className="talk-icon" />
-              {/* <Image
+              {/* <FaArrowRightLong className="talk-icon" /> */}
+              <Image
                   src={"/talkArrow.png"}
                   alt="logo"
                   className="talkArrow-icon"
                   width={15}
                   height={14}
-                /> */}
+                />
             </button>
           </div>
           <div id="footer-horizontalLine"></div>

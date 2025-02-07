@@ -1,16 +1,20 @@
 .topsection {
   height: 607px;
-  /* height: 700px; */
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  margin-bottom: 100px;
+  width: 1460px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
 
   background-color: #fffdf5;
-  /* background-color:orange; */
 }
 
-.mainsection {
+/* .mainsection {
   margin: 0 100px;
+} */
+
+.top-headingH1 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
 .text-container {
@@ -48,7 +52,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 360px;
+  width: 385px;
   height: 100%;
   background-color: #ea4232;
   transform: rotate(-3deg);
@@ -79,58 +83,61 @@
   /* height: 70vh; */
   width: 100%;
   display: flex;
-  margin-top: 50px;
-
+  /* margin-top: 50px; */
+  /* background-color: green; */
 }
 
 .mainsec-left {
-  height: 62vh;
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  height: 480px;
+  /* width: 751px; */
+  width: 770px;
+  margin: 63.5px 0 63.5px 100px;
+  /* display: flex;
+  flex-direction: column; 
+  justify-content: space-between; */
 }
 
 .mainsec-right {
-  width: 40%;
+  /* width: 40%;
   display: flex;
-  justify-content: flex-end;
-}
+  justify-content: flex-end; */
 
-.main-image {
-  margin-top: 30px;
-  width: auto;
+  height: 426px;
+  width: 392px;
+  padding: 90.5px 100px 90.5px 78px;
 }
 
 .mainsec-boxOne {
   display: flex;
   flex-direction: column;
-  height: 40vh;
-  width: 100%;
 }
 
 .mainsec-boxOne h1 {
   font-size: 64px;
-  font-weight: 600;
-  padding-bottom: 15px;
+  font-weight: 700;
   color: #273751;
+  font-family: 'Poppins';
 }
 
 .mainsec-boxOne p {
-  font-size: 1.1rem;
-  line-height: 1.5;
+  width: 760px;
+  font-size: 16px;
+  margin-top: 15.5px;
   color: #273751;
+  font-family: 'Poppins';
 }
 
 .getStartBtn {
-  padding: 20px 55px;
+  height: 60px;
+  width: 179px;
   background-color: #f74143;
   border: none;
   outline: none;
-  border-radius: 35px;
+  border-radius: 40px;
   color: #fcfcfc;
   font-size: 16px;
   font-weight: 700;
+  margin-top: 146.5px;
 }
 
 .getStartBtn:hover {

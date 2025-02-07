@@ -10,7 +10,7 @@ const BlogCardTwo = ({ blogdate, gategory, blogtitle, blogdesc, url }) => {
             <p className="blog-right-category">{gategory}</p>
           </div>
           <h5 className="blogPartTwoTitle">{blogtitle}</h5>
-          <p className="blogOneDesc">{blogdesc}</p>
+          {/* <p className="blogOneDesc">{blogdesc}</p> */}
         </div>
       </Link>
     </div>

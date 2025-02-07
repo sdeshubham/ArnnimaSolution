@@ -23,19 +23,20 @@ const WhoWeAre = () => {
             Whether you’re looking to grow your online presence or launch a new
             product, we’re here to help you shine.
           </p>
-          <p>
+          <p className="whoweTwo">
             Our success is defined by the results we deliver. From innovative
             campaigns to record-breaking growth, we’ve partnered with brands to
             help them reach new height
           </p>
         </div>
+
         <div className="whoWeRight">
           <Image
             src={"/WhoWeAre.png"}
             className="whoWeImg"
             alt="Main Section"
-            width={400}
-            height={200}
+            width={542}
+            height={384.04}
           />
         </div>
       </div>

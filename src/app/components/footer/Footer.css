@@ -1,18 +1,19 @@
 .footerBox {
   margin-top: 50px;
-  /* background-image: url(/Images/Footer-image.png);
+  background-image: url(/Images/Footer-image.png);
   background-size: cover;
-  background-position: center; */
+  background-position: center;
   /* background-color: #283751; */
   border-top-right-radius: 70px;
   border-top-left-radius: 70px;
-  height: 84vh;
+  height: 720px;
+  /* width: 1460px; */
   width: 100%;
 }
 
 .footer-sectiontwpo {
-  background-color: #283751;
-  height: 481px;
+  /* background-color: #283751;
+  height: 481px; */
 }
 
 .footer-head {
@@ -127,6 +128,10 @@
   color: #b6b8bc;
   transition: all 0.3s ease;
   font-size: 0.9rem;
+}
+
+.footer-section ul li a {
+  color: #fcfcfc;
 }
 
 .footer-section ul li:hover {
