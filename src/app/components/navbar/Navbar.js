@@ -11,10 +11,10 @@ const Navbar = () => {
 
   const navItems = [
     { name: "Home", href: "/" },
-    { name: "About Us", href: "/aboutus" },
-    { name: "Services", href: "/services" },
-    { name: "Project", href: "/contact" },
-    { name: "Testimonial", href: "/testimonial" },
+    { name: "About Us", href: "#whoweare" },
+    { name: "Services", href: "#services" },
+    { name: "Project", href: "#projects" },
+    { name: "Testimonial", href: "#testimonial" },
   ];
 
   return (
@@ -43,9 +43,9 @@ const Navbar = () => {
                 <ul className={`navLinks ${menuOpen ? "showMenu" : ""}`}>
                   {navItems.map((item) => (
                     <li key={item.name}>
-                      <Link href={item.href} onClick={() => setMenuOpen(false)}>
+                      <a href={item.href} onClick={() => setMenuOpen(false)}>
                         {item.name}
-                      </Link>
+                      </a>
                     </li>
                   ))}
                 </ul>

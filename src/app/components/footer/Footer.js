@@ -15,7 +15,6 @@ const Footer = () => {
             </h2>
             <button>
               Let's Talk
-              {/* <FaArrowRightLong className="talk-icon" /> */}
               <Image
                   src={"/talkArrow.png"}
                   alt="logo"
@@ -58,16 +57,16 @@ const Footer = () => {
                     <a href="#">Home</a>
                   </li>
                   <li>
-                    <a href="#">Service</a>
+                    <a href="#services">Service</a>
                   </li>
                   <li>
-                    <a href="#">About Us</a>
+                    <a href="#whoweare">About Us</a>
                   </li>
                   <li>
-                    <a href="#">Project</a>
+                    <a href="#projects">Project</a>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -91,20 +90,20 @@ const Footer = () => {
                 <h4>Social Media</h4>
                 <ul>
                   <li>
-                    <a href="#">LinkedIn</a>
+                    <a href="https://www.linkedin.com/company/105600390/admin/dashboard/">LinkedIn</a>
                   </li>
                   <li>
-                    <a href="#">Twitter</a>
+                    <a href="https://x.com/arnnima19">Twitter</a>
                   </li>
                   <li>
-                    <a href="#">Instagram</a>
+                    <a href="https://medium.com/@arnnima">Medium</a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="#">Dribbble</a>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <a href="#">Behance</a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
 

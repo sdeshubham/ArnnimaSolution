@@ -36,7 +36,7 @@ const Services = () => {
 
   return (
     <>
-      <div className="servicesBox">
+      <div className="servicesBox" id="services">
         <div className="servicesBoxOne">
           <div className="servBoxtop">
             <div className="suite-serv">

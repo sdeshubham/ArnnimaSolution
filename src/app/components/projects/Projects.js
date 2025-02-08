@@ -26,21 +26,21 @@ const Projects = () => {
       title: "Healthcare Staffing Solutions for Locum",
       desc: "A healthcare staffing platform that connects medical professionals with temporary positions in hospitals and clinics.",
     },
-    // {
-    //   imageSrc: "/Locum.png",
-    //   title: "Otto Buddy",
-    //   desc: "A smart vehicle assistant application offering real-time traffic updates, vehicle diagnostics, and driving assistance.",
-    // },
+    {
+      imageSrc: "/OttoBuddy.png",
+      title: "Otto Buddy",
+      desc: "A smart vehicle assistant application offering real-time traffic updates, vehicle diagnostics, and driving assistance.",
+    },
     {
       imageSrc: "/JedloApp.png",
       title: "Food Delivery Platform for JedloApp",
       desc: "A robust food delivery application providing users with a wide selection of restaurants and cuisines.",
     },
-    // {
-    //   imageSrc: "/JedloApp.png",
-    //   title: "Dental Health Platform for VC Orthodontics",
-    //   desc: "A comprehensive platform offering orthodontic solutions with seamless online appointment scheduling and patient management tools.",
-    // },
+    {
+      imageSrc: "/Orthodontics.png",
+      title: "Dental Health Platform for VC Orthodontics",
+      desc: "A comprehensive platform offering orthodontic solutions with seamless online appointment scheduling and patient management tools.",
+    },
     {
       imageSrc: "/Cyberquess.png",
       title: "Cyberquess",
@@ -116,21 +116,21 @@ const Projects = () => {
       title: "Flight Booking Solutions for FlyMate",
       desc: "FlyMate is a comprehensive flight booking platform that provides users with easy access to flight schedules, ticket booking, seat selection, and real-time updates.",
     },
-    // {
-    //   imageSrc: "/TutorApp.png",
-    //   title: "Your Learning Partner",
-    //   desc: "At Tutot, we believe that every learner deserves personalized guidance to unlock their full potential.",
-    // },
+    {
+      imageSrc: "/TutorApp.png",
+      title: "Your Learning Partner",
+      desc: "At Tutot, we believe that every learner deserves personalized guidance to unlock their full potential.",
+    },
     {
       imageSrc: "/VFApp.png",
       title: "VF: Discover, Dance, and Connect",
       desc: "FlyMate is a comprehensive flight booking platform that provides users with easy access to flight schedules, ticket booking, seat selection, and real-time updates.",
     },
-    // {
-    //   imageSrc: "/FisheyApp.png",
-    //   title: "Fishey App",
-    //   desc: "Fishey is an innovative mobile app designed to simplify attendance tracking for students and staff.",
-    // },
+    {
+      imageSrc: "/FisheyApp.png",
+      title: "Fishey App",
+      desc: "Fishey is an innovative mobile app designed to simplify attendance tracking for students and staff.",
+    },
 
     // {
     //   imageSrc: "/Selas.png",
@@ -167,7 +167,7 @@ const Projects = () => {
   const visibleProjects = projectData.slice(currentIndex, currentIndex + 2);
 
   return (
-    <div className="projectBox">
+    <div className="projectBox" id="projects">
       <div className="projects-top">
         <div className="filter-bar">
           <div className="projFilter">

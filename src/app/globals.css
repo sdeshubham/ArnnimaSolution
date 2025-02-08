@@ -18,6 +18,11 @@ body {
   font-family: 'Poppins';
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 
 /* Inside globals.css or your main stylesheet */
 /* @font-face {

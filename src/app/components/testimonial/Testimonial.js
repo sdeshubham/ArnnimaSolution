@@ -135,7 +135,7 @@ const Testimonial = () => {
   const visibleTestimonials = testimonialData.slice(currentIndex, currentIndex + 3);
 
   return (
-    <div className="testi-box">
+    <div className="testi-box" id="testimonial">
       <div className="testi-head">
         <div className="testi-left">
           <h4>Testimonial</h4>

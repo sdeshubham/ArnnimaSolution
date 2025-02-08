@@ -6,7 +6,7 @@ import "./WhoWeAre.css";
 const WhoWeAre = () => {
   return (
     <>
-      <div className="whoWeBox">
+      <div className="whoWeBox" id="whoweare">
         <div className="whoWeleft">
           <h4>
             About arnnima solutions

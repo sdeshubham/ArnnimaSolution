@@ -1,6 +1,4 @@
 import "./MainPage.css"
-
-import { Contact } from "lucide-react";
 import Blogs from "./blogs/Blogs";
 import Brightbusiness from "./brightbusiness/Brightbusiness";
 import CaseStudies from "./caseStudies/CaseStudies";
@@ -15,7 +13,7 @@ import Testimonial from "./testimonial/Testimonial";
 import Topsection from "./topsection/Topsection";
 import WhoWeAre from "./whoWeAre/WhoWeAre";
 import Footer from "./footer/Footer";
-
+import Contact from "./contactus/Contact";
 
 const MainPage = () => {
   return (
