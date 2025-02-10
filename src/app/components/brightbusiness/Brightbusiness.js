@@ -68,8 +68,6 @@ const Brightbusiness = () => {
             src={"/businessImg.png"}
             className="brightBussiImg"
             alt="Business image"
-            // width={793}
-            // height={798}
             width={760}
             height={798}
             priority

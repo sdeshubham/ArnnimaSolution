@@ -2,19 +2,11 @@
   margin: 90px 100px 0 100px;
   height: 600px;
   width: 1240px;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* align-items: center; */
-
-  /* background-color: yellow; */
 }
 
 .card {
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
-  /* align-items: flex-start; */
   text-align: left;
   background-color: #fffdf5;
   padding: 48px 32px 48.17px 32px;
@@ -99,13 +91,6 @@
   /* background-color: aliceblue; */
 }
 
-/* .servCardText {
-  font-size: 16px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  letter-spacing: 1px;
-} */
-
 .serviceHthre {
   font-weight: 700;
 }
@@ -114,4 +99,13 @@
   margin-top: 45px;
   display: flex;
   justify-content: center;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .web-page {
+    width: 834px;
+    display: flex;
+    justify-content: center;
+  }
 }

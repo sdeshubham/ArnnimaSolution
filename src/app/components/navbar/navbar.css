@@ -117,7 +117,7 @@
   cursor: pointer;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .navLinks {
     display: flex;
     background-color: transparent;
@@ -134,10 +134,76 @@
     margin-left: 1.5rem;
     border: none;
   }
-}
+} */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  body {
-    background-color: lightblue;
+  .nav-box {
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    background-color: #fffdf5;
+  }
+
+  .navbar {
+    background-color: #283751;
+
+    width: 774.34px;
+    height: 51px;
+    border-radius: 42px;
+  }
+
+  .container {
+    height: 51px;
+    width: 774px;
+  }
+
+  .navLinks {
+    display: flex;
+    background-color: transparent;
+    position: static;
+    box-shadow: none;
+  }
+
+  .menuButton {
+    display: none;
+  }
+
+  .navLinks li {
+    padding: 0;
+    margin-left: 1.5rem;
+    border: none;
+  }
+
+  .navLinks a {
+    font-size: 12px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .logo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+  }
+
+  .navbar-logo {
+    height: 35.41px;
+    width: 117px;
+  }
+
+  .navCall-btn {
+    height: 22px;
+    width: 96px;
+    font-size: 10px;
   }
 }

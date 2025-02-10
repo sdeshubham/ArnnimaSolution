@@ -4,14 +4,11 @@
   height: 544px;
   width: 1460px;
   display: flex;
-
-  /* background-color: greenyellow; */
 }
 
 .whoWeleft {
   height: 332px;
   width: 593px;
-  margin: 106px 0;
 }
 
 .whoWeleft h4 {
@@ -34,8 +31,6 @@
 .whoWeleft p {
   font-size: 16px;
   color: #616161;
-
-  /* font-family: 'Avenir'; */
 }
 
 .whoweOne {
@@ -51,4 +46,55 @@
 .whoWeRight {
   margin-left: 105px;
   padding: 79.98px 0;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .whoWe-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .whoWeBox {
+    margin-top: 60px;
+    padding: 0;
+    width: 770.44px;
+    height: 238.61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .whoWeleft {
+    height: 211.47px;
+    width: 368.44px;
+    margin: 0;
+  }
+  
+  .whoWeleft h4 {
+    font-size: 7.46px;
+  }
+  
+  .whoWeleft h2 {
+    font-size: 39.96px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .whoWeleft p {
+    font-size: 9.94px;
+  }
+  
+  .whoweOne {
+    margin-top: 24.85px;
+  }
+  
+  .whoweTwo {
+    margin-top: 19.88px;
+  }
+
+  .whoWeImg {
+    height: 238.61px;
+    width: 336.76px;
+  }
 }

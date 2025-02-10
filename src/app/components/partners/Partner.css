@@ -46,6 +46,50 @@
   align-items: center;
   flex-direction: row;
   margin: 75px 59px 52px 60px;
+}
 
-  /* background-color: blue; */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .partner-component {
+    display: flex;
+    justify-content: center;
+  }
+
+  .partnerBox {
+    width: 787.09px;
+    height: 123.12px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .partner-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 29.1px;
+    margin: 0 23.92px 60px 0;
+  }
+
+  .partner-top h2 {
+    font-size: 40px;
+  }
+
+  #partnerHorizontalLine {
+    width: 107.01px;
+    height: 1.29px;
+    margin-top: 14.06px;
+  }
+
+  .partner-pic {
+    width: 787.09px;
+    height: 26.43px;
+    margin-top: 48.35px;
+  }
+
+  .partner-pic {
+    width: 81.87px;
+    height: 23.85px;
+  }
 }

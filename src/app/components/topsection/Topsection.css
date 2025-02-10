@@ -7,10 +7,6 @@
   background-color: #fffdf5;
 }
 
-/* .mainsection {
-  margin: 0 100px;
-} */
-
 .top-headingH1 {
   display: flex;
   flex-direction: column;
@@ -75,36 +71,27 @@
 
 .mainsection {
   display: flex;
-
-  /* background-color: green; */
+  flex-direction: row;
 }
 
 .main-content {
-  /* height: 70vh; */
   width: 100%;
   display: flex;
-  /* margin-top: 50px; */
-  /* background-color: green; */
 }
 
 .mainsec-left {
-  height: 480px;
-  /* width: 751px; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 580px;
   width: 770px;
   margin: 63.5px 0 63.5px 100px;
-  /* display: flex;
-  flex-direction: column; 
-  justify-content: space-between; */
 }
 
 .mainsec-right {
-  /* width: 40%;
-  display: flex;
-  justify-content: flex-end; */
-
   height: 426px;
   width: 392px;
-  padding: 90.5px 100px 90.5px 78px;
+  margin: 90.5px 100px 90.5px 78px;
 }
 
 .mainsec-boxOne {
@@ -116,7 +103,7 @@
   font-size: 64px;
   font-weight: 700;
   color: #273751;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .mainsec-boxOne p {
@@ -124,7 +111,7 @@
   font-size: 16px;
   margin-top: 15.5px;
   color: #273751;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .getStartBtn {
@@ -138,9 +125,102 @@
   font-size: 16px;
   font-weight: 700;
   margin-top: 146.5px;
+  transition: background-color 0.3s ease;
 }
 
 .getStartBtn:hover {
   cursor: pointer;
+  background-color: #cb3437;
 }
-/* __________________________________________ */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .topsection {
+    height: 502px;
+    width: 834px;
+  }
+
+  .mainsection {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: row;
+    height: 298.97px;
+    margin: 63.52px 31.59px 60.62px 30.22px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+  }
+
+  .mainsec-left {
+    display: flex;
+    justify-content: center;
+    height: 298.97px;
+    width: 467.67px;
+    margin: 0 0 60.52px 0;
+  }
+
+  .mainsec-boxOne h1 {
+    font-size: 39.86px;
+  }
+
+  .mainsec-boxOne p {
+    margin-top: 24.6px;
+    font-size: 9.96px;
+  }
+
+  .red-flag span {
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    padding: 4px 18px 6px 6px;
+    background-color: transparent;
+  }
+
+  .red-flag span::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 245px;
+  }
+
+  .mainsec-boxOne {
+    height: 298.97px;
+    width: 772.19px;
+    font-size: 9.96px;
+    margin-top: 9px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .getStartBtn {
+    height: 37.42;
+    width: 111.47;
+    font-size: 9.96px;
+  }
+
+  .top-brand {
+    color: #ffffff;
+    padding: 3px 6px;
+    border-radius: 3px;
+  }
+
+  .mainsec-right {
+    height: 265.28px;
+    width: 244.11px;
+    margin: 0 0 77.36px 50.61px;
+  }
+
+  .main-image {
+    height: 265.28px;
+    width: 244.11px;
+  }
+}

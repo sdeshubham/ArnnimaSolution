@@ -1,7 +1,15 @@
 .web-page {
-    width: 1460px;
+  width: 1460px;
+  display: flex;
+  justify-content: center;
+  background-color: #faf4e4;
+  font-family: "Poppins";
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .web-page {
+    width: 834px;
     display: flex;
     justify-content: center;
-    background-color: #FAF4E4;
-    font-family: 'Poppins';
+  }
 }

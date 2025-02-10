@@ -6,8 +6,6 @@
   height: 1011px;
   width: 1250px;
   margin: 90px 100px 0 100px;
-
-  /* background-color: aquamarine; */
 }
 
 .bussiBoxTop {
@@ -18,18 +16,12 @@
   align-items: center;
 }
 
-.bussiBoxTop h2 {
-  /* background-color: aqua; */
-}
-
 .bussiBoxTop p {
   width: 867px;
   height: 44px;
   font-size: 16px;
   color: #616161;
   margin-top: 31px;
-
-  /* background-color: tomato; */
 }
 
 .bussiSecondBox {
@@ -45,9 +37,6 @@
 
 .bussiLeft-boxone {
   display: flex;
-  /* gap: 27px; */
-
-  /* background-color: aqua; */
 }
 
 .bussiLine {
@@ -56,7 +45,6 @@
 }
 
 #horizontalLine {
-  /* width: 180px; */
   width: 166px;
   height: 2px;
   background-color: #ea4232;
@@ -84,7 +72,6 @@
 
 .bussin-num p {
   font-size: 20px;
-  /* font-weight: 400; */
   color: #828282;
 }
 
@@ -113,4 +100,85 @@
 .bussiCont,
 .bussiContTwo {
   margin-top: 145px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .bussiBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 638px;
+    margin-bottom: 60px;
+
+    /* background-color: yellow; */
+  }
+
+  .bussiBoxTop-head {
+    font-size: 40px;
+  }
+
+  .bussiSecondBox {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    height: 503.58px;
+    width: 788.42px;
+
+    /* background-color: greenyellow; */
+
+  }
+
+  .bussiBoxLeft {
+    margin-bottom: 138.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #horizontalLine {
+    width: 104.76px;
+  }
+
+  .bussiBoxTop p {
+    width: 651px;
+    font-size: 12px;
+  }
+
+  .bussiLeft-second-one,
+  .bussiLeft-second-two {
+    margin-left: 83.76px;
+  }
+
+  .bussiBoxRight {
+    margin: 0;
+  }
+
+  .brightBussiImg {
+    width: 100%;
+    width: 500px;
+    height: 503px;
+    object-fit: contain;
+  }
+
+  .bussin-num {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .bussin-num h3 {
+    font-size: 37.86px;
+    font-weight: 400;
+    margin-bottom: 31.42px;
+  }
+
+  .bussin-num p {
+    font-size: 12.62px;
+    color: #828282;
+  }
+
+  #vertiLine {
+    height: 128px;
+    width: 2.52px;
+  }
 }

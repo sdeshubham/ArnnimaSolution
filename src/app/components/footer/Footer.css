@@ -1,6 +1,6 @@
 .footerBox {
-  margin-top: 50px;
-  background-image: url(/Images/Footer-image.png);
+  margin-top: 100px;
+  background-image: url(/Footer-image.png);
   background-size: cover;
   background-position: center;
   /* background-color: #283751; */
@@ -64,10 +64,10 @@
   align-items: center;
   flex-direction: column;
   margin: 0 100px;
-  border-top-right-radius: 70px;
-  border-top-left-radius: 70px;
+  /* border-top-right-radius: 70px;
+  border-top-left-radius: 70px; */
 
-  background-color: #283751;
+  /* background-color: #283751; */
 }
 
 #footer-horizontalLine {

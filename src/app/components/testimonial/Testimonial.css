@@ -108,3 +108,26 @@
   font-weight: 400;
   font-size: 0.8rem;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .testi-container {
+    
+  }
+
+  .testi-box {
+    width: 796.91px;
+    height: 248.88px;
+  }
+
+  .testi-left h4 {
+    font-size: 7.76px;
+  }
+
+  .testi-left h3 {
+    font-size: 18.17px;
+  }
+
+  .testi-right {
+    width: 51.47px;
+  }
+}

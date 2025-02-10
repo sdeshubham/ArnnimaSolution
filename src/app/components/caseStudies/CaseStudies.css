@@ -1,3 +1,29 @@
+/* .red-flag {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding: 8px 24px 8px 12px;
+    background-color: transparent;
+  }
+  
+  .red-flag::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 38%;
+    width: 450px;
+    height: 120px;
+    background-color: #ea4232;
+    transform: rotate(-3deg);
+    z-index: -1;
+    transform-origin: left bottom;
+  } */
+
+.case-stidies-container {
+  display: flex;
+  justify-content: center;
+}
+
 .caseStudiesBox {
   height: 179.33px;
   width: 1240px;
@@ -74,33 +100,44 @@
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
- /* .red-flag {
-    position: relative;
-    display: inline-block;
-    z-index: 1;
-    padding: 8px 24px 8px 12px;
-    background-color: transparent;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .caseStudiesBox {
+    width: 750.12px;
+    margin: 60px 0 0 0;
   }
-  
-  .red-flag::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 38%;
-    width: 450px;
-    height: 120px;
-    background-color: #ea4232;
-    transform: rotate(-3deg);
-    z-index: -1;
-    transform-origin: left bottom;
-  } */
+
+  .caseStuleft {
+   width:  355.1px;
+   height: 108px;
+  }
+
+  .caseStuleft h4 {
+    font-size: 7.76px;
+  }
+
+  .caseStuleft h2 {
+    font-size: 38.72px;
+  }
+
+  .expred-flag::before {
+    left: 38.4%;
+    width: 225.04px;
+    height: 60.49px;
+  }
+
+  .caseStuRight {
+    width: 330.29px;
+    margin: 10.24px 0 0 65.33px;
+  }
+
+  .caseStuRight p {
+    font-size: 12px;
+  }
+
+  .caseStuRight button {
+    margin-top: 24.2px;
+    height: 24.2px;
+    width: 86.51px;
+    font-size: 7.26px;
+  }
+}

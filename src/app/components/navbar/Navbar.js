@@ -27,6 +27,7 @@ const Navbar = () => {
                 <Link href="/">
                   <Image
                     src={"/ArnnimaLogo.svg"}
+                    className="navbar-logo"
                     alt="logo"
                     width={165}
                     height={50.25}
