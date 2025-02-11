@@ -111,16 +111,19 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .testi-container {
-    
+    display: flex;
+    justify-content: center;
+    margin: auto;
   }
 
   .testi-box {
+    margin-top: 60px;
     width: 796.91px;
     height: 248.88px;
   }
 
   .testi-left h4 {
-    font-size: 7.76px;
+    font-size: 7.27px;
   }
 
   .testi-left h3 {
@@ -129,5 +132,47 @@
 
   .testi-right {
     width: 51.47px;
+    height: 20.59px;
+    gap: 9.08px;
+  }
+
+  .testiCard {
+    width: 284.61px;
+    height: 157.44px;
+    padding: 24.22px;
+    border-radius: 12.11px;
+  }
+
+  .testi-content {
+    height: 61px;
+    font-size: 9.69px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .testimonialPic {
+    height: 36px;
+    width: 36px;
+  }
+
+  .testiCardBottom {
+    margin-top: 12.11px;
+  }
+
+  .testimonialPic {
+    margin-top: 20.11px;
+  }
+
+  .testi-bottom {
+    margin-left: 6.06px;
+  }
+
+  .testi-bottom h5 {
+    font-size: 12.11px;
+  }
+
+  .testi-bottom p {
+    margin-top: 3.03px;
+    font-size: 9.69px;
   }
 }

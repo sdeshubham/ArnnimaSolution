@@ -218,4 +218,16 @@
     gap: 9.07px;
     margin-top: 30px;
   }
+
+  .next-previewIcon {
+    display: flex;
+    gap: 9.07px;
+    margin-top: 30px;
+  }
+
+  .projleftIcon,
+  .projrightIcon {
+    height: 20.57px;
+    width: 21.17px;
+  }
 }

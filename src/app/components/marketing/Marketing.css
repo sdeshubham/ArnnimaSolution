@@ -15,21 +15,12 @@
   width: 605px;
   font-size: 64px;
   font-weight: 700px;
-  line-height: -10;
+  line-height: 1.1;
 }
-
-/* -----=======---------=======-------===== */
 
 .marketLeft {
   height: 372px;
-  /* width: 593px; */
 }
-/* -----=======---------=======-------===== */
-
-/* .marketLeft h2 {
-  font-size: 64px;
-  font-weight: 600;
-} */
 
 .qustion-mark {
   color: #ea4232;
@@ -43,10 +34,8 @@
 
 .marketRight {
   height: 316px;
-  width: 619.7;
+  width: 619.7px;
   padding: 56px 0 0 0;
-
-  /* background-color: aquamarine; */
 }
 
 .market-btn {
@@ -63,4 +52,76 @@
 
 .market-btn:hover {
   cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .marketing-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .marketingBox {
+    display: flex;
+    height: 276.49px;
+    width: 832.94px;
+    margin: 0;
+    padding: 30.66px 58.38px 29.99px 57.84px;
+    border-bottom-left-radius: 34.71px;
+    border-bottom-right-radius: 34.71px;
+    gap: 15.62px;
+  }
+
+  .marketLeft {
+    height: 215.84px;
+    width: 341.01px;
+  }
+
+  .marketLeft h4 {
+    font-size: 6.94px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .market-head {
+    width: 343.01px;
+    font-size: 35px;
+    line-height: 1;
+    font-weight: 700px;
+  }
+
+  /* .market-head {
+    width: 605px;
+    font-size: 64px;
+    font-weight: 700px;
+    line-height: 1.1;
+  } */
+
+  .market-desc {
+    font-size: 9.25px;
+    margin-top: 23.14px;
+  }
+
+  .market-btn {
+    height: 34.82px;
+    width: 147.5px;
+    font-size: 9.25px;
+    margin-top: 34.71px;
+    border-radius: 23.14px;
+  }
+
+  .marketRight {
+    height: 182.78px;
+    width: 358.09px;
+    padding: 33.06px 0 0 0;
+  }
+
+  .market-img {
+    height: 182.78px;
+    width: 358.09px;
+  }
+
+  .market-head {
+    font-weight: 600;
+  }
 }

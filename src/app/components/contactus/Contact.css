@@ -14,6 +14,8 @@
 
 .contact-form {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 47.67px;
 
   /* background-color: greenyellow; */
@@ -105,17 +107,28 @@
   font-weight: 500;
 }
 
-.msg-textBox textarea::placeholder {
-  padding-top: 0;
-  padding-left: 10px;
-  letter-spacing: 1px;
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
+.msg-textBox input {
+  height: 72.64px;
+  border-radius: 4.38px;
+  border: none;
+  outline: none;
+  background-color: #fffdf5;
 }
 
+.msg-textBox input::placeholder,
 .contactInputs input::placeholder {
-  letter-spacing: 1px;
+  font-family: "poppins";
   padding-top: 0;
   padding-left: 10px;
+}
+
+.msg-textBox input {
+  height: 116px;
+  border-radius: 7px;
+  letter-spacing: 0.3px;
+  border: none;
+  outline: none;
+  background-color: #fffdf5;
 }
 
 .send-msgBtn button {
@@ -133,4 +146,115 @@
 
 .send-msgBtn button:hover {
   cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .contactBox {
+    height: 430.97px;
+    width: 793.8px;
+    margin: 60px 9.7px 60px 30px;
+  }
+
+  .contact-head h4 {
+    font-size: 7.51px;
+  }
+
+  .contact-head h2 {
+    font-size: 40.8px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact-form {
+    display: flex;
+    margin-top: 0;
+
+    /* background-color: pink; */
+  }
+
+  .contact-formBox {
+    height: 339.75px;
+    width: 337.53px;
+    display: flex;
+    gap: 18.19px;
+    flex-direction: column;
+
+    /* background-color: yellow; */
+  }
+
+  .contactformInput {
+    display: flex;
+    gap: 15.66px;
+  }
+
+  .contactInputs label {
+    font-size: 12.52px;
+    font-weight: 500;
+  }
+
+  .msg-textBox label {
+    font-size: 10.02px;
+    font-weight: 500;
+  }
+
+  .contactInputs input::placeholder {
+    font-size: 10.02px;
+  }
+
+  .msg-textBox input::placeholder {
+    font-size: 10.02px;
+  }
+
+  .contactInputs input {
+    height: 36.32px;
+    width: 160.94px;
+    border-radius: 4.38px;
+    outline: none;
+    border: none;
+    background-color: #fffdf5;
+  }
+
+  .msg-textBox input {
+    height: 72.64px;
+    border-radius: 4.38px;
+    border: none;
+    outline: none;
+    background-color: #fffdf5;
+  }
+
+  .send-msgBtn button {
+    height: 38.54px;
+    width: 130.88px;
+    border-radius: 25.05px;
+    font-size: 10.02px;
+    outline: none;
+    border: none;
+    margin-top: 37.37px;
+    font-weight: 600;
+  }
+
+  .contact-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10.02px 41px 45.61px;
+
+    /* background-color: green; */
+  }
+
+  .contactImage {
+    height: 358.92px;
+    width: 410.56px;
+    width: 100%;
+    margin: 0 10.02px 60px 0;
+
+    /* background-color: yellow; */
+  }
 }

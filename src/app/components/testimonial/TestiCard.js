@@ -6,6 +6,7 @@ const TestiCard = ({ content, imgsrc, name, role }) => {
     <>
       <div className="testiCard">
         <p className="testi-content">{content}</p>
+        
         <div className="testiCardBottom">
           <div className="testi-profPic">
             <Image
