@@ -32,31 +32,6 @@ const JoinTeam = () => {
       level: "Entry-Level",
       location: "Gurgaon Haryana",
     },
-
-    {
-      title: "Developer",
-      trend: "Top Trending",
-      employer: "Arnnima",
-      department: "IT",
-      level: "Entry-Level",
-      location: "Mumbai Maharashtra",
-    },
-    {
-      title: "Flutter",
-      trend: "Top Trending",
-      employer: "Arnnima",
-      department: "IT",
-      level: "Entry-Level",
-      location: "Noida Uttar Pradesh",
-    },
-    {
-      title: "ReactJs",
-      trend: "Top Trending",
-      employer: "Arnnima",
-      department: "IT",
-      level: "Entry-Level",
-      location: "Gurgaon Haryana",
-    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
