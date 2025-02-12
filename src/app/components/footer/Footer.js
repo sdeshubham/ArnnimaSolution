@@ -14,7 +14,7 @@ const Footer = () => {
               <h2>
                 Let’s discuss and bring your <br /> vision to life.
               </h2>
-              <button>
+              <button className="footer-talk-btn">
                 Let's Talk
                 <Image
                   src={"/talkArrow.png"}

@@ -24,7 +24,7 @@
   color: #fcfcfc;
 }
 
-.footer-head button {
+.footer-talk-btn {
   padding: 15px 25px;
   border-radius: 30px;
   outline: none;
@@ -37,7 +37,7 @@
   align-items: center;
 }
 
-.footer-head button .footerTalkIcon {
+.footer-talk-btn .footerTalkIcon {
   color: #fcfcfc;
 }
 
@@ -48,7 +48,7 @@
   background-color: #ffffff;
 }
 
-.footer-head button:hover {
+.footer-talk-btn:hover {
   cursor: pointer;
 }
 
@@ -223,7 +223,7 @@
     line-height: 1.2;
   }
 
-  .footer-head button {
+  .footer-talk-btn {
     height: 39.47px;
     width: 98.08;
     border-radius: 58.04px;
