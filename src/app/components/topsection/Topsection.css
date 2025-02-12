@@ -131,6 +131,10 @@
   margin-top: 146.5px;
   padding: 0;
   transition: background-color 0.3s ease;
+  line-height: normal; /* Fix extra space caused by font rendering */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .getStartBtn:hover {
