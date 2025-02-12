@@ -129,6 +129,7 @@
   font-size: 16px;
   font-weight: 700;
   margin-top: 146.5px;
+  padding: 0;
   transition: background-color 0.3s ease;
 }
 
@@ -261,14 +262,7 @@
     height: 37.42;
     width: 111.47;
     font-size: 9.96px;
-  }
-
-  .getStartBtn {
-    height: 37.42;
-    width: 111.47;
-    font-size: 9.96px;
-    border: none;
-    outline: none;
+    padding: 0;
     border-radius: 24.91px;
     font-weight: 700;
     margin: 47.33px 0 60.52px 0;
