@@ -67,7 +67,8 @@ const Topsection = () => {
                   </p>
                 </div>
                 <div>
-                  <button className="getStartBtn">Get Started</button>
+                  {/* <button className="getStartBtn">Get Started</button> */}
+                  <p className="getStartBtn">Get Started</p>
                 </div>
               </div>
               <div className="mainsec-right">

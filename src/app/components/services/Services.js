@@ -43,8 +43,8 @@ const Services = () => {
               <div className="suite-serv">
                 <h3 className="serviceHthre">
                   Our Digital <br /> Suite of Services
-                  <strong className="red-point">.</strong>
-                  {/* <GoDotFill className="doticon" /> */}
+                  {/* <strong className="red-point">.</strong> */}
+                  <GoDotFill className="doticon" />
                 </h3>
                 <p>
                   We harness innovative strategies tailored to your unique
