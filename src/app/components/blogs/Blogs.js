@@ -60,8 +60,8 @@ const Blogs = () => {
         <div className="blog-box">
           <div className="blog-head">
             <h3>
-              Our Latest Blog
-              <GoDotFill className="doticon" />
+              Our Latest Blog<strong className="red-point">.</strong>
+              {/* <GoDotFill className="doticon" /> */}
             </h3>
             <Link href="/all-blogs">
               <button className="blog-btn">See All Blog Posts</button>

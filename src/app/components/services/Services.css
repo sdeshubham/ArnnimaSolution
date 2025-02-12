@@ -30,15 +30,11 @@
   width: 170px;
   font-size: 22px;
   font-family: "Poppins", sans-serif;
-
-  /* background-color: yellow; */
 }
 
 .suite-serv {
   height: 206px;
   width: 608px;
-
-  /* background-color: aliceblue; */
 }
 
 .suite-serv h3 {
@@ -53,26 +49,19 @@
   font-size: 16px;
   margin-top: 22px;
   font-family: "Poppins", sans-serif;
-
-  /* background-color: greenyellow; */
 }
 
 .servicesContainer {
-  /* width: 48%; */
   height: 240px;
-  /* width: 598px; */
   width: 608px;
   display: flex;
   gap: 24px;
-
-  /* background-color: aqua; */
 }
 
 .servBoxtop {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  /* background-color: #0070f3; */
 }
 
 .servicesBoxTwo {
@@ -80,15 +69,11 @@
   width: 1232px;
   margin-top: 28px;
   width: 1240px;
-
-  /* background-color: green; */
 }
 
 .servicesContainerTwo {
   display: flex;
   gap: 28px;
-
-  /* background-color: aliceblue; */
 }
 
 .serviceHthre {
@@ -101,11 +86,80 @@
   justify-content: center;
 }
 
-
 @media (min-width: 768px) and (max-width: 1024px) {
-  .web-page {
-    width: 834px;
+  .service-container {
     display: flex;
     justify-content: center;
+    margin: auto;
+  }
+
+  .servicesBox {
+    margin: 60px 26.93px 0 30pxpx;
+    height: 376px;
+    width: 777.07px;
+  }
+
+  .suite-serv {
+    height: 139.79px;
+    width: 381.01px;
+  }
+
+  .suite-serv h3 {
+    font-size: 24px;
+    font-weight: 900;
+  }
+
+  .suite-serv p {
+    height: 54px;
+    width: 381.01px;
+    font-size: 12px;
+    margin-top: 13.79px;
+  }
+
+  .servicesContainer {
+    height: 150.4px;
+    width: 374.75px;
+    display: flex;
+    gap: 15.04px;
+    margin: 0 5.01px 17.55px 16.29px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #fffdf5;
+    padding: 30.08px 17.8px 29.28px 20.05px;
+
+    border-radius: 7.52px;
+    height: 150.4px;
+    width: 179.85px;
+    text-align: center;
+  }
+
+  .services-icons {
+    /* height: 40.11px;
+    width: 40.11px; */
+    height: 34.46px;
+    width: 34.46px;
+  }
+
+  .servCardText p {
+    margin-top: 12.53px;
+    text-align: left;
+    /* width: 142px; */
+    width: 110px;
+    font-size: 14px;
+  }
+
+  .servicesBoxTwo {
+    height: 150.4px;
+    margin-top: 17.55px;
+    width: 772.04px;
+  }
+
+  .servicesContainerTwo {
+    display: flex;
+    gap: 18px;
   }
 }

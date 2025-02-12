@@ -57,12 +57,12 @@ const Testimonial = () => {
             <div className="testi-left">
               <h4>Testimonial</h4>
               <h3>
-                Voices of Success
-                <GoDotFill className="doticon" />
+                Voices of Success<strong className="red-point">.</strong>
+                {/* <GoDotFill className="doticon" /> */}
               </h3>
               <h3>
-                What Our Partners Says
-                <GoDotFill className="doticon" />
+                What Our Partners Says<strong className="red-point">.</strong>
+                {/* <GoDotFill className="doticon" /> */}
               </h3>
             </div>
             <div className="testi-right">

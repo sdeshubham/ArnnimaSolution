@@ -114,9 +114,24 @@ h4 {
   fill: #ea4232;
 }
 
+.red-point {
+  font-size: 40px;
+  color: #ea4232;
+}
+
 a {
   /* color: inherit; */
   text-decoration: none;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .doticon {
+    font-size: 13px;
+    position: relative;
+    bottom: -3px;
+    fill: #ea4232;
+  }
 }
 
 @media (prefers-color-scheme: dark) {

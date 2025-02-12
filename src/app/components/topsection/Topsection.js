@@ -56,6 +56,7 @@ const Topsection = () => {
                       </span>{" "}
                       <br />
                       with Arnnima Solutions
+                      <strong className="red-point">.</strong>
                     </h1>
                   </div>
                   <p>

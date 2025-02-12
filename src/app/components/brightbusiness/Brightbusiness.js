@@ -7,8 +7,8 @@ const Brightbusiness = () => {
     <div className="bussiBox">
       <div className="bussiBoxTop">
         <h2 className="bussiBoxTop-head">
-          We Make your Business Bright
-          <GoDotFill className="doticon"/>
+          We Make your Business Bright<strong className="red-point">.</strong>
+          {/* <GoDotFill className="doticon"/> */}
         </h2>
         <div id="horizontalLine"></div>
         <p>

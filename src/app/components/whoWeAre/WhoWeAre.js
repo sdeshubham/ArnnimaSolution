@@ -13,8 +13,8 @@ const WhoWeAre = () => {
               <GoDotFill className="doticon dotPic" />
             </h4>
             <h2>
-              Who We Are
-              <GoDotFill className="doticon" />
+              Who We Are<strong className="red-point">.</strong>
+              {/* <GoDotFill className="doticon" /> */}
             </h2>
             <p className="whoweOne">
               We’re all about illuminating your brand with bold, innovative

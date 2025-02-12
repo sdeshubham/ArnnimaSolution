@@ -33,6 +33,11 @@
   /* background-color: yellow; */
 }
 
+.doticon-white {
+  font-size: 18px;
+  fill: #fff;
+}
+
 .caseStuleft {
   width: 587px;
   /* background-color: aqua; */

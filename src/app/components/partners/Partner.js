@@ -10,7 +10,8 @@ const Partner = () => {
           <div className="partner-top">
             <h2>
               Our Associations & Partnerships
-              <GoDotFill className="doticon" />
+              <strong className="red-point">.</strong>
+              {/* <GoDotFill className="doticon" /> */}
             </h2>
             <div id="partnerHorizontalLine"></div>
           </div>
@@ -65,13 +66,13 @@ const Partner = () => {
                 priority
               />
               <Image
-              src={"/contentful.png"}
-              className="partner-pic"
-              alt="Business image"
-              width={90}
-              height={20}
-              priority
-            />
+                src={"/contentful.png"}
+                className="partner-pic"
+                alt="Business image"
+                width={90}
+                height={20}
+                priority
+              />
               <Image
                 src={"/OpenAI.png"}
                 className="partner-pic"

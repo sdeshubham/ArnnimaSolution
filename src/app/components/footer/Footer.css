@@ -3,17 +3,11 @@
   background-image: url(/Footer-image.png);
   background-size: cover;
   background-position: center;
-  /* background-color: #283751; */
-  border-top-right-radius: 70px;
-  border-top-left-radius: 70px;
+  /* border-top-right-radius: 70px;
+  border-top-left-radius: 70px; */
   height: 720px;
   /* width: 1460px; */
   width: 100%;
-}
-
-.footer-sectiontwpo {
-  /* background-color: #283751;
-  height: 481px; */
 }
 
 .footer-head {
@@ -51,7 +45,7 @@
   margin-left: 10px;
   font-size: 20px;
   color: #ea4232;
-  background-color: #ffffff
+  background-color: #ffffff;
 }
 
 .footer-head button:hover {
@@ -71,7 +65,7 @@
 }
 
 #footer-horizontalLine {
-  width: 85%;
+  width: 1280px;
   height: 1px;
   background-color: #ea4232;
   margin: 20px 0;
@@ -144,23 +138,26 @@
   font-size: 0.9rem;
 }
 
+/* .footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
 .footer-bottom {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.footer-bottom {
-  display: flex;
   flex-direction: column;
   margin-top: 10px;
 }
 
 #footer-bottom-horizontalLine {
-  width: 80%;
+  width: 90%;
+  /* width: 1280px; */
   height: 1px;
   background-color: #3d414c;
-  margin: 20px;
+  /* margin: 20px; */
 }
 
 .footer-bottom p {
@@ -175,4 +172,141 @@
 .talk-icon {
   color: #ffffff;
   font-size: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .footerBox {
+    width: 834px;
+    height: 399.99px;
+  }
+
+  .footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  #footer-horizontalLine {
+    width: 743.09px;
+    height: 1px;
+    background-color: #ea4232;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-head {
+    width: 626.98px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 23.22px 58.05px 22.06px 58.05px;
+
+  }
+
+  .talkArrow-icon {
+    height: 9px;
+    width: 9px;
+    margin-left: 4px;
+  }
+
+  .footer-head h2 {
+    height: 61px;
+    font-size: 25.54px;
+    line-height: 1.2;
+  }
+
+  .footer-head button {
+    height: 39.47px;
+    width: 98.08;
+    border-radius: 58.04px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    padding: 0;
+    font-size: 10.45px;
+  }
+
+  .footer-mid {
+    height: 148.62px;
+    width: 743.09px;
+    margin: 58.05px 46.66px 23.22px 46.44px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .footer-logoBox {
+    height: 122.49px;
+    width: 239.76px;
+  }
+
+  .footer-logo {
+    height: 24.16px;
+    width: 75.46px;
+  }
+
+  .footerLogo {
+    margin: 3.48px 160.82px 9.52px 3.48px;
+  }
+
+  .footerLogoContent p {
+    font-size: 9.29px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footerOptions {
+    height: 153.09px;
+    width: 469.16px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer-section {
+    margin-top: 0;
+
+    /* background-color: aqua; */
+  }
+
+  .footer-section h4 {
+    font-size: 10.45;
+    margin-bottom: 13.93px;
+  }
+
+  .footer-section ul {
+    list-style: none;
+  }
+
+  .footer-section ul li {
+    margin: 9.29px 0;
+    transition: all 0.3s ease;
+    font-size: 10.45px;
+  }
+
+  .footer-bottom {
+    margin: 0;
+    padding: 0;
+
+    /* background-color: greenyellow; */
+  }
+
+  #footer-bottom-horizontalLine {
+    width: 743.08px;
+    height: 1px;
+    margin: 0 0 0 0;
+  }
+
+  .footer-bottom p {
+    font-size: 10.45px;
+    margin: 23.22px 0 22.48px 0;
+  }
 }

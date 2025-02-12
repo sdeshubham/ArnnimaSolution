@@ -36,22 +36,37 @@ const Services = () => {
 
   return (
     <>
-      <div className="servicesBox" id="services">
-        <div className="servicesBoxOne">
-          <div className="servBoxtop">
-            <div className="suite-serv">
-              <h3 className="serviceHthre">
-                Our Digital <br /> Suite of Services
-                <GoDotFill className="doticon" />
-              </h3>
-              <p>
-                We harness innovative strategies tailored to your unique needs.
-                Our <br /> targeted marketing solutions ensure that your message
-                reaches the right audience effectively.
-              </p>
+      <div className="service-container">
+        <div className="servicesBox" id="services">
+          <div className="servicesBoxOne">
+            <div className="servBoxtop">
+              <div className="suite-serv">
+                <h3 className="serviceHthre">
+                  Our Digital <br /> Suite of Services
+                  <strong className="red-point">.</strong>
+                  {/* <GoDotFill className="doticon" /> */}
+                </h3>
+                <p>
+                  We harness innovative strategies tailored to your unique
+                  needs. Our targeted marketing solutions ensure that your
+                  message reaches the right audience effectively.
+                </p>
+              </div>
+              <div className="servicesContainer">
+                {serviceData.map((service, index) => (
+                  <ServiceCard
+                    key={index}
+                    imageSrc={service.imageSrc}
+                    description={service.description}
+                  />
+                ))}
+              </div>
             </div>
-            <div className="servicesContainer">
-              {serviceData.map((service, index) => (
+          </div>
+
+          <div className="servicesBoxTwo">
+            <div className="servicesContainerTwo">
+              {serviceDataTwo.map((service, index) => (
                 <ServiceCard
                   key={index}
                   imageSrc={service.imageSrc}
@@ -60,23 +75,11 @@ const Services = () => {
               ))}
             </div>
           </div>
-        </div>
-
-        <div className="servicesBoxTwo">
-          <div className="servicesContainerTwo">
-            {serviceDataTwo.map((service, index) => (
-              <ServiceCard
-                key={index}
-                imageSrc={service.imageSrc}
-                description={service.description}
-              />
-            ))}
-          </div>
-        </div>
-        <div className="service-slider-btns">
-          <div className="next-previewIcon">
-            <CiCircleChevLeft className="projleftIcon" />
-            <CiCircleChevRight className="projrightIcon" />
+          <div className="service-slider-btns">
+            <div className="next-previewIcon">
+              <CiCircleChevLeft className="projleftIcon" />
+              <CiCircleChevRight className="projrightIcon" />
+            </div>
           </div>
         </div>
       </div>
