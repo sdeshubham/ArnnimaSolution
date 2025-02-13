@@ -65,15 +65,15 @@ const privacy = () => {
                 information relating to your caste and information about whether
                 you are eligible for any affirmative action programmes or
                 policies, if you opt to provide such information; when you
-                communicate with SOV or use the Platform to communicate with
+                communicate with Arnnima or use the Platform to communicate with
                 other Users (such as partners), we collect information about
                 your communication and any information you choose to provide;
                 when you visit the Platform, we use cookies to automatically
                 collect, store and use technical information about your system
                 and interaction with our Platform; when you use a device to
-                access the Platform, SOV may collect technical or other related
+                access the Platform, Arnnima may collect technical or other related
                 information from the device as well as the device location; To
-                the extent permitted by law, SOV may record and monitor your
+                the extent permitted by law, Arnnima may record and monitor your
                 communications with us to ensure compliance with our legal and
                 regulatory obligations and our internal policies. This may
                 include the recording of telephone conversations; If you choose
@@ -115,7 +115,7 @@ const privacy = () => {
                 marketing purposes and promotions; Preventing, detecting,
                 investigating and taking action against crimes (including but
                 not limited to fraud and other financial crimes), any other
-                illegal activities, suspected fraud, or violations of SOV’s
+                illegal activities, suspected fraud, or violations of Arnnima’s
                 Terms of Use in any jurisdiction To the extent required for
                 identity verification, government sanctions screening and due
                 diligence checks. Establishing, exercising or defending legal
@@ -150,11 +150,11 @@ const privacy = () => {
                 cookies please refer to our Cookie Policy. The Basis/ Grounds
                 which we rely on for collection and processing of your Personal
                 Information: Your Personal Information is collected and
-                processed by SOV based on the following legal grounds depending
+                processed by Arnnima based on the following legal grounds depending
                 upon the nature of Personal Information and the purposes for
-                which it is processed. Consent: SOV relies on your consent in
+                which it is processed. Consent: Arnnima relies on your consent in
                 order to process your Personal Information in certain
-                situations. If SOV requires your consent to collect and process
+                situations. If Arnnima requires your consent to collect and process
                 certain Personal Information, as per the requirements under the
                 applicable data protection laws, your consent is sought at the
                 time of collection of your Personal Information and such
@@ -165,11 +165,11 @@ const privacy = () => {
             <div className="privacyContent">
               <label htmlFor="">Compliance with a legal obligation:</label>
               <p>
-                Your Personal Information may be processed by SOV, to the extent
-                that such processing is necessary to allow SOV to comply with a
-                legal obligation. An example of this would be if SOV is required
+                Your Personal Information may be processed by Arnnima, to the extent
+                that such processing is necessary to allow Arnnima to comply with a
+                legal obligation. An example of this would be if Arnnima is required
                 to disclose your Personal Information to respond to a court
-                order or if SOV is required to retain specific records for a
+                order or if Arnnima is required to retain specific records for a
                 fixed period to comply with requirements under any applicable
                 law.
               </p>
@@ -181,7 +181,7 @@ const privacy = () => {
                 We restrict access to your Personal Information to employees who
                 we believe reasonably need to know/or that information to fulfil
                 their jobs to provide, operate, develop, or improve our products
-                or services. SOV does not disclose, transfer or share your
+                or services. Arnnima does not disclose, transfer or share your
                 Personal Information with others except with: Our affiliates and
                 group companies to the extent required for our internal business
                 and/or administrative purposes and/or general corporate
@@ -190,7 +190,7 @@ const privacy = () => {
                 that your resume matches a particular job description/ vacancy
                 available with such recruiters. By registering on the Platform
                 and consenting to the terms of this Privacy Policy, you agree
-                that SOV may contact you or forward your resume to potential
+                that Arnnima may contact you or forward your resume to potential
                 recruiters; Third parties including enforcement, regulatory and
                 judicial authorities, if we determine that disclosure of your
                 Personal Information is required to a) respond to subpoenas,
@@ -198,16 +198,16 @@ const privacy = () => {
                 legal rights or defend against legal claims; or b) investigate,
                 prevent, or take action regarding illegal activities, suspected
                 fraud, situations involving potential threats to the physical
-                safety of any person, violations of SOV’s Terms of Use or as
+                safety of any person, violations of Arnnima’s Terms of Use or as
                 otherwise required by law; In the event of a merger,
                 acquisition, financing, or sale of assets or any other situation
-                involving the transfer of some or all of SOV’s business assets
+                involving the transfer of some or all of Arnnima’s business assets
                 we may disclose Personal Information to those involved in the
                 negotiation or transfer. Third party service providers and
-                marketing partners that SOV engages to a) provide services over
-                the Platform on SOV’s behalf; b) maintain the Platform and
-                mailing lists; or c) communicate with you on SOV’s behalf about
-                offers relating to its products and/or services. SOV will take
+                marketing partners that Arnnima engages to a) provide services over
+                the Platform on Arnnima’s behalf; b) maintain the Platform and
+                mailing lists; or c) communicate with you on Arnnima’s behalf about
+                offers relating to its products and/or services. Arnnima will take
                 reasonable steps to ensure that these third-party service
                 providers are obligated to protect your Personal Information and
                 are also subject to appropriate confidentiality / non-disclosure
@@ -226,9 +226,9 @@ const privacy = () => {
                 For instance, if you view and click an advertisement that is
                 targeted towards women in the age group 18- 24 from a specific
                 geographic area, the advertiser may assume that you meet the
-                relevant criteria. SOV does not intend to transfer Personal
+                relevant criteria. Arnnima does not intend to transfer Personal
                 Information without your consent to third parties who are not
-                bound to act on SOV's behalf unless such transfer is legally
+                bound to act on Arnnima's behalf unless such transfer is legally
                 required. If your Personal Information is transferred outside
                 India, we take the necessary steps to protect your Personal
                 Information in accordance with applicable data protection laws.
@@ -242,7 +242,7 @@ const privacy = () => {
                 other sites that are not governed by this Privacy Policy. Users
                 may be directed to third-party sites for more information, such
                 as advertisers, blogs, content sponsorships, vendor services,
-                social networks, etc. SOV makes no representations or warranties
+                social networks, etc. Arnnima makes no representations or warranties
                 regarding how your information is stored or used on third-party
                 servers. We recommend that you review the applicable privacy
                 statements and policies of each third-party site linked from the
@@ -256,7 +256,7 @@ const privacy = () => {
                 To use the Platform, you agree that you must be the minimum age
                 (described in this paragraph below) or older. The minimum age
                 for these purposes shall be eighteen (18), however if local laws
-                require that you must be older for SOV to be able to lawfully
+                require that you must be older for Arnnima to be able to lawfully
                 provide the services over the Platform to you then that older
                 age shall apply as the applicable minimum age. If you are under
                 the age of 18 or the age of majority in your jurisdiction, you
@@ -268,7 +268,7 @@ const privacy = () => {
             <div className="privacyContent">
               <label htmlFor="">Retention of Personal Information</label>
               <p>
-                Your Personal Information will not be retained by SOV any longer
+                Your Personal Information will not be retained by Arnnima any longer
                 than it is necessary for the purposes for which the Personal
                 Information is processed and/or in accordance with legal,
                 regulatory, contractual or statutory obligations as applicable.
@@ -283,27 +283,27 @@ const privacy = () => {
                 You have the right to invoke your rights which are available to
                 data principals or data subjects (as per applicable laws and
                 regulations) in relation to your Personal Information which is
-                being processed by SOV. SOV provides you the ability to keep
+                being processed by Arnnima. Arnnima provides you the ability to keep
                 your Personal Information accurate and up-to-date. If at any
                 time you would like to a) rectify, update or correct your
                 Personal Information; b) obtain confirmation on whether or not
                 your Personal Information is processed by it; c) access your
                 Personal Information or exercise your right to data portability;
                 or d) exercise your right to restrict the continuing disclosure
-                of your Personal Information to any third party by SOV in
+                of your Personal Information to any third party by Arnnima in
                 certain circumstances, you are requested to contact us using the
                 contact details mentions in paragraph 14 below. We will require
                 you to provide a valid proof of your identity, in order to
                 ensure that your rights are respected. For the exercise of
                 certain rights, you may be required to approach the relevant
                 authority / designated officer as per the provisions of the
-                applicable data protection laws/ SOV may in accordance with the
+                applicable data protection laws/ Arnnima may in accordance with the
                 provisions of applicable data protection laws, charge a fee for
                 fulfilling your request, in particular in case of excessive or
                 manifestly unfounded request. Further you acknowledge that the
                 above mentioned rights are not absolute and are subject to
                 limitations as per the applicable data protection laws. At any
-                time, if you wish to delete your account on sovtechnologies.com,
+                time, if you wish to delete your account on arnnima.com,
                 you may do so by using the settings available in your account.
               </p>
             </div>
@@ -312,11 +312,11 @@ const privacy = () => {
               <label htmlFor="">Confidentiality and Security</label>
               <p>
                 The security and confidentiality of your Personal Information is
-                important to us and SOV has invested significant resources to
+                important to us and Arnnima has invested significant resources to
                 protect the safekeeping and confidentiality of your personal
                 data. When using external service providers acting as
                 processors, we require that they adhere to the same standards as
-                SOV does. Regardless of where your Personal Information is
+                Arnnima does. Regardless of where your Personal Information is
                 transferred or stored, we take all steps reasonably necessary to
                 ensure that personal data is kept secure. We seek to ensure
                 compliance with the requirements of the Information Technology
@@ -324,7 +324,7 @@ const privacy = () => {
                 and preservation of your privacy. We have physical, electronic,
                 and procedural safeguards that comply with the laws prevalent in
                 India to protect your Personal Information, details of which are
-                available at the following link: trust.sovtechnologies.com. By
+                available at the following link: trust.arnnima.com. By
                 accepting the terms of this Privacy Policy, you agree that the
                 standards and practices being implemented by us, are reasonable
                 and sufficient for the protection of your Personal Information.
@@ -334,12 +334,12 @@ const privacy = () => {
             <div className="privacyContent">
               <label htmlFor="">Social media</label>
               <p>
-                SOV operates channels, pages and accounts on some social media
-                sites to inform, assist and engage with customers. SOV monitors
+              Arnnima operates channels, pages and accounts on some social media
+                sites to inform, assist and engage with customers. Arnnima monitors
                 and records comments and posts made on these channels about
                 itself in order to improve its products and services. Please
                 note that you must not communicate the following information to
-                SOV through such social media sites: - sensitive personal data
+                Arnnima through such social media sites: - sensitive personal data
                 including (i) special categories of personal data meaning any
                 information revealing racial or ethnic origin, political
                 opinions, religious or philosophical beliefs, or trade union
@@ -349,9 +349,9 @@ const privacy = () => {
                 or sexual orientation and (ii) other sensitive personal data
                 such as criminal convictions and offences and national
                 identification number ; - Excessive, inappropriate, offensive or
-                defamatory content. SOV is not responsible for any information
+                defamatory content. Arnnima is not responsible for any information
                 posted on those sites other than the information posted by its
-                employees on its behalf. SOV is only responsible for its own use
+                employees on its behalf. Arnnima is only responsible for its own use
                 of the Personal Information received through such sites.
               </p>
             </div>
@@ -359,7 +359,7 @@ const privacy = () => {
             <div className="privacyContent">
               <label htmlFor="">Changes to this Privacy Policy</label>
               <p>
-                SOV reserves the right to update, change or modify this Privacy
+              Arnnima reserves the right to update, change or modify this Privacy
                 Policy at any time. The Privacy Policy shall come to effect from
                 the date of publication of such update, change or modification.
               </p>
@@ -368,24 +368,24 @@ const privacy = () => {
             <div className="privacyContent">
               <label htmlFor="">Disclaimer</label>
               <p>
-                SOV does not store any account related information or any credit
-                / debit card details. SOV shall not be liable for any loss or
+              Arnnima does not store any account related information or any credit
+                / debit card details. Arnnima shall not be liable for any loss or
                 damage sustained by Users as a result of any disclosure
                 (inadvertent or otherwise) of any information concerning the
                 User's account, credit cards or debit cards in the course of any
                 online transactions or payments made for any products and/or
                 services offered through the Platform. In case any Personal
-                Information is shared by you with SOV, which is not requested by
-                SOV during registration, (whether mandatorily or optionally),
-                SOV will not be liable for any information security breach or
+                Information is shared by you with Arnnima, which is not requested by
+                Arnnima during registration, (whether mandatorily or optionally),
+                Arnnima will not be liable for any information security breach or
                 disclosure in relation to such information. If you have any
                 questions regarding this Privacy Policy or the protection of
-                your Personal Information, please contact SOV’s Data Protection
+                your Personal Information, please contact Arnnima’s Data Protection
                 Officer/ Grievance Officer at the following: Data Protection
                 Officer/ Grievance Officer In case you have any complaints
                 and/or grievances in relation to the processing of your Personal
                 Information you can send your complaints via e-mail to our
-                grievance officer: privacy@sovtechnologies.com
+                grievance officer: privacy@arnnima.com
               </p>
             </div>
 
@@ -398,16 +398,16 @@ const privacy = () => {
                 open and clear about how we use your information. In the spirit
                 of transparency, this Policy provides detailed information about
                 how and when we use cookies on our Websites. This cookie policy
-                applies to any sovtechnologies.com product or service that links
+                applies to any arnnima.com product or service that links
                 to this policy or incorporates it by reference.
               </p>
             </div>
 
             <div className="privacyContent">
-              <label htmlFor="">Does sovtechnologies.com uses cookies?</label>
+              <label htmlFor="">Does arnnima.com uses cookies?</label>
               <p>
-                sovtechnologies.com uses cookies, tags and other technologies
-                when you use any of the sovtechnologies.com websites, mobile
+                arnnima.com uses cookies, tags and other technologies
+                when you use any of the arnnima.com websites, mobile
                 sites or mobile apps (collectively "the services"). Cookies are
                 used to ensure everyone has their best possible experience.
                 Cookies also help us keep your account safe. By continuing to
@@ -428,8 +428,8 @@ const privacy = () => {
                 web browser and allows the Site or a third-party to recognize
                 you and make your next visit easier and the Site more useful to
                 you. Essentially, cookies are a user’s identification card for
-                the sovtechnologies.com servers. Cookies allow
-                sovtechnologies.com to serve you better and more efficiently,
+                the arnnima.com servers. Cookies allow
+                arnnima.com to serve you better and more efficiently,
                 and to personalize your experience on our site. Web beacons,
                 tags and scripts may be used in the Websites or in emails to
                 help us to deliver cookies, count visits, understand usage and
@@ -439,9 +439,9 @@ const privacy = () => {
                 individual and aggregated basis. Cookies can be "persistent" or
                 "session" cookies. A persistent cookie helps us recognize you as
                 an existing user, so it’s easier to return to
-                sovtechnologies.com or interact with our services without
+                arnnima.com or interact with our services without
                 signing in again. After you sign in, a persistent cookie stays
-                in your browser and will be read by sovtechnologies.com when you
+                in your browser and will be read by arnnima.com when you
                 return to one of our sites or a partner site that uses our
                 services. Session cookies only last for as long as the session
                 (usually the current visit to a website or a browser session).
@@ -459,7 +459,7 @@ const privacy = () => {
                 preferences, improve their experience, and track and analyse
                 usage, navigational and other statistical information.
                 Additionally, cookies allow us to bring you advertising both on
-                and off the sovtechnologies.com site, and bring customized
+                and off the arnnima.com site, and bring customized
                 features to you. You can control the use of cookies at the
                 individual browser level. If you elect not to activate the
                 cookie or to later disable cookies, you may still visit our
@@ -468,7 +468,7 @@ const privacy = () => {
                 categories of cookies on the Websites as detailed below. Each
                 cookie falls within one of the four following categories:
                 Analytics Cookies: These cookies track information about visits
-                to the sovtechnologies.com and partner (recruiter websites)
+                to the arnnima.com and partner (recruiter websites)
                 websites so that we can make improvements and report our
                 performance. For example: analyse visitor and user behaviour so
                 as to provide more relevant content or suggest certain
@@ -481,18 +481,18 @@ const privacy = () => {
                 are used to remember information you have entered or choices you
                 make (such as your username, language or your region) on the
                 Websites. They also store your preferences when personalizing
-                the Websites to optimize your use of sovtechnologies.com. These
+                the Websites to optimize your use of arnnima.com. These
                 preferences are remembered, through the use of the persistent
                 cookies, and the next time you visit the Websites you will not
                 have to set them again. Targeting or Advertising Cookies:These
                 Cookies are placed by third party advertising platforms or
-                networks or sovtechnologies.com in order to, deliver ads and
+                networks or arnnima.com in order to, deliver ads and
                 track ad performance, enable advertising networks to deliver ads
                 that may be relevant to you based upon your activities (this is
                 sometimes called "behavioural" "tracking" or "targeted"
                 advertising) on the Websites. They may subsequently use
                 information about your visit to target you with advertising that
-                you may be interested in, on sovtechnologies.com websites or
+                you may be interested in, on arnnima.com websites or
                 other websites. For example, these cookies remember which
                 browsers have visited the websites.
               </p>
@@ -500,7 +500,7 @@ const privacy = () => {
 
             <div className="privacyContent">
               <label htmlFor="">
-                When does sovtechnologies.com place cookies?
+                When does arnnima.com place cookies?
               </label>
               <p>
                 We use cookies on our websites, mobile sites and mobile
@@ -508,7 +508,7 @@ const privacy = () => {
                 cookies from us which helps us identify you more quickly when
                 you return. Cookies help us to determine which pages or
                 information you find most useful or interesting on our own
-                websites. sovtechnologies.com may also have some cookies for its
+                websites. arnnima.com may also have some cookies for its
                 own analytics i.e. analytics not part of Google Analytics. Such
                 cookies help generate statistics and reports about visitors and
                 their activities on the website or app.
@@ -520,7 +520,7 @@ const privacy = () => {
                 How cookies are used for online analytics purposes?
               </label>
               <p>
-                We may use web analytics services on sovtechnologies.com, such
+                We may use web analytics services on arnnima.com, such
                 as those of Google Analytics. These services help us analyse how
                 users use the services, including by noting the third-party
                 website from which you arrive. The information collected by the
@@ -536,21 +536,21 @@ const privacy = () => {
                 our service, and know when content has been shown to you. We
                 work with website analytics and advertising partners, including
                 Google Display Network, Facebook, etc. to deliver
-                sovtechnologies.com advertisements on third party publisher
+                arnnima.com advertisements on third party publisher
                 websites - these partners may set cookies on your computer's web
                 browser. These cookies allow our partners to recognize your
-                computer so that the ad server can show you sovtechnologies.com
+                computer so that the ad server can show you arnnima.com
                 advertisements elsewhere on the Internet, and so that our
                 analytics software can measure your engagement and interactions
-                while using sovtechnologies.com services. In this way, ad
+                while using arnnima.com services. In this way, ad
                 servers may compile anonymous, de-identified information about
                 where you, or others who are using your computer, saw our
                 advertisements, whether or not you interacted with our
                 advertisements, and actions performed on subsequent visits to
-                sovtechnologies.com websites and applications. This information
+                arnnima.com websites and applications. This information
                 allows an ad network to deliver targeted advertisements that
                 they believe will be of most interest to you, and it allows
-                sovtechnologies.com to optimize the performance of our
+                arnnima.com to optimize the performance of our
                 advertising campaigns and the usability of our website. In other
                 words, we use analytics data in concert with data about our
                 online ads that have been shown using the Google Display
@@ -562,7 +562,7 @@ const privacy = () => {
 
             <div className="privacyContent">
               <label htmlFor="">
-                What third-party cookies does sovtechnologies.com use?
+                What third-party cookies does arnnima.com use?
               </label>
               <p>
                 Please note that the third parties (advertising networks and
@@ -584,15 +584,15 @@ const privacy = () => {
             <div className="privacyContent">
               <label htmlFor="">What are Web Beacons?</label>
               <p>
-                sovtechnologies.com occasionally advertises on third party
+                arnnima.com occasionally advertises on third party
                 websites. As part of our effort to track the success of our
                 advertising campaigns, we may at times use a visitor
                 identification technology such as "web beacons," or "action
                 tags," which count visitors who have come to our site after
-                being exposed to a sovtechnologies.com banner ad on a third
+                being exposed to a arnnima.com banner ad on a third
                 party site. Our partners may also use web beacons to collect
                 data in the aggregate as provided by your browser while you are
-                on our site or another site where sovtechnologies.com is third
+                on our site or another site where arnnima.com is third
                 party. By navigating on our site, you agree that we can place
                 cookie and web beacons on your computer or device. If you prefer
                 not to receive web beacons, then you should stop using our site,

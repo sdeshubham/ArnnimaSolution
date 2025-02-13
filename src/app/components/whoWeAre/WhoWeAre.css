@@ -4,11 +4,16 @@
   height: 544px;
   width: 1460px;
   display: flex;
+
+  /* background-color: yellow; */
 }
 
 .whoWeleft {
   height: 332px;
   width: 593px;
+margin-top: 106px;
+
+  /* background-color: green; */
 }
 
 .whoWeleft h4 {
@@ -46,6 +51,8 @@
 .whoWeRight {
   margin-left: 105px;
   padding: 79.98px 0;
+
+  /* background-color: greenyellow; */
 }
 
 

@@ -79,7 +79,11 @@ const Contact = () => {
               </div>
 
               <div className="send-msgBtn">
-                <button>Send Message</button>
+                {/* <button>Send Message</button> */}
+
+                <a href="mailto:sovtechnologies.com">
+                  <button>Send Message</button>
+                </a>
               </div>
             </div>
             <div className="contact-img">

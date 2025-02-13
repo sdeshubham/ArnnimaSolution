@@ -11,11 +11,14 @@
 }
 
 .footer-head {
-  width: 75%;
+  /* width: 75%; */
+  width: 1080px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
+
+  /* background-color: yellow; */
 }
 
 .footer-head h2 {
@@ -230,7 +233,7 @@
     outline: none;
     border: none;
     font-weight: 600;
-    padding: 0;
+    padding: 0 10px;
     font-size: 10.45px;
   }
 

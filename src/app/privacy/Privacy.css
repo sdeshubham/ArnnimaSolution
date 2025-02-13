@@ -48,3 +48,41 @@
     font-weight: 200;
     text-align: justify;
 }
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .privacyComponent {
+      display: flex;
+      flex-direction: column;
+      width: 1460px;
+      justify-content: center;
+      margin: auto;
+    }
+  
+    .privacyBox {
+      width: 784.48px;
+      display: flex;
+      justify-content: center;
+      margin: auto;   
+    }
+  
+    .privacyHead {
+      margin: 50px 0;
+    }
+  
+    .privacyHead h3 {
+      font-size: 24px;
+    }
+
+    .privacyContent label {
+        display: block;
+        font-size: 12px;
+        font-weight: 600;
+    }
+  
+    .privacyTop p,
+    .privacyContent p {
+      font-size: 9.96px;
+    }
+  }
+  

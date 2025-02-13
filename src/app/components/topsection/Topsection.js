@@ -32,22 +32,6 @@ const Topsection = () => {
             <div className="main-content">
               <div className="mainsec-left">
                 <div className="mainsec-boxOne">
-                  {/* <div className="top-headingH1">
-                  <h1 className="red-flag">
-                    Make Your{" "}
-                    <span className="top-brand">{textOptions[textIndex]}</span>{" "}
-                    <br />
-                  </h1>
-                  <h1>
-                    with{" "}
-                    <div className="text-container">
-                      Arnnima
-                      <span className="dot"></span>
-                    </div>{" "}
-                    Solutions
-                    <GoDotFill className="doticon" />
-                  </h1>
-                </div> */}
                   <div className="top-headingH1">
                     <h1 className="red-flag">
                       Make Your{" "}
@@ -68,7 +52,10 @@ const Topsection = () => {
                 </div>
                 <div>
                   {/* <button className="getStartBtn">Get Started</button> */}
-                  <p className="getStartBtn">Get Started</p>
+                  {/* <p className="getStartBtn">Get Started</p> */}
+                  <a href="mailto:sovtechnologies.com">
+                    <p className="getStartBtn">Get Started</p>
+                  </a>
                 </div>
               </div>
               <div className="mainsec-right">
