@@ -48,7 +48,6 @@
   margin: 75px 59px 52px 60px;
 }
 
-
 @media (min-width: 768px) and (max-width: 1024px) {
   .partner-component {
     display: flex;
@@ -91,5 +90,93 @@
   .partner-pic {
     width: 81.87px;
     height: 23.85px;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 767px) {
+  .partner-component {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .partnerBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 21px 0 57.43px 20px;
+
+    background-color: greenyellow;
+  }
+
+  .partner-top {
+    background-color: pink;
+  }
+
+  .partner-top h2 {
+    font-size: 28.18px;
+    letter-spacing: 0.2;
+  }
+
+  .partner-pic {
+    height: 20.33px;
+    width: 69.8px;
+
+    background-color: yellow;
+  }
+
+  .partner-img {
+    height: 22px;
+    width: 410px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 767px) {
+  .whoWe-container {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .whoWeBox {
+    height: 560.78px;
+    width: 388.78px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: greenyellow;
+  }
+
+  .whoWeleft h4 {
+    font-size: 7.48px;
+  }
+
+  .whoWeleft h2 {
+    font-size: 39.76px;
+  }
+
+  .whoWeleft p {
+    font-size: 12px;
+    margin-bottom: 12px;
+    padding: 0;
+  }
+
+  .whoWeRight {
+    height: 274.05px;
+    width: 386.76px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+  }
+
+  .whoWeRight {
+    height: 274.05px;
+    width: 386.76px;
   }
 }

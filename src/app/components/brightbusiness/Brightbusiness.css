@@ -182,3 +182,93 @@
     width: 2.52px;
   }
 }
+
+@media (min-width: 430px) and (max-width: 767px){
+  .bussiBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+
+    background-color: yellow;
+  }
+
+  .bussiBoxTop h2 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .bussiBoxTop-head {
+    font-size: 24px;
+  }
+
+  .horizontalLine {
+    margin-top: 12px;
+    width: 112px;
+  }
+
+  .bussiBoxTop p {
+    height: 80px;
+    width: 390px;
+    font-size: 14px;
+  }
+
+  .bussiBoxTop {
+    margin-top: 60px;
+    width: 407.08px;
+  }
+
+  .bussiSecondBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .bussiBoxLeft {
+    height: 91.82px;
+    width: 407.8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin:31px 0 45px 0;
+
+    background-color: green;
+  }
+
+  .bussiCont {
+    height: 91.82px;
+    width: 407.8px;
+  }
+
+  .bussin-num h3 {
+    font-size: 32.64px;
+    margin-bottom: 26.83px;
+  }
+
+  .bussin-num p {
+    font-size: 12px;
+  }
+
+  #vertiLine {
+    height: 88.12px;
+    width: 2.18px;
+  }
+
+  .bussiBoxRight {
+    margin: 0;
+    height: 380.38px;
+    width: 378px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: greenyellow;
+  }
+
+  .brightBussiImg {
+    height: 380.38px;
+    width: 378px;
+    object-fit: contain;
+  }
+}

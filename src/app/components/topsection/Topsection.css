@@ -294,3 +294,141 @@
     font-size: 39.86px;
   }
 }
+
+
+
+@media (min-width: 430px) and (max-width: 767px) {
+  .top-headingH1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8.72px;
+  }
+
+  .topsection {
+    /* height: 501.28px; */
+    height: 570px;
+    width: 430px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+    /* background-color: greenyellow; */
+  }
+
+  .mainsection {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-content {
+    height: 501.28px;
+    width: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 56px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+
+    /* background-color: blue; */
+  }
+
+  .mainsec-left {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 390px;
+
+    /* background-color: pink; */
+  }
+
+  .mainsec-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+  }
+
+  .mainsec-boxOne h1 {
+    font-size: 31.59px;
+  }
+
+  .mainsec-boxOne p {
+    margin-top: 7.22px;
+    font-size: 7.9px;
+  }
+
+  .red-flag {
+    position: relative;
+    display: inline-block;
+  }
+
+  .red-flag span {
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    padding: 8px 24px 6px 12px;
+    background-color: transparent;
+  }
+
+  .red-flag span::before {
+    content: "";
+    position: absolute;
+    top: 10;
+    left: 0;
+    /* width: 152.15px; */
+    width: 200px;
+    height: 49.36px;
+    background-color: #ea4232;
+    transform: rotate(-3deg);
+    z-index: -1;
+    transform-origin: left bottom;
+  }
+
+  .mainsec-boxOne {
+    height: 169.8px;
+    width: 370.7px;
+    font-size: 7.9px;
+    /* margin-top: 9px; */
+    margin-top: 46px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .getStartBtn {
+    height: 29.77px;
+    width: 88.36px;
+    font-size: 7.9px;
+    padding: 0;
+    border-radius: 24.91px;
+    font-weight: 700;
+    margin: 34.38px 0 60.52px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-brand {
+    color: #ffffff;
+    padding: 3px 6px;
+    border-radius: 3px;
+  }
+
+  .mainsec-right {
+    height: 265.28px;
+    width: 244.11px;
+    margin: 46.43px 92.89px 14.72px 93px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-image {
+    height: 265.28px;
+    width: 244.11px;
+  }
+
+  .red-point {
+    font-size: 31.59px;
+  }
+}
