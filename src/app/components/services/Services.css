@@ -154,12 +154,99 @@
 
   .servicesBoxTwo {
     height: 150.4px;
-    margin-top: 17.55px;
+    /* margin-top: 17.55px; */
     width: 772.04px;
   }
 
   .servicesContainerTwo {
     display: flex;
     gap: 18px;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 767px) {
+  .service-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .servicesBox {
+    margin: 60px 25.29px 0 25px;
+    height: auto;
+    width: 379.71px;
+  }
+
+  .servBoxtop {
+    /* height: 475.2px; */
+    display: flex;
+    flex-direction: column;
+    gap: 29.21px;
+  }
+
+  .suite-serv {
+    height: 139.79px;
+    width: 381.01px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .suite-serv h3 {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .suite-serv p {
+    height: 54px;
+    width: 381.01px;
+    font-size: 12px;
+    margin: 13.79px 0 0 0;
+    text-align: center;
+  }
+
+  .servicesContainer {
+    height: 150.4px;
+    width: 379.71px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 30.08px 17.8px 29.28px 20.05px;  
+    border-radius: 7.52px;
+    height: 150.4px;
+    width: 179.85px;
+    text-align: center;
+  }
+
+  .servCardText p {
+    margin-top: 12.53px;
+    text-align: left;
+    width: 142px;
+    font-size: 14px;
+  }
+
+  .services-icons {
+    height: 40.11px;
+    width: 46.37px;
+  }
+
+  .servicesContainerTwo {
+    width: 379.71px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .projleftIcon,
+  .projrightIcon {
+    height: 21.31px;
+    width: 21.93px;
+    margin-top: 20px;
   }
 }

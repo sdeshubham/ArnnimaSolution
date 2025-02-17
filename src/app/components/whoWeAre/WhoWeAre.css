@@ -11,7 +11,7 @@
 .whoWeleft {
   height: 332px;
   width: 593px;
-margin-top: 106px;
+  margin-top: 106px;
 
   /* background-color: green; */
 }
@@ -55,7 +55,6 @@ margin-top: 106px;
   /* background-color: greenyellow; */
 }
 
-
 @media (min-width: 768px) and (max-width: 1024px) {
   .whoWe-container {
     display: flex;
@@ -78,11 +77,11 @@ margin-top: 106px;
     width: 368.44px;
     margin: 0;
   }
-  
+
   .whoWeleft h4 {
     font-size: 7.46px;
   }
-  
+
   .whoWeleft h2 {
     font-size: 39.96px;
     margin: 0;
@@ -92,11 +91,11 @@ margin-top: 106px;
   .whoWeleft p {
     font-size: 9.94px;
   }
-  
+
   .whoweOne {
     margin-top: 24.85px;
   }
-  
+
   .whoweTwo {
     margin-top: 19.88px;
   }
@@ -104,5 +103,82 @@ margin-top: 106px;
   .whoWeImg {
     height: 238.61px;
     width: 336.76px;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 767px) {
+  .whoWe-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .whoWeBox {
+    margin-top: 60px;
+    padding: 0 100px;
+    height: 560.78px;
+    width: 388.76px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+  
+    /* background-color: yellow; */
+  }
+
+  .whoWeleft {
+    height: 250.74px;
+    width: 368.44px;
+    margin-top: 0;
+  
+    /* background-color: green; */
+  }
+  
+  .whoWeleft h4 {
+    height: 10px;
+    font-size: 7.46px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .whoWeleft h2 {
+    font-size: 39.76px;
+    margin: 0;
+    padding: 0;
+    height: 43px;
+
+    /* background-color: pink; */
+  }
+  
+  .dotPic {
+    top: 1px;
+    font-size: 0.3rem;
+  }
+  
+  .whoWeleft p {
+    font-size: 12px;
+  }
+  
+  .whoweOne {
+    /* background-color: pink; */
+    font-size: 12px;
+    margin-top: 24.46px;
+  }
+  
+  .whoweTwo {
+    font-size: 12px;
+    margin-top: 19.88px;
+  }
+  
+  .whoWeRight {
+    margin-left: 0;
+    padding: 0;
+    height: 274.05px;
+    width: 386.76px;
+  }
+
+  .whoWeImg {
+    height: 274.05px;
+    width: 386.76px;
   }
 }

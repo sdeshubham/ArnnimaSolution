@@ -101,82 +101,57 @@
   }
 
   .partnerBox {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 21px 0 57.43px 20px;
-
-    background-color: greenyellow;
+    height: 242px;
+    width: 1340px;
+    /* margin: 90px 50px 0 50px; */
   }
 
-  .partner-top {
-    background-color: pink;
+  .partnerBox {
+    width: 430px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    /* background-color: greenyellow; */
   }
 
   .partner-top h2 {
-    font-size: 28.18px;
-    letter-spacing: 0.2;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 0;
   }
 
-  .partner-pic {
-    height: 20.33px;
-    width: 69.8px;
-
-    background-color: yellow;
+  #partnerHorizontalLine {
+    width: 55.74px;
+    height: .67px;
+    margin: 0;
   }
 
-  .partner-img {
+  .partner-picBox {
     height: 22px;
     width: 410px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-}
+    margin-top: 22.1px;
 
-@media (min-width: 430px) and (max-width: 767px) {
-  .whoWe-container {
+    /* background-color: red; */
+  }
+
+  .partner-img {
+    width: 410px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    /* margin: 75px 59px 52px 60px; */
     margin: 0;
   }
 
-  .whoWeBox {
-    height: 560.78px;
-    width: 388.78px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-
-    background-color: greenyellow;
-  }
-
-  .whoWeleft h4 {
-    font-size: 7.48px;
-  }
-
-  .whoWeleft h2 {
-    font-size: 39.76px;
-  }
-
-  .whoWeleft p {
-    font-size: 12px;
-    margin-bottom: 12px;
-    padding: 0;
-  }
-
-  .whoWeRight {
-    height: 274.05px;
-    width: 386.76px;
-    object-fit: contain;
-    display: flex;
-    justify-content: center;
-  }
-
-  .whoWeRight {
-    height: 274.05px;
-    width: 386.76px;
+  .partner-pic {
+    height: 14.84px;
+    width: 56.06px;
   }
 }

@@ -420,7 +420,7 @@ const Projects = () => {
     <div className="projectBox" id="projects">
       <div className="projects-top">
         <div className="filter-bar">
-          <div className="projFilter">
+          {/* <div className="projFilter">
             <ul>
               <li
                 className={selectedCategory === "uiux" ? "default-red" : ""}
@@ -455,7 +455,7 @@ const Projects = () => {
                 Mobile Application
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
 

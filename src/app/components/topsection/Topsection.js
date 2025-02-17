@@ -39,7 +39,7 @@ const Topsection = () => {
                         {textOptions[textIndex]}
                       </span>{" "}
                       <br />
-                      with Arnnima Solutions
+                      with Arnnima Solution
                       <strong className="red-point">.</strong>
                     </h1>
                   </div>

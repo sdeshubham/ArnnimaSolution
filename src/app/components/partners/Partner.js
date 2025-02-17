@@ -15,7 +15,7 @@ const Partner = () => {
             </h2>
             <div id="partnerHorizontalLine"></div>
           </div>
-          <div className="partner-pic">
+          <div className="partner-picBox">
             <div className="partner-img">
               <Image
                 src={"/MicrosoftAzure.png"}
