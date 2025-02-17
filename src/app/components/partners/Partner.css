@@ -48,6 +48,36 @@
   margin: 75px 59px 52px 60px;
 }
 
+.partner-picBox {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.partner-img {
+  display: flex;
+  gap: 40px;
+  width: max-content;
+  animation: slide 45s linear infinite;
+}
+
+.partner-img img {
+  flex-shrink: 0;
+  width: 100px;
+  height: auto;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .partner-component {
     display: flex;
@@ -148,6 +178,11 @@
     flex-direction: row;
     /* margin: 75px 59px 52px 60px; */
     margin: 0;
+
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    animation: slide 45s linear infinite;
   }
 
   .partner-pic {

@@ -211,6 +211,8 @@
     width: 379.71px;
     display: flex;
     gap: 20px;
+
+    margin-bottom: -8px;
   }
 
   .card {
@@ -248,5 +250,9 @@
     height: 21.31px;
     width: 21.93px;
     margin-top: 20px;
+  }
+
+  .service-slider-btns {
+    margin-top: 65px;
   }
 }

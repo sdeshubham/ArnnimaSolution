@@ -152,7 +152,7 @@ import Link from "next/link";
 import Image from "next/image";
 import "./navbar.css";
 import { IoMenu, IoCloseSharp } from "react-icons/io5";
-import { IoMenuSharp } from "react-icons/io5";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -183,7 +183,7 @@ const Navbar = () => {
             </div>
 
             <button className="menuButton" onClick={() => setMenuOpen(!menuOpen)}>
-              {menuOpen ? <IoCloseSharp className="navmenu-icons" /> : <IoMenuSharp className="navmenu-icons" />}
+              {menuOpen ? <IoCloseSharp className="navmenu-icons" /> : <GiHamburgerMenu className="navmenu-icons" />}
             </button>
 
             <div className={`navlinksbox ${menuOpen ? "showMenu" : ""}`}>

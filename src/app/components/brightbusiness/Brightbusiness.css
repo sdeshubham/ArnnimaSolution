@@ -195,8 +195,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    background-color: yellow;
   }
 
   .bussiBoxTop {
@@ -205,11 +203,7 @@
   }
 
   .bussiLeft-second-two {
-    margin-top: 0;
-  }
-
-  .bussiLeft-second-two {
-    margin-left: 0;
+    margin: 0;
   }
 
   .bussiBoxTop h2 {
@@ -219,13 +213,18 @@
   .horizontalLine-bussi {
     width: 112px;
     height: 1px;
-    background-color: #ea4232;
+    /* background-color: #ea4232; */
   }
 
   .bussiBoxTop p {
     height: 80px;
     width: 390px;
     font-size: 14px;
+  }
+
+  .bussiBoxLeft {
+    margin: 0;
+    /* background-color: greenyellow; */
   }
 
   .bussiCont {
@@ -235,7 +234,7 @@
     flex-direction: row;
     gap: 12px;
 
-    background-color: rgb(93, 187, 193);
+    /* background-color: rgb(93, 187, 193); */
   }
 
   .bussiContTwo {
@@ -259,18 +258,7 @@
 
   .customer19 {
     margin: 0;
-  }
-
-  .bussiBoxLeft {
-    margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    height: 91.83px;
-    width: 407.8px; 
-
-    background-color: greenyellow;
   }
 
   .bussiLeft-boxone {
@@ -280,23 +268,21 @@
     flex-direction: row;
     gap: 16px;
     height: 91.83px;
-    /* width: 82.18px; */
+
   }
 
   .bussin-num {
     display: flex;
     text-align: left;
+    justify-content: space-between;
+    gap: 0;
+
+    /* background-color: pink; */
   }
 
   .bussin-num h3 {
     font-size: 32.64px;
-    /* margin-bottom: 26.83px; */
-    margin-bottom: 10px;
-  }
-
-  .bussin-num p {
-    font-size: 12px;
-    font-size: 6px;
+    margin-bottom: 8px;
   }
 
   .bussiSecondBox {
@@ -316,5 +302,9 @@
     height: 380.38px;
     width: 378px;
     object-fit: contain;
+  }
+
+  .bussin-num p {
+    font-size: 6px;
   }
 }
