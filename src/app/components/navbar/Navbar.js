@@ -62,8 +62,6 @@
 
 // export default Navbar;
 
-
-
 // "use client";
 
 // import { useState, useEffect } from "react";
@@ -144,7 +142,6 @@
 
 // export default Navbar;
 
-
 "use client";
 
 import { useState } from "react";
@@ -182,8 +179,15 @@ const Navbar = () => {
               </Link>
             </div>
 
-            <button className="menuButton" onClick={() => setMenuOpen(!menuOpen)}>
-              {menuOpen ? <IoCloseSharp className="navmenu-icons" /> : <GiHamburgerMenu className="navmenu-icons" />}
+            <button
+              className="menuButton"
+              onClick={() => setMenuOpen(!menuOpen)}
+            >
+              {menuOpen ? (
+                <IoCloseSharp className="navmenu-icons" />
+              ) : (
+                <GiHamburgerMenu className="navmenu-icons" />
+              )}
             </button>
 
             <div className={`navlinksbox ${menuOpen ? "showMenu" : ""}`}>
@@ -196,7 +200,9 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
-              <button className="navCall-btn">Schedule a call</button>
+              <a href="tel:+917738311925">
+                <button className="navCall-btn">Schedule a call</button>
+              </a>
             </div>
           </div>
         </nav>

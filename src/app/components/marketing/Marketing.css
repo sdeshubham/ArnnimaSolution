@@ -125,3 +125,9 @@
     font-weight: 600;
   }
 }
+
+@media (min-width: 430px) and (max-width: 767px) {
+  .marketing-container {
+    display: none;
+  }
+}

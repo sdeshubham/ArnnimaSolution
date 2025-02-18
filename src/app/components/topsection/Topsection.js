@@ -53,7 +53,7 @@ const Topsection = () => {
                 <div>
                   {/* <button className="getStartBtn">Get Started</button> */}
                   {/* <p className="getStartBtn">Get Started</p> */}
-                  <a href="mailto:sovtechnologies.com">
+                  <a href="mailto:suraj@sovtechnologies.com">
                     <p className="getStartBtn">Get Started</p>
                   </a>
                 </div>

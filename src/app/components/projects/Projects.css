@@ -121,6 +121,12 @@
   color: #283751;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* Maximum 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .proj-card p {
@@ -128,6 +134,12 @@
   font-size: 16px;
   color: #616161;
   font-family: "Poppins";
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .default-red {

@@ -60,7 +60,10 @@ const Contact = () => {
                 </div>
               </div>
               <div className="msg-textBox">
-                <label htmlFor="name">Message</label>
+                {/* <label htmlFor="name">Message</label> */}
+                <div>
+                  <label htmlFor="name">Message</label>
+                </div>
                 {/* <textarea
                   id="message"
                   name="message"
@@ -69,19 +72,19 @@ const Contact = () => {
                   placeholder="Write Message"
                   autoComplete="off"
                 ></textarea> */}
-                <input
-                  name="message"
-                  rows="4"
-                  cols="50"
-                  placeholder="Write Message"
-                  autoComplete="off"
-                ></input>
+                <div>
+                  <input
+                    name="message"
+                    rows="4"
+                    cols="50"
+                    placeholder="Write Message"
+                    autoComplete="off"
+                  ></input>
+                </div>
               </div>
 
               <div className="send-msgBtn">
-                {/* <button>Send Message</button> */}
-
-                <a href="mailto:sovtechnologies.com">
+                <a href="mailto:suraj@sovtechnologies.com">
                   <button>Send Message</button>
                 </a>
               </div>

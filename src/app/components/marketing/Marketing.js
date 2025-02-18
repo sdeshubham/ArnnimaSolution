@@ -22,7 +22,9 @@ const Marketing = () => {
               We’re here to help you take your brand to the next level. Let’s
               craft a strategy that’s as bright as your future.
             </p>
-            <button className="market-btn">Book a Free Consultation</button>
+            <a href="tel:+917738311925">
+              <button className="market-btn">Book a Free Consultation</button>
+            </a>
           </div>
 
           <div className="marketRight">

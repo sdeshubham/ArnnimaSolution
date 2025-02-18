@@ -54,7 +54,6 @@ const JoinTeam = () => {
         <div className="joinTeam-head">
           <h2>
             Join Our Team<strong className="red-point">.</strong>
-            {/* <GoDotFill className="doticon" /> */}
           </h2>
           <div className="horizontalLine-join">
             <div id="horizontalLine"></div>

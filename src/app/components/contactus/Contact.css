@@ -124,6 +124,7 @@
 
 .msg-textBox input {
   height: 116px;
+  width: 539px;
   border-radius: 7px;
   letter-spacing: 0.3px;
   border: none;
@@ -223,6 +224,7 @@
 
   .msg-textBox input {
     height: 72.64px;
+    width: 337.53px;
     border-radius: 4.38px;
     border: none;
     outline: none;
@@ -256,5 +258,129 @@
     margin: 0 10.02px 60px 0;
 
     /* background-color: yellow; */
+  }
+}
+
+@media (min-width: 430px) and (max-width: 767px) {
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .contactBox {
+    width: 390px;
+    margin: 60px 0 0 0;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 41.24px; */
+    margin-top: 0;
+  }
+
+  .contact-formBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 390px;
+    height: 460px;
+  }
+
+  .contact-head {
+    margin: 0;
+    padding: 0;
+  }
+
+  .contact-head h4 {
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  .contact-head h2 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+
+  .contactImage {
+    height: 358.92px;
+    width: 410.56px;
+    margin-left: 0;
+    object-fit: cover;
+  }
+
+  .contactformInput {
+    display: flex;
+    gap: 18.9px;
+  }
+
+  .contactInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10.67px;
+
+  }
+
+  .contactInputs input {
+    height: 41.97px;
+    width: 185.96px;
+    border-radius: 5.06px;
+    outline: none;
+    border: none;
+  }
+
+  .contactInputs label {
+    font-size: 11.58px;
+    font-weight: 500;
+  }
+
+  .msg-textBox {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .msg-textBox label {
+    font-size: 11.58px;
+  }
+
+  .msg-textBox input::placeholder {
+    padding-top: 18px;
+    padding-left: 0;
+  }
+
+  .contactInputs input::placeholder {
+    font-size: 11.58px;
+  }
+
+  .msg-textBox input {
+    height: 83.93px;
+    width: 390px;
+    border-radius: 7px;
+    letter-spacing: 0.3px;
+    border: none;
+    outline: none;
+  }
+
+  .send-msgBtn {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .send-msgBtn button {
+    height: 44.05px;
+    width: 151.22px;
+    border-radius: 28.94px;
+    font-size: 11.58px;
+    outline: none;
+    border: none;
+    margin-top: 0;
+    /* margin-top: 43.17px; */
   }
 }

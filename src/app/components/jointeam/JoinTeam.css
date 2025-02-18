@@ -200,3 +200,12 @@
     margin-top: 7.56px;
   }
 }
+
+@media (min-width: 430px) and (max-width: 767px) {
+}
+
+@media (min-width: 430px) and (max-width: 767px) {
+  .join-container {
+    display: none;
+  }
+}

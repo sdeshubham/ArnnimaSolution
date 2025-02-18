@@ -3,6 +3,9 @@ import Image from "next/image";
 // import { GoArrowRight } from "react-icons/go";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Link from "next/link";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaMedium } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -14,16 +17,18 @@ const Footer = () => {
               <h2>
                 Let’s discuss and bring your <br /> vision to life.
               </h2>
-              <button className="footer-talk-btn">
-                Let's Talk
-                <Image
-                  src={"/talkArrow.png"}
-                  alt="logo"
-                  className="talkArrow-icon"
-                  width={15}
-                  height={14}
-                />
-              </button>
+              <a href="mailto:suraj@sovtechnologies.com">
+                <button className="footer-talk-btn">
+                  Let's Talk
+                  <Image
+                    src={"/talkArrow.png"}
+                    alt="logo"
+                    className="talkArrow-icon"
+                    width={15}
+                    height={14}
+                  />
+                </button>
+              </a>
             </div>
             <div id="footer-horizontalLine"></div>
           </div>
@@ -37,8 +42,8 @@ const Footer = () => {
                       src={"/ArnnimaLogo.svg"}
                       className="footer-logo"
                       alt="logo"
-                      width={120}
-                      height={45}
+                      width={165}
+                      height={50}
                     />
                   </Link>
                 </div>
@@ -49,75 +54,153 @@ const Footer = () => {
                     about delivering exceptional digital solutions.
                   </p>
                 </div>
+                <div className="socialicons-footer">
+                  <div className="social-icons">
+                    <a href="https://www.linkedin.com/company/105600390/admin/dashboard/">
+                      <FaLinkedinIn className="social-iconsfooter" />
+                    </a>
+                    <a href="https://x.com/arnnima19">
+                      <FaXTwitter className="social-iconsfooter" />
+                    </a>
+                    <a href="https://medium.com/@arnnima">
+                      <FaMedium className="social-iconsfooter" />
+                    </a>
+                  </div>
+                </div>
               </div>
 
               <div className="footerOptions">
-                <div className="footer-section">
-                  <h4>Menu</h4>
-                  <ul>
-                    <li>
-                      <a href="#">Home</a>
-                    </li>
-                    <li>
-                      <a href="#services">Service</a>
-                    </li>
-                    <li>
-                      <a href="#whoweare">About Us</a>
-                    </li>
-                    <li>
-                      <a href="#projects">Project</a>
-                    </li>
-                    <li>
-                      <a href="#contact">Contact</a>
-                    </li>
-                  </ul>
+                <div className="footerOption-sectionOne">
+                  <div className="footer-section">
+                    <h4>Menu</h4>
+                    <ul>
+                      <li>
+                        <a href="#">Home</a>
+                      </li>
+                      <li>
+                        <a href="#services">Service</a>
+                      </li>
+                      <li>
+                        <a href="#whoweare">About Us</a>
+                      </li>
+                      <li>
+                        <a href="#projects">Project</a>
+                      </li>
+                      <li>
+                        <a href="#contact">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div className="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                      <li>
+                        <a href="#">Search Engine Optimization</a>
+                      </li>
+                      <li>
+                        <a href="/">Software Development</a>
+                      </li>
+                      <li>
+                        <a href="/">Product Development</a>
+                      </li>
+                      <li>
+                        <a href="/">Mobile App Developement</a>
+                      </li>
+                      <li>
+                        <a href="#">DevOps Services</a>
+                      </li>
+                      <li>
+                        <a href="/">C2H</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div className="footer-section">
+                    <h4>Technologies</h4>
+                    <ul>
+                      <li>
+                        <a href="#">Blockchain</a>
+                      </li>
+                      <li>
+                        <a href="/">Artificial intelligence (AI)</a>
+                      </li>
+                      <li>
+                        <a href="/">AR and VR</a>
+                      </li>
+                      <li>
+                        <a href="/">Cloud Computing</a>
+                      </li>
+                      <li>
+                        <a href="#">Internet of Things (IoT)</a>
+                      </li>
+                      <li>
+                        <a href="/">Metaverse Development</a>
+                      </li>
+                      <li>
+                        <a href="/">NFT development</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
 
-                <div className="footer-section">
-                  <h4>Support</h4>
-                  <ul>
-                    <li>
-                      <a href="#">FAQ's</a>
-                    </li>
-                    <li>
-                    <Link href="/privacy">Privacy & Policy</Link>
-                    </li>
-                    <li>
-                      <a href="/terms">Terms & Conditions</a>
-                    </li>
-                  </ul>
-                </div>
+                <div className="footerOption-sectionOne">
+                  <div className="footer-section">
+                    <h4>Industries</h4>
+                    <ul>
+                      <li>
+                        <a href="#">Healthcare</a>
+                      </li>
+                      <li>
+                        <a href="/">Education</a>
+                      </li>
+                      <li>
+                        <a href="/">SaaS</a>
+                      </li>
+                      <li>
+                        <a href="/">Finance</a>
+                      </li>
+                      <li>
+                        <a href="#">On-Demand</a>
+                      </li>
+                      <li>
+                        <a href="/">eCommerce</a>
+                      </li>
+                      <li>
+                        <a href="/">Logistics</a>
+                      </li>
+                    </ul>
+                  </div>
 
-                <div className="footer-section">
-                  <h4>Social Media</h4>
-                  <ul>
-                    <li>
-                      <a href="https://www.linkedin.com/company/105600390/admin/dashboard/">
-                        LinkedIn
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://x.com/arnnima19">Twitter</a>
-                    </li>
-                    <li>
-                      <a href="https://medium.com/@arnnima">Medium</a>
-                    </li>
-                  </ul>
-                </div>
+                  <div className="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                      <li>
+                        <a href="#">FAQ's</a>
+                      </li>
+                      <li>
+                        <Link href="/privacy">Privacy & Policy</Link>
+                      </li>
+                      <li>
+                        <a href="/terms">Terms & Conditions</a>
+                      </li>
+                    </ul>
+                  </div>
 
-                <div className="footer-section">
-                  <h4>Compare</h4>
-                  <ul>
-                    <li>
-                      <a href="#">Arnnima Vs. Turing</a>
-                    </li>
-                    <li>
-                      <a href="#">Arnnima Vs. Andela</a>
-                    </li>
-                    <li>
-                      <a href="#">Arnnima Vs. Upwork</a>
-                    </li>
-                  </ul>
+                  <div className="footer-section">
+                    <h4>Compare</h4>
+                    <ul>
+                      <li>
+                        <a href="#">Arnnima Vs. Turing</a>
+                      </li>
+                      <li>
+                        <a href="#">Arnnima Vs. Andela</a>
+                      </li>
+                      <li>
+                        <a href="#">Arnnima Vs. Upwork</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
