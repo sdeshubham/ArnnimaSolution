@@ -140,7 +140,7 @@ const Projects = () => {
     },
     {
       id: "mobile",
-      imageSrc: "/TutorApp.png",
+      imageSrc: "/TutorApp.jpeg",
       title: "Your Learning Partner",
       desc: "At Tutot, we believe that every learner deserves personalized guidance to unlock their full potential.",
     },
@@ -152,7 +152,7 @@ const Projects = () => {
     },
     {
       id: "mobile",
-      imageSrc: "/FisheyApp.png",
+      imageSrc: "/FisheyApp.jpeg",
       title: "Fishey App",
       desc: "Fishey is an innovative mobile app designed to simplify attendance tracking for students and staff.",
     },

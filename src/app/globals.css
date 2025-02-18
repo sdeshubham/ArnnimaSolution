@@ -129,7 +129,16 @@ a {
   .doticon {
     font-size: 13px;
     position: relative;
-    bottom: -3px;
+    /* bottom: -3px; */
+    fill: #ea4232;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 767px) {
+  .doticon {
+    font-size: 7.77px;
+    position: relative;
+    /* bottom: -3px; */
     fill: #ea4232;
   }
 }

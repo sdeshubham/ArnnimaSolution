@@ -233,7 +233,6 @@
     justify-content: space-between;
     align-items: center;
     margin: 23.22px 58.05px 22.06px 58.05px;
-
   }
 
   .talkArrow-icon {
@@ -267,8 +266,6 @@
     display: flex;
     justify-content: space-between;
     padding: 0;
-
-
   }
 
   .footer-logoBox {
@@ -319,9 +316,11 @@
   }
 
   .footer-section ul li {
-    margin: 9.29px 0;
+    /* margin: 9.29px 0; */
+    margin: 6px 0;
     transition: all 0.3s ease;
     font-size: 10.45px;
+    font-size: 9.4px;
   }
 
   .footer-bottom {
@@ -340,5 +339,23 @@
   .footer-bottom p {
     font-size: 10.45px;
     margin: 23.22px 0 22.48px 0;
+  }
+
+  .footerOption-sectionOne,
+  .footerOption-sectionOTwo {
+    display: flex;
+    gap: 18px;
+  }
+
+  .social-iconsfooter {
+    margin-top: 25px;
+    font-size: 16px;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90px;
   }
 }

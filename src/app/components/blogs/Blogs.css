@@ -141,9 +141,7 @@
   .blog-box {
     height: 409.87px;
     width: 774px;
-    margin: 60px 30px 60px 30px;
-
-    /* background-color: greenyellow; */
+    margin: 0 30px 60px 30px;
   }
 
   .blog-head {
