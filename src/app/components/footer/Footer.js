@@ -144,7 +144,7 @@ const Footer = () => {
                   </div>
                 </div>
 
-                <div className="footerOption-sectionOne">
+                <div className="footerOption-sectionOTwo">
                   <div className="footer-section">
                     <h4>Industries</h4>
                     <ul>
@@ -182,7 +182,7 @@ const Footer = () => {
                         <Link href="/privacy">Privacy & Policy</Link>
                       </li>
                       <li>
-                        <a href="/terms">Terms & Conditions</a>
+                        <Link href="/terms">Terms & Conditions</Link>
                       </li>
                     </ul>
                   </div>

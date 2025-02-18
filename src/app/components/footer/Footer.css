@@ -87,7 +87,10 @@
 .footerOptions {
   width: 80%;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  justify-content: space-between;
+
+  /* background-color: greenyellow; */
 }
 
 .footer-logoBox {
@@ -187,9 +190,12 @@
   font-size: 20px;
 }
 
-.footerOption-sectionOne {
+.footerOption-sectionOne,
+.footerOption-sectionOTwo {
   display: flex;
-  gap: 20px;
+  gap: 30px;
+
+  /* background-color: red; */
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -292,6 +298,7 @@
     /* width: 469.16px; */
     display: flex;
     justify-content: space-around;
+    gap: 0;
 
     /* background-color: yellow; */
   }
