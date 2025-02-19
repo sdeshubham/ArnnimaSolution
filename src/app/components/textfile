@@ -48,6 +48,145 @@
 
 
 
+
+              <div className="footerOptions">
+                <div className="footer-midsectionOne">
+                  <div className="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                      <li>
+                        <a href="#">Search Engine Optimization</a>
+                      </li>
+                      <li>
+                        <a href="/">Software Development</a>
+                      </li>
+                      <li>
+                        <a href="/">Product Development</a>
+                      </li>
+                      <li>
+                        <a href="/">Mobile App Developement</a>
+                      </li>
+                      <li>
+                        <a href="#">DevOps Services</a>
+                      </li>
+                      <li>
+                        <a href="/">C2H</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div className="footer-section">
+                    <h4>Technologies</h4>
+                    <ul>
+                      <li>
+                        <a href="#">Blockchain</a>
+                      </li>
+                      <li>
+                        <a href="/">Artificial intelligence (AI)</a>
+                      </li>
+                      <li>
+                        <a href="/">AR and VR</a>
+                      </li>
+                      <li>
+                        <a href="/">Cloud Computing</a>
+                      </li>
+                      <li>
+                        <a href="#">Internet of Things (IoT)</a>
+                      </li>
+                      <li>
+                        <a href="/">Metaverse Development</a>
+                      </li>
+                      <li>
+                        <a href="/">NFT development</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="footer-midsectionTwo">
+                  <div className="footer-section">
+                    <h4>Industries</h4>
+                    <ul>
+                      <li>
+                        <a href="#">Healthcare</a>
+                      </li>
+                      <li>
+                        <a href="/">Education</a>
+                      </li>
+                      <li>
+                        <a href="/">SaaS</a>
+                      </li>
+                      <li>
+                        <a href="/">Finance</a>
+                      </li>
+                      <li>
+                        <a href="#">On-Demand</a>
+                      </li>
+                      <li>
+                        <a href="/">eCommerce</a>
+                      </li>
+                      <li>
+                        <a href="/">Logistics</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <div className="footer-section">
+                      <h4>Compare</h4>
+                      <ul>
+                        <li>
+                          <a href="#">Arnnima Vs. Fiverr</a>
+                        </li>
+                        <li>
+                          <a href="#">Arnnima Vs. Credo</a>
+                        </li>
+                        <li>
+                          <a href="#">Arnnima Vs. Freelancer</a>
+                        </li>
+                        <li>
+                          <a href="#">Arnnima Vs. Freeup</a>
+                        </li>
+                        <li>
+                          <a href="#">Arnnima Vs. PeoplePerHour</a>
+                        </li>
+                        <li>
+                          <a href="#">Arnnima Vs. Guru</a>
+                        </li>
+                        <li>
+                          <a href="#">Arnnima Vs. Andela</a>
+                        </li>
+                        <li>
+                          <a href="#">Arnnima Vs. Upwork</a>
+                        </li>
+                        <li>
+                          <a href="#">Arnnima Vs. Top IT Services</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="footer-section">
+                      <h4>Support</h4>
+                      <ul>
+                        <li>
+                          <a href="#">FAQ's</a>
+                        </li>
+                        <li>
+                          <Link href="/privacy">Privacy & Policy</Link>
+                        </li>
+                        <li>
+                          <Link href="/terms">Terms & Conditions</Link>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
 const projectData = [
     {
       imageSrc: "/ZurichKotak.png",

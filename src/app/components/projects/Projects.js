@@ -2,7 +2,9 @@
 
 import ProjectsCard from "./ProjectsCard";
 import { CiCircleChevLeft, CiCircleChevRight } from "react-icons/ci";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import Select from "react-select";
+import dynamic from "next/dynamic";
 
 const Projects = () => {
   const projectData = [
@@ -185,6 +187,9 @@ const Projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedCategory, setSelectedCategory] = useState("uiux");
 
+  const [isMounted, setIsMounted] = useState(false);
+  // ---------------------------
+
   const handlePrev = () => {
     setCurrentIndex(
       (prevIndex) =>
@@ -208,6 +213,28 @@ const Projects = () => {
     currentIndex,
     currentIndex + 2
   );
+
+  // Update selected category based on dropdown selection
+  const handleDropdownChange = (selectedOption) => {
+    setValue(selectedOption);
+    handleFilter(selectedOption.value); // Apply the filter when a new option is selected
+  };
+
+  const [value, setValue] = useState("uiux");
+
+  const options = [
+    { value: "uiux", label: "UI/UX Design" },
+    { value: "web", label: "Web Application" },
+    { value: "product", label: "Product Management" },
+    { value: "development", label: "Development" },
+    { value: "mobile", label: "Mobile Application" },
+  ];
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) return null;
 
   return (
     <div className="projectBox" id="projects">
@@ -248,6 +275,34 @@ const Projects = () => {
                 Mobile Application
               </li>
             </ul>
+          </div>
+
+          {/* <div className="filterDropdown">
+            <Select
+              options={options}
+              defaultValue={value}
+              onChange={setValue}
+              className="proFilterdropdown"
+            />
+          </div> */}
+
+          {/* <div className="filterDropdown">
+            <Select
+              options={options}
+              value={value}
+              onChange={handleDropdownChange}
+              className="proFilterdropdown"
+            />
+          </div> */}
+          <div className="filterDropdown">
+            <Select
+              options={options}
+              value={value}
+              onChange={handleDropdownChange}
+              placeholder="UI/UX Design"
+              className="customDropdown"
+              classNamePrefix="customDropdown"
+            />
           </div>
         </div>
       </div>

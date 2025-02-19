@@ -1,6 +1,6 @@
 import Image from "next/image";
 import "./Brightbusiness.css";
-import { GoDotFill } from "react-icons/go";
+// import { GoDotFill } from "react-icons/go";
 
 const Brightbusiness = () => {
   return (
@@ -11,7 +11,7 @@ const Brightbusiness = () => {
             We Make your Business Bright<strong className="red-point">.</strong>
             {/* <GoDotFill className="doticon"/> */}
           </h2>
-          <div id="horizontalLine horizontalLine-bussi"></div>
+          <div id="horizontalLine"></div>
           <p>
             Support small business and join the world wide like USA, Canada,
             Singapore, Dubai movement to encourage commercial support for the
@@ -20,7 +20,9 @@ const Brightbusiness = () => {
         </div>
         <div className="bussiSecondBox">
           <div className="bussiBoxLeft">
+
             <div className="bussiCont">
+
               <div className="bussiLeft-boxone">
                 <div id="vertiLine"></div>
                 <div className="bussin-num">

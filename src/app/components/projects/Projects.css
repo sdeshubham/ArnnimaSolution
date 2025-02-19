@@ -4,6 +4,10 @@
   margin: 44.67px 100px 0 100px;
 }
 
+.filterDropdown {
+  display: none;
+}
+
 .projFilter {
   height: 72px;
   width: 884px;
@@ -219,7 +223,7 @@
 
   .proj-card h3 {
     margin: 14.52px 0;
-    font-size: 14.52px; 
+    font-size: 14.52px;
   }
 
   .proj-card p {
@@ -246,7 +250,6 @@
   }
 }
 
-
 @media (min-width: 430px) and (max-width: 767px) {
   .projectBox {
     display: flex;
@@ -264,6 +267,55 @@
   }
 
   .projFilter {
+    display: none;
+  }
+
+  .filterDropdown {
+    width: 381px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 0 0;
+  }
+
+  .customDropdown {
+    border-radius: 30px;
+    width: 100%;
+  }
+
+  .customDropdown__control {
+    background-color: #fffdf5 !important;
+    border: 1px solid #fffdf5 !important;
+    color: #283751 !important;
+    outline: none;
+  }
+
+  .customDropdown__placeholder {
+    color: #283751 !important;
+    font-size: 14px;
+  }
+
+  .customDropdown__menu {
+    background-color: #fffdf5 !important;
+    color: #fff !important;
+  }
+
+  .customDropdown__option {
+    background-color: #fffdf5 !important;
+    color: #283751 !important;
+    font-size: 12px;
+  }
+
+  .customDropdown__option:hover {
+    background-color: #fcfcfc !important;
+  }
+
+  .customDropdown__option--is-selected {
+    background-color: #ea4232 !important;
+    color: #fff !important;
+  }
+
+  /* .projFilter {
     height: 46px;
     width: 390px;
     padding: 10px 12px;
@@ -283,7 +335,7 @@
     border-radius: 40px;
     font-size: 18px;
     background-color: greenyellow;
-  }
+  } */
 
   .projectCardBox {
     display: flex;

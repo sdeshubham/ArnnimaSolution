@@ -90,7 +90,6 @@
 
 // export default Partner;
 
-
 // import Image from "next/image";
 // import "./Partner.css";
 
@@ -141,15 +140,40 @@ import Image from "next/image";
 import "./Partner.css";
 
 const Partner = () => {
+  // const images = [
+  //   "AWSlogo.png",
+  //   "Azurelogo.png",
+  //   "/MicrosoftAzure.png",
+  //   "/AWSamazon.png",
+  //   "/Adobe.png",
+  //   "/Liferay.png",
+  //   "/Strapi.png",
+  //   "/Directus.png",
+  //   "/contentful.png",
+  //   "/OpenAI.png",
+  // ];
+
   const images = [
-    "/MicrosoftAzure.png",
-    "/AWSamazon.png",
-    "/Adobe.png",
-    "/Liferay.png",
-    "/Strapi.png",
-    "/Directus.png",
-    "/contentful.png",
-    "/OpenAI.png",
+    "AWSlogo.png",
+    "Azurelogo.png",
+    "/Adobelogo.png",
+    "/Liferaylogo.png",
+    "/Strapilogo.png",
+    "/Directuslogo.png",
+    "/contentfullogo.png",
+    "/OpenAIlogo.png",
+    "/TensorFlowlogo.png",
+    "/Oraclelogo.png",
+    "/MongoDBlogo.png",
+    "/MySqllogo.png",
+    "/MariaDBlogo.png",
+    "/PowerBIlogo.png",
+    "/tableaulogo.png",
+    "/Jenkinslogo.png",
+    "/Gitlogo.png",
+    "/Bitbucketlogo.png",
+    "/Kuberneteslogo.png",
+    "/Dockerlogo.png",
   ];
 
   return (
@@ -157,21 +181,21 @@ const Partner = () => {
       <div className="partnerBox">
         <div className="partner-top">
           <h2>
-            Our Associations & Partnerships<strong className="red-point">.</strong>
+            Our Associations & Partnerships
+            <strong className="red-point">.</strong>
           </h2>
           <div id="partnerHorizontalLine"></div>
         </div>
         <div className="partner-picBox">
           <div className="partner-img">
-            {/* Images ko duplicate karke bina kisi gap ke loop banayenge */}
             {[...images, ...images].map((src, index) => (
               <Image
                 key={index}
                 src={src}
                 className="partner-pic"
                 alt="Business partner"
-                width={100}
-                height={30}
+                width={298}
+                height={107}
                 priority
               />
             ))}

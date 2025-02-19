@@ -35,6 +35,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 107px;
+  width: 298px;
 
   /* background-color: rgb(29, 139, 103); */
 }
@@ -63,8 +65,8 @@
 
 .partner-img img {
   flex-shrink: 0;
-  width: 100px;
-  height: auto;
+  width: 150px;
+  height: 50px;
 }
 
 @keyframes slide {
@@ -93,12 +95,47 @@
     flex-direction: column;
   }
 
+  .partner-picBox {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22.1px;
+
+    /* background-color: red; */
+  }
+
   .partner-img {
+    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 29.1px;
-    margin: 0 23.92px 60px 0;
+    margin: 10px 23.92px 60px 0;
+
+    /* background-color: greenyellow; */
+  }
+
+  .partner-img img {
+    flex-shrink: 0;
+    /* width: 90px;
+    height: 28px; */
+    width: 120px;
+    height: 35px;
+  }
+/* 
+  .partner-pic {
+    width: 787.09px;
+    height: 26.43px;
+    margin-top: 48.35px;
+  } */
+
+  .partner-pic {
+    /* width: 81.87px;
+    height: 23.85px; */
+    width: auto;
+    height: auto;
+    margin-top: 48.35px;
   }
 
   .partner-top h2 {
@@ -109,17 +146,6 @@
     width: 107.01px;
     height: 1.29px;
     margin-top: 14.06px;
-  }
-
-  .partner-pic {
-    width: 787.09px;
-    height: 26.43px;
-    margin-top: 48.35px;
-  }
-
-  .partner-pic {
-    width: 81.87px;
-    height: 23.85px;
   }
 }
 
@@ -160,7 +186,7 @@
   }
 
   .partner-picBox {
-    height: 22px;
+    height: 50px;
     width: 410px;
     display: flex;
     justify-content: center;
@@ -177,8 +203,7 @@
     align-items: center;
     flex-direction: row;
     /* margin: 75px 59px 52px 60px; */
-    margin: 0;
-
+    margin: 0 0 0 0;
     display: flex;
     gap: 20px;
     width: max-content;
@@ -186,7 +211,7 @@
   }
 
   .partner-pic {
-    height: 14.84px;
-    width: 56.06px;
+    height: 50px;
+    width: 110px;
   }
 }
