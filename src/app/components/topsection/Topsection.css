@@ -49,7 +49,7 @@
 .red-flag span::before {
   content: "";
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 0;
   width: 385px;
   height: 100%;
@@ -241,7 +241,7 @@
   .red-flag span::before {
     content: "";
     position: absolute;
-    top: 10;
+    top: 15px;
     left: 0;
     width: 245px;
     height: 62.27px;
@@ -375,11 +375,12 @@
   .red-flag span::before {
     content: "";
     position: absolute;
-    top: 10;
+    top: 13px;
     left: 0;
     /* width: 152.15px; */
     width: 200px;
     height: 49.36px;
+    height: 52px;
     background-color: #ea4232;
     transform: rotate(-3deg);
     z-index: -1;
