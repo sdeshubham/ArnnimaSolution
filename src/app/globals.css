@@ -1,17 +1,3 @@
-:root {
-  /* --background: #FAF4E4; */
-  
-  /* --foreground: #171717; */
-}
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
-
-
 html,
 body {
   background-color: #FAF4E4;
@@ -21,27 +7,6 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
-
-
-/* Inside globals.css or your main stylesheet */
-/* @font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-
-body {
-  font-family: 'Poppins', sans-serif;
-} */
 
 @font-face {
   font-family: 'Poppins';
@@ -55,10 +20,6 @@ body {
   src: url('/fonts/Poppins-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
-}
-
-body {
-  font-family: 'Poppins', sans-serif;
 }
 
 html,

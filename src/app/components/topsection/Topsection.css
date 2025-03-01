@@ -1,6 +1,7 @@
 .topsection {
   height: 607px;
-  width: 1460px;
+  height: 640px;
+  width: 1480px;
   border-bottom-left-radius: 60px;
   border-bottom-right-radius: 60px;
 
@@ -149,7 +150,6 @@
   }
 
   .topsection {
-    /* height: 298.97px; */
     height: 390px;
     width: 834px;
     margin-top: 63.52px;
@@ -168,16 +168,11 @@
   .main-content {
     display: flex;
     flex-direction: row;
-    /* height: 298.97px; */
     height: 380px;
     width: 834px;
-    /* margin-top: 33.52px; */
     margin-top: 63.52px;
-    /* margin: 23.52px 31.59px 60.62px 30.22px; */
     border-bottom-left-radius: 60px;
     border-bottom-right-radius: 60px;
-
-    /* background-color: blue; */
   }
 
   .mainsec-left {
@@ -186,18 +181,13 @@
     height: 298.97px;
     width: 467.67px;
     margin: 0 0 60.52px 0;
-
-    /* background-color: pink; */
   }
 
   .mainsec-left {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* width: 770px; */
-    /* margin: 63.5px 0 63.5px 100px; */
     margin: 0;
-    /* padding-bottom: 30px; */
   }
 
   .mainsec-boxOne h1 {
@@ -205,25 +195,8 @@
   }
 
   .mainsec-boxOne p {
-    /* margin-top: 24.6px; */
     font-size: 9.96px;
   }
-
-  /* .red-flag span {
-    position: relative;
-    display: inline-block;
-    z-index: 2;
-    padding: 4px 18px 6px 6px;
-    background-color: transparent;
-  }
-
-  .red-flag span::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 245px;
-  } */
 
   .red-flag {
     position: relative;
@@ -261,16 +234,16 @@
   }
 
   .getStartBtn {
-    height: 37.42;
-    width: 111.47;
+    height: 37.42px;
+    width: 111.47px;
     font-size: 9.96px;
-    padding: 0;
     border-radius: 24.91px;
     font-weight: 700;
-    margin: 47.33px 0 60.52px 0;
+    margin: 80.33px 0 60.52px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
   }
 
   .top-brand {
