@@ -8,12 +8,12 @@ import dynamic from "next/dynamic";
 
 const Projects = () => {
   const projectData = [
-    {
-      id: "web",
-      imageSrc: "/ZurichKotak.png",
-      title: "Insurance Platform for Zurich Kotak",
-      desc: "A sophisticated insurance management system tailored to provide users with financial security solutions.",
-    },
+    // {
+    //   id: "web",
+    //   imageSrc: "/ZurichKotak.png",
+    //   title: "Insurance Platform for Zurich Kotak",
+    //   desc: "A sophisticated insurance management system tailored to provide users with financial security solutions.",
+    // },
     {
       id: "web",
       imageSrc: "/AgroOrbit.png",

@@ -94,7 +94,9 @@
 }
 
 .blog-right-category {
-  width: 100px;
+  width: 170px;
+
+  /* background-color: greenyellow; */
 }
 
 .blogCardOneDetails {
@@ -109,6 +111,9 @@
   margin-top: 11px;
   font-size: 20px;
   font-weight: bolder;
+  height: 60px;
+
+  /* background-color: greenyellow; */
 }
 
 .blogCardTwoTitle {
@@ -116,19 +121,25 @@
 }
 
 .blogPartTwoTitle {
-  width: 200px;
+  width: 250px;
   font-size: 16px;
 }
 
 .blogTwoDetails {
   padding: 20px;
-  margin-left: 100px;
+  margin-left: 70px;
   line-height: 1.2;
 }
 
 .blogOneDesc {
   margin-top: 8px;
   color: #64607d;
+}
+
+.dateCategory {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: greenyellow; */
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -206,6 +217,7 @@
 
   .blogOneDesc {
     font-size: 10.35px;
+    margin-top: 0;
   }
 
   .blogTwoCardBox {
@@ -249,7 +261,7 @@
   }
 
   .dateCategory {
-    width: 50%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -368,7 +380,7 @@
   }
 
   .dateCategory {
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
