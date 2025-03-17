@@ -1,3 +1,9 @@
+export const metadata = {
+  title: "Custom Software Development Company Delhi | MVP-POC Development Company in Noida | Virtual CTO Consulting for Startup",
+  description: "Are you a startup looking for CTO consulting and MVP-POC Development in Noida? Look no further than Arnnima, a leading custom software development company in Delhi.",
+};
+
+
 import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
 import "./Terms.css";

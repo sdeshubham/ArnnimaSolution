@@ -1,11 +1,15 @@
+export const metadata = {
+  title: "Headless Commerce Development Services Noida | Virtual CTO & IT Consultancy Services for Business | POC/MVP developer Services in Haryana",
+  description: "Headless commerce development services in Noida are also offered by Arnnima, along with POC/MVP developer Services in Haryana.",
+};
+
 import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
 import "./Privacy.css";
 
 const privacy = () => {
   return (
-    <>
-      <div className="privacyComponent">
+    <div className="privacyComponent">
         <Navbar />
         <div className="privacyBox">
           <div className="privacyTop">
@@ -644,7 +648,6 @@ const privacy = () => {
         </div>
         <Footer />
       </div>
-    </>
   );
 };
 
